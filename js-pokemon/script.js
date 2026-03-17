@@ -53,7 +53,7 @@ function renderCards(cards) {
            data-legality="${card.legality.toLowerCase()}">
 
         <div class="card-custom">
-          <img src="images-pokemon/${card.image}.png" class="card-img" alt="${card.name}">
+          <img src="images-pokemon/${card.image}.webp" class="card-img" alt="${card.name}">
         </div>
 
         <div class="card-caption">Quantity: ${card.quantity}</div>
