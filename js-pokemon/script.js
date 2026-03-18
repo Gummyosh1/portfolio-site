@@ -1,6 +1,8 @@
 const searchBar = document.querySelector(".searchBar");
 const cardRow = document.getElementById("cardRow");
 const noResults = document.getElementById("noResults");
+const loadBulkButton = document.querySelector(".button-special");
+let touched=false;
 
 let allCards = [];
 
@@ -76,4 +78,20 @@ searchBar.addEventListener("input", function () {
   });
 
   renderCards(filteredCards);
+});
+
+
+loadBulkButton.addEventListener("click", function () {
+  if (!touched){
+    fetch("pokemonDatabase.csv")
+      .then((responseBulk) => responseBulk.text())
+      .then((csvTextBulk) => {
+        allCards = allCards.concat(parseCSV(csvTextBulk));
+        renderCards(allCards);
+      })
+      .catch((errorBulk) => {
+        console.error("Error loading Bulk CSV:", errorBulk);
+      });
+  }
+  
 });

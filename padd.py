@@ -27,7 +27,7 @@ def add_card(name, card_set, number, legality):
     for card in cards:
         if (
             card["name"].strip().lower() == name.strip().lower()
-            and card["number"].strip().lower() == number.strip().lower()
+            and card["set"].strip().lower() == card_set.strip().lower()
         ):
             card["quantity"] += 1
             save_cards(cards)
@@ -40,7 +40,7 @@ def add_card(name, card_set, number, legality):
         "number": number,
         "quantity": 1,
         "legality": "LEGAL" + legality.upper(),
-        "image": name + number
+        "image": name.strip().lower().replace(" ", "-") + "-" + card_set.strip().lower().replace(" ", "-")
     }
 
     cards.append(new_card)
@@ -53,6 +53,5 @@ while (True):
         print("Stopping...")
         break
     card_set = input("Set: ")
-    number = input("Number: ")
     legality = input("Legality: ")
-    add_card(name, card_set, number, legality)
+    add_card(name, card_set, "", legality)

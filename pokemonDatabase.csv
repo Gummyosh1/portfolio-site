@@ -1,4 +1,206 @@
 name,set,number,quantity,legality,image
-Chikorita,MEG,008,1,LEGALI,Chikorita008
-Crustle,DRI,012,1,LEGALI,Crustle012
-Bulbasaur,MEG,001,3,LEGALI,Bulbasaur001
+Chikorita,MEG,grass,7,LEGALI,chikorita-meg
+Crustle,DRI,grass,4,LEGALI,crustle-dri
+Bulbasaur,MEG,grass,5,LEGALI,bulbasaur-meg
+Karrablast,BLK,grass,2,LEGALI,karrablast-blk
+Virizion,WHT,grass,2,LEGALI,virizion-wht
+Budew,PRE,grass,5,LEGALH,budew-pre
+Shaymin,DRI,grass,2,LEGALI,shaymin-dri
+Snivy,BLK,grass,2,LEGALI,snivy-blk
+Simisage,BLK,grass,1,LEGALI,simisage-blk
+Swadloon,WHT,grass,1,LEGALI,swadloon-wht
+Leavanny,WHT,grass,1,LEGALI,leavanny-wht
+Sprigatito,JTG,grass,3,LEGALI,sprigatito-jtg
+Lilligant,JTG,grass,1,LEGALH,lilligant-jtg
+Spidops,PAL,grass,1,LEGALG,spidops-pal
+Abomasnow,PAL,grass,1,LEGALG,abomasnow-pal
+Morelull,SSP,grass,2,LEGALH,morelull-ssp
+Teal Mask Ogerpon EX,TWM,grass,4,LEGALH,teal-mask-ogerpon-ex-twm
+Rabsca,TEF,grass,1,LEGALH,rabsca-tef
+Whimsicott,PRE,grass,1,LEGALH,whimsicott-pre
+Team Rocket's Tarountula,DRI,grass,1,LEGALI,team-rocket's-tarountula-dri
+Hydrapple,DRI,grass,2,LEGALI,hydrapple-dri
+Zarude,SSP,grass,1,LEGALH,zarude-ssp
+Galvantula,SFA,grass,5,LEGALH,galvantula-sfa
+Ledian,SCR,grass,3,LEGALH,ledian-scr
+Dwebble,PAR,grass,1,LEGALG,dwebble-par
+Maractus,JTG,grass,4,LEGALI,maractus-jtg
+Foongus,JTG,grass,1,LEGALH,foongus-jtg
+Rellor,DRI,grass,1,LEGALH,rellor-dri
+Dwebble,DRI,grass,1,LEGALI,dwebble-dri
+Shuckle,MEG,grass,3,LEGALI,shuckle-meg
+Shiftry,MEG,grass,1,LEGALI,shiftry-meg
+Seedot,MEG,grass,1,LEGALI,seedot-meg
+Rillaboom,TWM,grass,1,LEGALH,rillaboom-twm
+Dipplin,PRE,grass,3,LEGALH,dipplin-pre
+Mega Venusaur EX,MEG,grass,4,LEGALI,mega-venusaur-ex-meg
+Ivysaur,MEG,grass,5,LEGALI,ivysaur-meg
+Tangrowth,MEG,grass,1,LEGALI,tangrowth-meg
+Bayleef,MEG,grass,4,LEGALI,bayleef-meg
+Meganium,MEG,grass,5,LEGALI,meganium-meg
+Whimsicott EX,WHT,grass,1,LEGALI,whimsicott-ex-wht
+Toedscool 16,PAR,grass,1,LEGALG,toedscool-par-16
+Toedscruel,PAR,grass,1,LEGALG,toedscruel-par
+Cradily,SCR,grass,1,LEGALH,cradily-scr
+Rabsca,SSP,grass,1,LEGALH,rabsca-ssp
+Ethan's Pinsir,DRI,grass,1,LEGALI,ethan's-pinsir-dri
+Cynthia's Roserade,DRI,grass,1,LEGALI,cynthia's-roserade-dri
+Teal Mask Ogerpon,DRI,grass,1,LEGALI,teal-mask-ogerpon-dri
+Scovillain,OBF,grass,1,LEGALG,scovillain-obf
+Meowscarada,JTG,grass,1,LEGALI,meowscarada-jtg
+Pineco,DRI,grass,1,LEGALI,pineco-dri
+Team Rocket's Spidops,DRI,grass,1,LEGALI,team-rocket's-spidops-dri
+Crustle,PAR,grass,4,LEGALG,crustle-par
+Scatterbug,SVI,grass,1,LEGALG,scatterbug-svi
+Spinarak,TWM,grass,1,LEGALH,spinarak-twm
+Latios,MEG,dragon,1,LEGALI,latios-meg
+Tatsugiri,TWM,dragon,5,LEGALH,tatsugiri-twm
+Miraidon,TEF,dragon,4,LEGALH,miraidon-tef
+N's Reshiram,JTG,dragon,3,LEGALI,n's-reshiram-jtg
+Tatsugiri,PAR,dragon,1,LEGALG,tatsugiri-par
+Bagon,JTG,dragon,1,LEGALI,bagon-jtg
+Shelgon,JTG,dragon,1,LEGALI,shelgon-jtg
+Eternatus,SSP,dragon,2,LEGALH,eternatus-ssp
+Appletun,SSP,dragon,1,LEGALH,appletun-ssp
+Koraidon,TEF,dragon,2,LEGALH,koraidon-tef
+Salamence EX,JTG,dragon,1,LEGALI,salamence-ex-jtg
+Haxorus,BLK,dragon,2,LEGALI,haxorus-blk
+Drakloak,PRE,dragon,2,LEGALH,drakloak-pre
+Fraxure,BLK,dragon,3,LEGALI,fraxure-blk
+Dreepy,PRE,dragon,1,LEGALH,dreepy-pre
+Raging Bolt,SCR,dragon,1,LEGALH,raging-bolt-scr
+Axew,BLK,dragon,2,LEGALI,axew-blk
+Altaria,SSP,dragon,1,LEGALH,altaria-ssp
+Drakloak,TWM,dragon,1,LEGALH,drakloak-twm
+Raging Bolt EX,TEF,dragon,1,LEGALH,raging-bolt-ex-tef
+Zweilous,WHT,dark,3,LEGALI,zweilous-wht
+Deino,WHT,dark,1,LEGALI,deino-wht
+Zorua,WHT,dark,1,LEGALI,zorua-wht
+Hydreigon EX,WHT,dark,1,LEGALI,hydreigon-ex-wht
+Paldean Clodsire EX,JTG,dark,1,LEGALH,paldean-clodsire-ex-jtg
+Tyranitar,JTG,dark,4,LEGALI,tyranitar-jtg
+Team Rocket's Nidoking EX,SVP,dark,1,LEGALI,team-rocket's-nidoking-ex-svp
+Team Rocket's Sneasel,DRI,dark,2,LEGALI,team-rocket's-sneasel-dri
+Pangoro,JTG,dark,2,LEGALI,pangoro-jtg
+Bombirdier,JTG,dark,1,LEGALH,bombirdier-jtg
+Deino,SSP,dark,1,LEGALH,deino-ssp
+Marnie's Morgrem,DRI,dark,4,LEGALI,marnie's-morgrem-dri
+N's Zorua,JTG,dark,6,LEGALI,n's-zorua-jtg
+Sableye,TEF,dark,1,LEGALH,sableye-tef
+Marnie's Impidimp,DRI,dark,2,LEGALI,marnie's-impidimp-dri
+Marnie's Grimmsnarl EX,DRI,dark,2,LEGALI,marnie's-grimmsnarl-ex-dri
+Team Rocket's Nidoqueen,DRI,dark,2,LEGALI,team-rocket's-nidoqueen-dri
+Arven's Maschiff,DRI,dark,1,LEGALI,arven's-maschiff-dri
+Team Rocket's Grimer,DRI,dark,2,LEGALI,team-rocket's-grimer-dri
+Marnie's Scraggy,DRI,dark,2,LEGALI,marnie's-scraggy-dri
+Team Rocket's Nidorina,DRI,dark,3,LEGALI,team-rocket's-nidorina-dri
+Team Rocket's Muk,DRI,dark,1,LEGALI,team-rocket's-muk-dri
+Liepard,PAR,dark,1,LEGALG,liepard-par
+Team Rocket's Ekans,DRI,dark,2,LEGALI,team-rocket's-ekans-dri
+Grafaiai,MEG,dark,1,LEGALI,grafaiai-meg
+Nickit,MEG,dark,1,LEGALI,nickit-meg
+Mega Absol EX,MEG,dark,1,LEGALI,mega-absol-ex-meg
+Vullaby,WHT,dark,2,LEGALI,vullaby-wht
+Scolipede,BLK,dark,1,LEGALI,scolipede-blk
+Marnie's Morpeko,DRI,dark,1,LEGALI,marnie's-morpeko-dri
+Mabosstiff,PAF,dark,1,LEGALG,mabosstiff-paf
+Team Rocket's Koffing,DRI,dark,1,LEGALI,team-rocket's-koffing-dri
+Weezing,JTG,dark,1,LEGALI,weezing-jtg
+Zweilous,PAL,dark,1,LEGALG,zweilous-pal
+Murkrow,PAL,dark,1,LEGALG,murkrow-pal
+Paldean Wooper,JTG,dark,4,LEGALH,paldean-wooper-jtg
+Darkrai,OBF,dark,1,LEGALG,darkrai-obf
+Kingambit,SVI,dark,1,LEGALG,kingambit-svi
+Zweilous,SSP,dark,1,LEGALH,zweilous-ssp
+Brute Bonnet,PAR,dark,1,LEGALG,brute-bonnet-par
+Team Rocket's Zubat,DRI,dark,2,LEGALI,team-rocket's-zubat-dri
+Cynthia's Spiritomb,DRI,dark,1,LEGALI,cynthia's-spiritomb-dri
+Team Rocket's Nidorino,DRI,dark,2,LEGALI,team-rocket's-nidorino-dri
+Team Rocket's Nidoran,DRI,dark,1,LEGALI,team-rocket's-nidoran-dri
+Team Rocket's Murkrow,DRI,dark,1,LEGALI,team-rocket's-murkrow-dri
+N's Purrloin,JTG,dark,2,LEGALI,n's-purrloin-jtg
+Morpeko,PAR,dark,1,LEGALG,morpeko-par
+Team Rocket's Weezing,DRI,dark,1,LEGALI,team-rocket's-weezing-dri
+Mandibuzz,WHT,dark,1,LEGALI,mandibuzz-wht
+Spiritomb,MEG,dark,1,LEGALI,spiritomb-meg
+Yveltal,MEG,dark,5,LEGALI,yveltal-meg
+Victini,SSP,fire,1,LEGALH,victini-ssp
+Ethan's Typhlosion,DRI,fire,2,LEGALI,ethan's-typhlosion-dri
+Ethan's Quilava,DRI,fire,4,LEGALI,ethan's-quilava-dri
+Ethan's Cyndaquil,DRI,fire,3,LEGALI,ethan's-cyndaquil-dri
+Mega Camerupt EX,MEG,fire,1,LEGALI,mega-camerupt-ex-meg
+Arcanine,DRI,fire,1,LEGALI,arcanine-dri
+Magmortar,JTG,fire,3,LEGALI,magmortar-jtg
+Chandelure,WHT,fire,2,LEGALI,chandelure-wht
+Victini,BLK,fire,2,LEGALI,victini-blk
+Darumaka,BLK,fire,1,LEGALI,darumaka-blk
+Infernape,TWM,fire,1,LEGALH,infernape-twm
+Simisear,WHT,fire,1,LEGALI,simisear-wht
+Combusken,JTG,fire,3,LEGALH,combusken-jtg
+Charcadet,PAL,fire,1,LEGALG,charcadet-pal
+Charcadet,PAR,fire,1,LEGALG,charcadet-par
+Torchic,JTG,fire,2,LEGALH,torchic-jtg
+Torkoal,JTG,fire,1,LEGALH,torkoal-jtg
+Magmar,JTG,fire,2,LEGALI,magmar-jtg
+Ethan's Ho-Oh EX,DRI,fire,1,LEGALI,ethan's-ho-oh-ex-dri
+Volcanion EX,JTG,fire,1,LEGALI,volcanion-ex-jtg
+Oricorio,SSP,fire,2,LEGALH,oricorio-ssp
+Ninetales,SSP,fire,1,LEGALH,ninetales-ssp
+Blaziken EX,JTG,fire,1,LEGALH,blaziken-ex-jtg
+Growlithe,DRI,fire,1,LEGALI,growlithe-dri
+N's Darumaka,JTG,fire,2,LEGALI,n's-darumaka-jtg
+N's Darmanitan,JTG,fire,3,LEGALI,n's-darmanitan-jtg
+Iron Moth,PAR,fire,1,LEGALG,iron-moth-par
+Magby,PAR,fire,1,LEGALG,magby-par
+Crocalor,PAR,fire,1,LEGALG,crocalor-par
+Fuecoco,SSP,fire,1,LEGALH,fuecoco-ssp
+Combusken,DRI,fire,1,LEGALI,combusken-dri
+Hearthflame Mask Ogerpon,DRI,fire,2,LEGALI,hearthflame-mask-ogerpon-dri
+Heatmor,WHT,fire,1,LEGALI,heatmor-wht
+Ceruledge,SSP,fire,1,LEGALH,ceruledge-ssp
+Darmanitan,BLK,fire,1,LEGALI,darmanitan-blk
+Oricorio,PAL,fire,1,LEGALG,oricorio-pal
+Gouging Fire,SSP,fire,1,LEGALH,gouging-fire-ssp
+Turtonator,TEF,fire,1,LEGALH,turtonator-tef
+Magcargo,TEF,fire,1,LEGALH,magcargo-tef
+Team Rocket's Moltres EX,DRI,fire,1,LEGALI,team-rocket's-moltres-ex-dri
+Team Rocket's Houndoom,DRI,fire,1,LEGALI,team-rocket's-houndoom-dri
+Chi-Yu,PAR,fire,1,LEGALG,chi-yu-par
+Cinderace,MEG,fire,3,LEGALI,cinderace-meg
+Hearthflame Mask Ogerpon EX,PRE,fire,1,LEGALH,hearthflame-mask-ogerpon-ex-pre
+Rapidash,DRI,fire,1,LEGALI,rapidash-dri
+Centiskorch,MEG,fire,1,LEGALI,centiskorch-meg
+Metang,TEF,metal,2,LEGALH,metang-tef
+Archaludon,PRE,metal,4,LEGALH,archaludon-pre
+Duraludon,PRE,metal,1,LEGALH,duraludon-pre
+Steven's Metang,DRI,metal,1,LEGALI,steven's-metang-dri
+Iron Crown,SSP,metal,1,LEGALH,iron-crown-ssp
+Hop's Corviknight,JTG,metal,1,LEGALI,hop's-corviknight-jtg
+Iron Treads,TEF,metal,1,LEGALH,iron-treads-tef
+Meltan,TEF,metal,1,LEGALH,meltan-tef
+Revavroom,SCR,metal,1,LEGALH,revavroom-scr
+Copperajah,JTG,metal,1,LEGALH,copperajah-jtg
+N's Klinklang,JTG,metal,3,LEGALI,n's-klinklang-jtg
+N's Klink,JTG,metal,1,LEGALI,n's-klink-jtg
+Archaludon,SCR,metal,3,LEGALH,archaludon-scr
+Doublade 132,PAR,metal,1,LEGALG,doublade-par-132
+Honedge,PAR,metal,1,LEGALG,honedge-par
+Jirachi,PAR,metal,1,LEGALG,jirachi-par
+Duraludon,SCR,metal,3,LEGALH,duraludon-scr
+Ferroseed,WHT,metal,2,LEGALI,ferroseed-wht
+Durant,WHT,metal,1,LEGALI,durant-wht
+Alolan Dugtrio,SSP,metal,1,LEGALH,alolan-dugtrio-ssp
+Klang,BLK,metal,1,LEGALI,klang-blk
+Klinklang,BLK,metal,2,LEGALI,klinklang-blk
+Klink,BLK,metal,1,LEGALI,klink-blk
+Pawniard,BLK,metal,1,LEGALI,pawniard-blk
+Tinkatuff,MEG,metal,1,LEGALI,tinkatuff-meg
+Revavroom,TWM,metal,1,LEGALH,revavroom-twm
+Steven's Metagross EX,DRI,metal,1,LEGALI,steven's-metagross-ex-dri
+Archaludon EX,SSP,metal,4,LEGALH,archaludon-ex-ssp
+Hop's Zacian EX,JTG,metal,1,LEGALI,hop's-zacian-ex-jtg
+Duraludon,SSP,metal,1,LEGALH,duraludon-ssp
+Magearna,JTG,metal,1,LEGALI,magearna-jtg
+Heatran,TWM,metal,1,LEGALH,heatran-twm
+Orthworm,PAL,metal,1,LEGALG,orthworm-pal
+Doublade 133,PAR,metal,2,LEGALG,doublade-par-133
