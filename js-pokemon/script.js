@@ -1,17 +1,21 @@
 const searchBar = document.querySelector(".searchBar");
 const cardRow = document.getElementById("cardRow");
 const noResults = document.getElementById("noResults");
-const loadBulkButton = document.querySelector(".button-special");
-let touched=false;
+const loadBulkButton = document.querySelector("#pokemonBtn");
+const loadTrainerButton = document.querySelector("#trainersBtn");
+const searchButton = document.querySelector("#searchButton");
+let trainerActive=true;
+let pokemonInit=false;
 
 let allCards = [];
+let bulkCards = [];
 
 // Load CSV and build cards
 fetch("Database.csv")
   .then((response) => response.text())
   .then((csvText) => {
     allCards = parseCSV(csvText);
-    renderCards(allCards);
+    renderCards(allCards, "trainers");
   })
   .catch((error) => {
     console.error("Error loading CSV:", error);
@@ -35,7 +39,7 @@ function parseCSV(csvText) {
 }
 
 // Build the cards in HTML
-function renderCards(cards) {
+function renderCards(cards, imageFolder) {
   cardRow.innerHTML = "";
 
   if (cards.length === 0) {
@@ -55,7 +59,7 @@ function renderCards(cards) {
            data-legality="${card.legality.toLowerCase()}">
 
         <div class="card-custom">
-          <img src="images-pokemon/${card.image}.webp" class="card-img" alt="${card.name}">
+          <img src="images-${imageFolder}/${card.image}.webp" class="card-img" alt="${card.name}">
         </div>
 
         <div class="card-caption">Quantity: ${card.quantity}</div>
@@ -68,30 +72,82 @@ function renderCards(cards) {
 
 // Search cards
 searchBar.addEventListener("input", function () {
-  const searchText = this.value.toLowerCase().trim();
+  if (trainerActive){
+    const searchText = this.value.toLowerCase().trim();
+  
+    const filteredCards = allCards.filter((card) => {
+      const searchableText =
+        `${card.name} ${card.set} ${card.number} ${card.quantity} ${card.legality}`.toLowerCase();
+  
+      return searchableText.includes(searchText);
+    });
+  
+    renderCards(filteredCards, "trainers");
+  }
+});
 
-  const filteredCards = allCards.filter((card) => {
-    const searchableText =
-      `${card.name} ${card.set} ${card.number} ${card.quantity} ${card.legality}`.toLowerCase();
+searchBar.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault(); // prevents form submit / page reload
 
-    return searchableText.includes(searchText);
-  });
+    if (!trainerActive){
+      const searchText = searchBar.value.toLowerCase().trim();
+    
+      const filteredCards = bulkCards.filter((card) => {
+        const searchableText =
+          `${card.name} ${card.set} ${card.number} ${card.quantity} ${card.legality}`.toLowerCase();
+    
+        return searchableText.includes(searchText);
+      });
+    
+      renderCards(filteredCards, "bulk");
+    }
+  }
+});
 
-  renderCards(filteredCards);
+searchButton.addEventListener("click", function () {
+  const searchText = searchBar.value.toLowerCase().trim();
+  
+    const filteredCards = bulkCards.filter((card) => {
+      const searchableText =
+        `${card.name} ${card.set} ${card.number} ${card.quantity} ${card.legality}`.toLowerCase();
+  
+      return searchableText.includes(searchText);
+    });
+  
+    renderCards(filteredCards, "bulk");
 });
 
 
+
 loadBulkButton.addEventListener("click", function () {
-  if (!touched){
+  if (trainerActive) {
+    searchButton.style.display = "inline-block";
+  }
+  if (trainerActive && !pokemonInit){
     fetch("pokemonDatabase.csv")
       .then((responseBulk) => responseBulk.text())
       .then((csvTextBulk) => {
-        allCards = allCards.concat(parseCSV(csvTextBulk));
-        renderCards(allCards);
+        bulkCards = parseCSV(csvTextBulk);
+        renderCards(bulkCards, "bulk");
+        pokemonInit=true;
       })
       .catch((errorBulk) => {
         console.error("Error loading Bulk CSV:", errorBulk);
       });
   }
-  
+  else if (trainerActive){
+    renderCards(bulkCards, "bulk");
+  }
+  trainerActive = false;
+});
+
+loadTrainerButton.addEventListener("click", function () {
+  if (!trainerActive) {
+    searchButton.style.display = "none";
+  }
+  if (!trainerActive){
+    renderCards(allCards, "trainers");
+  }
+  trainerActive=true;
 });
