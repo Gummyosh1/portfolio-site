@@ -129,7 +129,9 @@ loadBulkButton.addEventListener("click", function () {
       .then((responseBulk) => responseBulk.text())
       .then((csvTextBulk) => {
         bulkCards = parseCSV(csvTextBulk);
-        renderCards(bulkCards, "bulk");
+        cardRow.innerHTML = "";
+        noResults.style.display = "none";
+        //renderCards(bulkCards, "bulk");
         pokemonInit=true;
       })
       .catch((errorBulk) => {
@@ -137,7 +139,9 @@ loadBulkButton.addEventListener("click", function () {
       });
   }
   else if (trainerActive){
-    renderCards(bulkCards, "bulk");
+    cardRow.innerHTML = "";
+    noResults.style.display = "none";
+    //renderCards(bulkCards, "bulk");
   }
   trainerActive = false;
 });

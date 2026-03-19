@@ -116,7 +116,7 @@ Brute Bonnet,PAR,dark,1,LEGALG,brute-bonnet-par
 Team Rocket's Zubat,DRI,dark,2,LEGALI,team-rocket's-zubat-dri
 Cynthia's Spiritomb,DRI,dark,1,LEGALI,cynthia's-spiritomb-dri
 Team Rocket's Nidorino,DRI,dark,2,LEGALI,team-rocket's-nidorino-dri
-Team Rocket's Nidoran,DRI,dark,1,LEGALI,team-rocket's-nidoran-dri
+Team Rocket's Nidoran M,DRI,dark,1,LEGALI,team-rocket's-nidoran-m-dri
 Team Rocket's Murkrow,DRI,dark,1,LEGALI,team-rocket's-murkrow-dri
 N's Purrloin,JTG,dark,2,LEGALI,n's-purrloin-jtg
 Morpeko,PAR,dark,1,LEGALG,morpeko-par
@@ -144,7 +144,7 @@ Torkoal,JTG,fire,1,LEGALH,torkoal-jtg
 Magmar,JTG,fire,2,LEGALI,magmar-jtg
 Ethan's Ho-Oh EX,DRI,fire,1,LEGALI,ethan's-ho-oh-ex-dri
 Volcanion EX,JTG,fire,1,LEGALI,volcanion-ex-jtg
-Oricorio,SSP,fire,2,LEGALH,oricorio-ssp
+Oricorio 26,SSP,fire,2,LEGALH,oricorio-ssp-26
 Ninetales,SSP,fire,1,LEGALH,ninetales-ssp
 Blaziken EX,JTG,fire,1,LEGALH,blaziken-ex-jtg
 Growlithe,DRI,fire,1,LEGALI,growlithe-dri
@@ -211,7 +211,7 @@ Bonsly,OBF,fighting,1,LEGALG,bonsly-obf
 Nacli,PAR,fighting,1,LEGALG,nacli-par
 Gible,PAR,fighting,1,LEGALG,gible-par
 Landorus,SSP,fighting,1,LEGALH,landorus-ssp
-Great Tusk,TEF,fighting,3,LEGALH,great-tusk-tef
+Great Tusk 97,TEF,fighting,3,LEGALH,great-tusk-tef-97
 Vibrava,SSP,fighting,1,LEGALH,vibrava-ssp
 Cynthia's Gabite,DRI,fighting,2,LEGALI,cynthia's-gabite-dri
 Team Rocket's Pupitar,DRI,fighting,3,LEGALI,team-rocket's-pupitar-dri
@@ -274,7 +274,7 @@ Frillish,WHT,psychic,2,LEGALI,frillish-wht
 Kirlia,PAF,psychic,4,LEGALG,kirlia-paf
 Metagross,JTG,psychic,1,LEGALI,metagross-jtg
 Grimmsnarl,JTG,psychic,1,LEGALH,grimmsnarl-jtg
-Iron Valiant,TEF,psychic,2,LEGALH,iron-valiant-tef
+Iron Valiant 79,TEF,psychic,1,LEGALH,iron-valiant-tef-79
 Marill,TEF,psychic,1,LEGALH,marill-tef
 Solrock,OBF,psychic,1,LEGALG,solrock-obf
 Elgyem,TEF,psychic,1,LEGALH,elgyem-tef
@@ -348,7 +348,7 @@ Hop's Wooloo,JTG,normal,4,LEGALI,hop's-wooloo-jtg
 Dunsparce,JTG,normal,2,LEGALI,dunsparce-jtg
 Komala,JTG,normal,4,LEGALI,komala-jtg
 Hop's Rookidee,JTG,normal,3,LEGALI,hop's-rookidee-jtg
-Cramorant,JTG,normal,1,LEGALH,cramoramt-jtg
+Cramorant,JTG,normal,1,LEGALH,cramorant-jtg
 Farigiraf,PAL,normal,2,LEGALG,farigiraf-pal
 Slakoth,PAL,normal,2,LEGALG,slakoth-pal
 Zangoose,SSP,normal,2,LEGALH,zangoose-ssp
@@ -476,3 +476,4 @@ Team Rocket's Mareep,DRI,electric,2,LEGALI,team-rocket's-mareep-dri
 Eelektross,BLK,electric,1,LEGALI,eelektross-blk
 Miraidon,SSP,electric,1,LEGALH,miraidon-ssp
 Zeraora,DRI,electric,1,LEGALI,zeraora-dri
+Iron Valiant 80,TEF,psychic,1,LEGALH,iron-valiant-tef-80
