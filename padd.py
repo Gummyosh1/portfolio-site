@@ -53,5 +53,11 @@ while (True):
         print("Stopping...")
         break
     card_set = input("Set: ")
+    while (len(card_set) != 3):
+        print("Set must be 3 characters long.")
+        card_set = input("Set: ")
     legality = input("Legality: ")
+    while (len(legality) != 1):
+        print("Legality must be 1 character long.")
+        legality = input("Legality: ")
     add_card(name, card_set, "", legality)
