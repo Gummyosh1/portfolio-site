@@ -49,8 +49,10 @@ function renderCards(cards, imageFolder) {
 
   noResults.style.display = "none";
 
+  let html = "";
+
   cards.forEach((card) => {
-    const cardHTML = `
+    html += `
       <div class="col-6 col-md-4 col-lg-3 card-wrapper"
            data-name="${card.name.toLowerCase()}"
            data-set="${card.set.toLowerCase()}"
@@ -65,9 +67,8 @@ function renderCards(cards, imageFolder) {
         <div class="card-caption">Quantity: ${card.quantity}</div>
       </div>
     `;
-
-    cardRow.innerHTML += cardHTML;
   });
+  cardRow.innerHTML = html;
 }
 
 // Search cards
