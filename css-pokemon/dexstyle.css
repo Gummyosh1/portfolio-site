@@ -1,0 +1,88 @@
+.share-tech-regular {
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(2rem, 6vw, 5.5rem);
+  line-height: 1;
+  white-space: normal;
+}
+
+.searchBar {
+  font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+  padding: clamp(0.6rem, 1vw, 0.9rem);
+  margin-top: clamp(0.5rem, 2vw, 1.25rem);
+}
+
+.card-custom{
+    width:100%;
+    aspect-ratio:5/7;
+    border-radius:20px;
+    background-color:black;
+    transition: all 0.3s ease;
+}
+
+.card-img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.card-custom:hover{
+    transform: translateY(-8px) scale(1.03);
+}
+
+.card-caption{
+    background:white;
+    border-radius:10px;
+    margin-top:10px;
+    padding:6px;
+    font-size:14px;
+    text-align:center;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.button-special{
+  border-radius: 20px;
+  background-color: #010400;
+  border-color: #010400;
+  color: white;
+}
+
+
+
+/*NEW*/
+.card-custom {
+  position: relative;
+}
+
+.card-number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+
+  /* Optional styling */
+  text-shadow: 0 0 8px rgba(0,0,0,0.8);
+  pointer-events: none; /* so it doesn’t block clicks */
+}
+
+.footer-custom {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 40px;
+
+  background: linear-gradient(135deg, #1a1a1a, #000);
+  color: #ffcb05;
+
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+
+  border-top: 1px solid rgba(255,255,255,0.1);
+  text-align: center;
+}

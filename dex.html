@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css-pokemon/dexstyle.css">
+
+    <title>Collection Dex</title>
+</head>
+<body>
+    <div class = "container">
+        <div class="row d-flex align-items-center justify-content-center pt-5">
+            <div class="col-12 d-flex align-items-center justify-content-center">
+                <img src="images-dex/CCdex.jpg" alt="Pokemon Cards" class="customImage">
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center pt-3">
+        <input class="form-control w-75 mx-auto searchBar" type="search" placeholder="Search by Pokemon name!">
+    </div>
+
+    <div class="container text-center mt-2">
+        <button id="searchButton" class="btn btn-primary">
+            Search
+        </button>
+    </div>
+
+    <div id="cardList" class="container pt-5">
+        <div id="cardRow" class="row justify-content-center g-4"></div>
+    </div>
+    <p id="noResults" class="text-center mt-4" style="display: none;">No results found.</p>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="js-pokemon/dexscript.js"></script>
+
+    <footer class="footer-custom text-center">
+        <p class="mb-0">© 2026 Connor Lafferty</p>
+    </footer>
+</body>
+</html>

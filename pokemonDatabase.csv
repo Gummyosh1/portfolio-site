@@ -456,12 +456,12 @@ Quaquaval,SSP,water,2,LEGALH,quaquaval-ssp
 Simipour,PAR,water,1,LEGALG,simipour-par
 Panpour,PAR,water,1,LEGALG,panpour-par
 Wiglett 52,PAR,water,2,LEGALG,wiglett-par-52
-Joltik,SCR,electric,6,LEGALH,joltik-scr
-Magnezone,MEG,electric,1,LEGALI,magnezone-meg
+Joltik,SCR,electric,7,LEGALH,joltik-scr
+Magnezone,MEG,electric,2,LEGALI,magnezone-meg
 Mega Manectric EX,MEG,electric,1,LEGALI,mega-manectric-ex-meg
-Electrike,MEG,electric,1,LEGALI,electrike-meg
+Electrike,MEG,electric,2,LEGALI,electrike-meg
 Magneton,SSP,electric,2,LEGALH,magneton-ssp
-Iron Thorns EX,TWM,electric,2,LEGALH,iron-thorns-ex-twm
+Iron Thorns EX,TWM,electric,6,LEGALH,iron-thorns-ex-twm
 Rotom,SSP,electric,3,LEGALH,rotom-ssp
 Team Rocket's Ampharos,DRI,electric,1,LEGALI,team-rocket's-ampharos-dri
 Iono's Tadbulb,JTG,electric,1,LEGALI,iono's-tadbulb-jtg
@@ -477,3 +477,12 @@ Eelektross,BLK,electric,1,LEGALI,eelektross-blk
 Miraidon,SSP,electric,1,LEGALH,miraidon-ssp
 Zeraora,DRI,electric,1,LEGALI,zeraora-dri
 Iron Valiant 80,TEF,psychic,1,LEGALH,iron-valiant-tef-80
+Pawmi,PFL,,2,LEGALI,pawmi-pfl
+Rotom EX,PFL,,1,LEGALI,rotom-ex-pfl
+Yamper,PFL,,1,LEGALI,yamper-pfl
+Tapu Koko,SSP,,1,LEGALH,tapu-koko-ssp
+Pawmot,PFL,,1,LEGALI,pawmot-pfl
+Boltund,PFL,,1,LEGALI,boltund-pfl
+Pachirisu,MEG,,1,LEGALI,pachirisu-meg
+Raikou,MEG,,1,LEGALI,raikou-meg
+Magnemite,MEG,,1,LEGALI,magnemite-meg
