@@ -58,7 +58,8 @@ function renderCards(cards, imageFolder) {
            data-set="${card.set.toLowerCase()}"
            data-number="${card.number.toLowerCase()}"
            data-quantity="${card.quantity.toLowerCase()}"
-           data-legality="${card.legality.toLowerCase()}">
+           data-legality="${card.legality.toLowerCase()}"
+           data-storage="${card.storage.toLowerCase()}">
 
         <div class="card-custom">
           <img src="images-${imageFolder}/${card.image}.webp" class="card-img" alt="${card.name}">
@@ -78,7 +79,7 @@ searchBar.addEventListener("input", function () {
   
     const filteredCards = allCards.filter((card) => {
       const searchableText =
-        `${card.name} ${card.set} ${card.number} ${card.quantity} ${card.legality}`.toLowerCase();
+        `${card.name} ${card.set} ${card.number} ${card.quantity} ${card.legality} ${card.storage}`.toLowerCase();
   
       return searchableText.includes(searchText);
     });
@@ -96,7 +97,7 @@ searchBar.addEventListener("keydown", function (event) {
     
       const filteredCards = bulkCards.filter((card) => {
         const searchableText =
-          `${card.name} ${card.set} ${card.number} ${card.quantity} ${card.legality}`.toLowerCase();
+          `${card.name} ${card.set} ${card.number} ${card.quantity} ${card.legality} ${card.storage}`.toLowerCase();
     
         return searchableText.includes(searchText);
       });
@@ -111,7 +112,7 @@ searchButton.addEventListener("click", function () {
   
     const filteredCards = bulkCards.filter((card) => {
       const searchableText =
-        `${card.name} ${card.set} ${card.number} ${card.quantity} ${card.legality}`.toLowerCase();
+        `${card.name} ${card.set} ${card.number} ${card.quantity} ${card.legality} ${card.storage}`.toLowerCase();
   
       return searchableText.includes(searchText);
     });

@@ -3,7 +3,7 @@ import os
 
 CSV_FILE = "pokemonDatabase.csv"
 
-FIELDNAMES = ["name", "set", "number", "quantity", "legality", "image"]
+FIELDNAMES = ["name", "set", "number", "quantity", "legality", "storage", "image"]
 
 def load_cards():
     cards = []
@@ -37,9 +37,10 @@ def add_card(name, card_set, number, legality):
     new_card = {
         "name": name,
         "set": card_set.upper(),
-        "number": number,
+        "number": "",
         "quantity": 1,
         "legality": "LEGAL" + legality.upper(),
+        "storage": "secondbox",
         "image": name.strip().lower().replace(" ", "-") + "-" + card_set.strip().lower().replace(" ", "-")
     }
 
