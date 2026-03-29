@@ -318,7 +318,7 @@ Team Rocket's Orbeetle,DRI,psychic,3,LEGALI,originalbox,team-rocket's-orbeetle-d
 Gimmighoul,MEG,psychic,7,LEGALI,originalbox,gimmighoul-meg
 Sylveon,PRE,psychic,1,LEGALH,originalbox,sylveon-pre
 Flutter Mane,PRE,psychic,1,LEGALH,originalbox,flutter-mane-pre
-Klefki,SVI,psychic,1,LEGALG,originalbox,klefki-svi
+Klefki,SVI,psychic,3,LEGALG,originalbox,klefki-svi
 Dusclops,SFA,psychic,2,LEGALH,originalbox,dusclops-sfa
 Azumarill,SSP,psychic,2,LEGALH,originalbox,azumarill-ssp
 Lillie's Ribombee,JTG,psychic,4,LEGALI,originalbox,lillie's-ribombee-jtg
@@ -445,7 +445,7 @@ Magikarp,PAL,water,1,LEGALG,originalbox,magikarp-pal
 Iron Bundle,SSP,water,2,LEGALH,originalbox,iron-bundle-ssp
 Quaxwell,SSP,water,3,LEGALH,originalbox,quaxwell-ssp
 Crabominable,SCR,water,1,LEGALH,originalbox,crabominable-scr
-Wugtrio,SVI,water,1,LEGALG,originalbox,wugtrio-svi
+Wugtrio,SVI,water,3,LEGALG,originalbox,wugtrio-svi
 Froakie,OBF,water,1,LEGALG,originalbox,froakie-obf
 Quaquaval,SVI,water,1,LEGALG,originalbox,quaquaval-svi
 Seismitoad,OBF,water,1,LEGALG,originalbox,seismitoad-obf
@@ -502,7 +502,7 @@ Tynamo,ASC,electric,2,LEGALI,secondbox,tynamo-asc
 Heliolisk,ASC,electric,1,LEGALI,secondbox,heliolisk-asc
 Tapu Koko,ASC,electric,1,LEGALI,secondbox,tapu-koko-asc
 Pikachu,ASC,electric,1,LEGALJ,secondbox,pikachu-asc
-Flaaffy,SVI,electric,1,LEGALG,secondbox,flaaffy-svi
+Flaaffy,SVI,electric,2,LEGALG,secondbox,flaaffy-svi
 Toxel,SVI,electric,1,LEGALG,secondbox,toxel-svi
 Joltik,WHT,electric,3,LEGALI,secondbox,joltik-wht
 Blitzle,WHT,electric,2,LEGALI,secondbox,blitzle-wht
@@ -517,7 +517,7 @@ Togedemaru,JTG,electric,3,LEGALH,secondbox,togedemaru-jtg
 Iono's Wattrel,JTG,electric,1,LEGALI,secondbox,iono's-wattrel-jtg
 Electabuzz,DRI,electric,2,LEGALI,secondbox,electabuzz-dri
 Kilowattrel,TWM,electric,2,LEGALH,secondbox,kilowattrel-twm
-Miraidon,SVI,electric,2,LEGALG,secondbox,miraidon-svi
+Miraidon,SVI,electric,3,LEGALG,secondbox,miraidon-svi
 Voltorb,PAL,electric,1,LEGALG,secondbox,voltorb-pal
 Iono's Kilowattrel,JTG,electric,3,LEGALI,secondbox,iono's-kilowattrel-jtg
 Toxel,PAR,electric,1,LEGALG,secondbox,toxel-par
@@ -546,7 +546,7 @@ Sizzlipede,TEF,fire,1,LEGALH,secondbox,sizzlipede-tef
 Ponyta,DRI,fire,1,LEGALI,secondbox,ponyta-dri
 Volcarona,JTG,fire,3,LEGALH,secondbox,volcarona-jtg
 Ethan's Slugma,DRI,fire,5,LEGALI,secondbox,ethan's-slugma-dri
-Houndour,SVI,fire,1,LEGALG,secondbox,houndour-svi
+Houndour,SVI,fire,2,LEGALG,secondbox,houndour-svi
 Crocalor,SVI,fire,1,LEGALG,secondbox,crocalor-svi
 Darmanitan,TWM,fire,1,LEGALH,secondbox,darmanitan-twm
 Chi-Yu,MEG,fire,6,LEGALI,secondbox,chi-yu-meg
@@ -679,7 +679,7 @@ Tropius,JTG,normal,1,LEGALH,secondbox,tropius-jtg
 Buneary,PRE,normal,1,LEGALH,secondbox,buneary-pre
 Furfrou,PRE,normal,1,LEGALH,secondbox,furfrou-pre
 Lopunny,PRE,normal,2,LEGALH,secondbox,lopunny-pre
-Maushold,SVI,normal,1,LEGALG,secondbox,maushold-svi
+Maushold,SVI,normal,2,LEGALG,secondbox,maushold-svi
 Noibat,PRE,normal,1,LEGALH,secondbox,noibat-pre
 Miltank,PRE,normal,3,LEGALH,secondbox,miltank-pre
 Koffing,JTG,dark,3,LEGALI,secondbox,koffing-jtg
@@ -758,7 +758,7 @@ Cufant,PAL,metal,1,LEGALG,secondbox,cufant-pal
 Tinkatink,MEG,metal,5,LEGALI,secondbox,tinkatink-meg
 Bronzong,PRE,metal,2,LEGALH,secondbox,bronzong-pre
 Bronzor,PRE,metal,1,LEGALH,secondbox,bronzor-pre
-Varoom,SVI,metal,1,LEGALG,secondbox,varoom-svi
+Varoom,SVI,metal,3,LEGALG,secondbox,varoom-svi
 Steven's Beldum,DRI,metal,1,LEGALI,secondbox,steven's-beldum-dri
 Bronzong,PFL,metal,2,LEGALI,secondbox,bronzong-pfl
 Bronzor,PFL,metal,2,LEGALI,secondbox,bronzor-pfl
@@ -868,7 +868,7 @@ Barraskewda,DRI,water,4,LEGALI,secondbox,barraskewda-dri
 Gorebyss,DRI,water,5,LEGALI,secondbox,gorebyss-dri
 Cetoddle,DRI,water,3,LEGALI,secondbox,cetoddle-dri
 Lombre,JTG,water,1,LEGALI,secondbox,lombre-jtg
-Clauncher,SVI,water,2,LEGALG,secondbox,clauncher-svi
+Clauncher,SVI,water,3,LEGALG,secondbox,clauncher-svi
 Vanillite,PAR,water,1,LEGALG,secondbox,vanillite-par
 Remoraid,JTG,water,3,LEGALI,secondbox,remoraid-jtg
 Tympole,OBF,water,1,LEGALG,secondbox,tympole-obf
@@ -967,7 +967,7 @@ Nymble,SCR,grass,2,LEGALH,secondbox,nymble-scr
 Capsakid,SVI,grass,1,LEGALG,secondbox,capsakid-svi
 Grubbin,TEF,grass,1,LEGALH,secondbox,grubbin-tef
 Surskit,OBF,grass,1,LEGALG,secondbox,surskit-obf
-Tarountula,SVI,grass,1,LEGALG,secondbox,tarountula-svi
+Tarountula,SVI,grass,3,LEGALG,secondbox,tarountula-svi
 Blipbug,PAR,grass,1,LEGALG,secondbox,blipbug-par
 Scatterbug,SSP,grass,1,LEGALH,secondbox,scatterbug-ssp
 Rellor,SSP,grass,2,LEGALH,secondbox,rellor-ssp
@@ -993,7 +993,7 @@ Metapod,JTG,grass,1,LEGALI,secondbox,metapod-jtg
 Applin,DRI,grass,1,LEGALI,secondbox,applin-dri
 Meowscarada,SVI,grass,1,LEGALG,secondbox,meowscarada-svi
 Snover,PAL,grass,1,LEGALG,secondbox,snover-pal
-Sprigatito,SVI,grass,1,LEGALG,secondbox,sprigatito-svi
+Sprigatito,SVI,grass,2,LEGALG,secondbox,sprigatito-svi
 Sewaddle,WHT,grass,1,LEGALI,secondbox,sewaddle-wht
 Petilil,BLK,grass,2,LEGALI,secondbox,petilil-blk
 Vespiquen,PAL,grass,1,LEGALG,secondbox,vespiquen-pal
@@ -1004,7 +1004,7 @@ Exeggutor,MEG,grass,2,LEGALI,secondbox,exeggutor-meg
 Nuzleaf,MEG,grass,7,LEGALI,secondbox,nuzleaf-meg
 Exeggutor,PRE,grass,2,LEGALH,secondbox,exeggutor-pre
 Cottonee,PRE,grass,1,LEGALH,secondbox,cottonee-pre
-Skiddo,SVI,grass,1,LEGALG,secondbox,skiddo-svi
+Skiddo,SVI,grass,2,LEGALG,secondbox,skiddo-svi
 Exeggcute,MEG,grass,7,LEGALI,secondbox,exeggcute-meg
 Team Rocket's Blipbug,DRI,grass,2,LEGALI,secondbox,team-rocket's-blipbug-dri
 Lokix,PFL,grass,3,LEGALI,secondbox,lokix-pfl
@@ -1075,7 +1075,7 @@ Clefable,ASC,psychic,1,LEGALH,secondbox,clefable-asc
 Iron Boulder,PRE,psychic,1,LEGALH,secondbox,iron-boulder-pre
 Spritzee,PRE,psychic,1,LEGALH,secondbox,spritzee-pre
 Hypno,SVI,psychic,1,LEGALG,secondbox,hypno-svi
-Flabebe,SVI,psychic,1,LEGALG,secondbox,flabebe-svi
+Flabebe,SVI,psychic,2,LEGALG,secondbox,flabebe-svi
 Aromatisse,PRE,psychic,1,LEGALH,secondbox,aromatisse-pre
 Spoink,OBF,psychic,1,LEGALG,secondbox,spoink-obf
 Natu,PAF,psychic,1,LEGALG,secondbox,natu-paf
@@ -1121,40 +1121,106 @@ Alcremie,PFL,psychic,1,LEGALI,secondbox,alcremie-pfl
 Scream Tail EX,TWM,psychic,1,LEGALH,secondbox,scream-tail-ex-twm
 Bramblin,PFL,psychic,2,LEGALI,secondbox,bramblin-pfl
 Alakazam,MEP,psychic,1,LEGALI,secondbox,alakazam-mep
-Shinx,POR,electric,1,LEGALJ,secondbox,shinx-por
-Luxio,POR,electric,1,LEGALJ,secondbox,luxio-por
-Dedenne,POR,electric,1,LEGALJ,secondbox,dedenne-por
-Hawlucha,POR,fighting,3,LEGALJ,secondbox,hawlucha-por
-Tyrantrum,POR,fighting,5,LEGALJ,secondbox,tyrantrum-por
-Tyrunt,POR,fighting,3,LEGALJ,secondbox,tyrunt-por
-Binacle,POR,fighting,1,LEGALJ,secondbox,binacle-por
-Nosepass,POR,fighting,2,LEGALJ,secondbox,nosepass-por
-Barbaracle,POR,fighting,1,LEGALJ,secondbox,barbaracle-por
-Hippopotas,POR,fighting,2,LEGALJ,secondbox,hippopotas-por
-Probopass,POR,fighting,1,LEGALJ,secondbox,probopass-por
-Seel,POR,water,1,LEGALJ,secondbox,seel-por
-Staryu,POR,water,1,LEGALJ,secondbox,staryu-por
-Volcanion,POR,water,1,LEGALJ,secondbox,volcanion-por
-Amaura,POR,water,1,LEGALJ,secondbox,amaura-por
-Raticate,POR,normal,2,LEGALJ,secondbox,raticate-por
-Rattata,POR,normal,3,LEGALJ,secondbox,rattata-por
-Diggersby,POR,normal,1,LEGALJ,secondbox,diggersby-por
-Furfrou,POR,normal,1,LEGALJ,secondbox,furfrou-por
-Bunnelby,POR,normal,1,LEGALJ,secondbox,bunnelby-por
-Spinarak,POR,grass,2,LEGALJ,secondbox,spinarak-por
-Rowlet,POR,grass,3,LEGALJ,secondbox,rowlet-por
-Snivy,POR,grass,1,LEGALJ,secondbox,snivy-por
-Ariados,POR,grass,2,LEGALJ,secondbox,ariados-por
-Shaymin,POR,grass,1,LEGALJ,secondbox,shaymin-por
-Dartrix,POR,grass,1,LEGALJ,secondbox,dartrix-por
-Chien-Pao,POR,dark,3,LEGALJ,secondbox,chien-pao-por
-Skorupi,POR,dark,1,LEGALJ,secondbox,skorupi-por
-Drapion,POR,dark,1,LEGALJ,secondbox,drapion-por
-Honedge,POR,metal,2,LEGALJ,secondbox,honedge-por
-Doublade,POR,metal,1,LEGALJ,secondbox,doublade-por
-Klefki,POR,metal,1,LEGALJ,secondbox,klefki-por
-Aegislash,POR,metal,1,LEGALJ,secondbox,aegislash-por
-Spritzee,POR,psychic,1,LEGALJ,secondbox,spritzee-por
-Aromatisse,POR,psychic,2,LEGALJ,secondbox,aromatisse-por
-Fletchinder,POR,fire,1,LEGALJ,secondbox,fletchinder-por
-Talonflame,POR,fire,2,LEGALJ,secondbox,talonflame-por
+Shinx,POR,electric,6,LEGALJ,secondbox,shinx-por
+Luxio,POR,electric,3,LEGALJ,secondbox,luxio-por
+Dedenne,POR,electric,4,LEGALJ,secondbox,dedenne-por
+Hawlucha,POR,fighting,7,LEGALJ,secondbox,hawlucha-por
+Tyrantrum,POR,fighting,8,LEGALJ,secondbox,tyrantrum-por
+Tyrunt,POR,fighting,8,LEGALJ,secondbox,tyrunt-por
+Binacle,POR,fighting,5,LEGALJ,secondbox,binacle-por
+Nosepass,POR,fighting,5,LEGALJ,secondbox,nosepass-por
+Barbaracle,POR,fighting,6,LEGALJ,secondbox,barbaracle-por
+Hippopotas,POR,fighting,6,LEGALJ,secondbox,hippopotas-por
+Probopass,POR,fighting,4,LEGALJ,secondbox,probopass-por
+Seel,POR,water,5,LEGALJ,secondbox,seel-por
+Staryu,POR,water,4,LEGALJ,secondbox,staryu-por
+Volcanion,POR,water,7,LEGALJ,secondbox,volcanion-por
+Amaura,POR,water,5,LEGALJ,secondbox,amaura-por
+Raticate,POR,normal,7,LEGALJ,secondbox,raticate-por
+Rattata,POR,normal,5,LEGALJ,secondbox,rattata-por
+Diggersby,POR,normal,4,LEGALJ,secondbox,diggersby-por
+Furfrou,POR,normal,5,LEGALJ,secondbox,furfrou-por
+Bunnelby,POR,normal,5,LEGALJ,secondbox,bunnelby-por
+Spinarak,POR,grass,7,LEGALJ,secondbox,spinarak-por
+Rowlet,POR,grass,6,LEGALJ,secondbox,rowlet-por
+Snivy,POR,grass,5,LEGALJ,secondbox,snivy-por
+Ariados,POR,grass,4,LEGALJ,secondbox,ariados-por
+Shaymin,POR,grass,6,LEGALJ,secondbox,shaymin-por
+Dartrix,POR,grass,5,LEGALJ,secondbox,dartrix-por
+Chien-Pao,POR,dark,6,LEGALJ,secondbox,chien-pao-por
+Skorupi,POR,dark,5,LEGALJ,secondbox,skorupi-por
+Drapion,POR,dark,3,LEGALJ,secondbox,drapion-por
+Honedge,POR,metal,6,LEGALJ,secondbox,honedge-por
+Doublade,POR,metal,3,LEGALJ,secondbox,doublade-por
+Klefki,POR,metal,4,LEGALJ,secondbox,klefki-por
+Aegislash,POR,metal,3,LEGALJ,secondbox,aegislash-por
+Spritzee,POR,psychic,4,LEGALJ,secondbox,spritzee-por
+Aromatisse,POR,psychic,5,LEGALJ,secondbox,aromatisse-por
+Fletchinder,POR,fire,4,LEGALJ,secondbox,fletchinder-por
+Talonflame,POR,fire,5,LEGALJ,secondbox,talonflame-por
+Aurorus,POR,water,2,LEGALJ,secondbox,aurorus-por
+Dewgong,POR,water,1,LEGALJ,secondbox,dewgong-por
+Lapras EX,POR,water,1,LEGALI,secondbox,lapras-ex-por
+Mega Starmie EX,POR,water,1,LEGALJ,secondbox,mega-starmie-ex-por
+Magikarp,SVI,water,2,LEGALG,secondbox,magikarp-svi
+Gyarados EX,SVI,water,1,LEGALG,secondbox,gyarados-ex-svi
+Dondozo,SVI,water,1,LEGALG,secondbox,dondozo-svi
+Wiglett,SVI,water,1,LEGALG,secondbox,wiglett-svi
+Clawitzer,SVI,water,1,LEGALG,secondbox,clawitzer-svi
+Cetoddle,SVI,water,1,LEGALG,secondbox,cetoddle-svi
+Spewpa,POR,grass,2,LEGALJ,secondbox,spewpa-por
+Scatterbug,POR,grass,3,LEGALJ,secondbox,scatterbug-por
+Vivillon,POR,grass,5,LEGALJ,secondbox,vivillon-por
+Servine,POR,grass,4,LEGALJ,secondbox,servine-por
+Serperior,POR,grass,3,LEGALJ,secondbox,serperior-por
+Decidueye EX,POR,grass,2,LEGALJ,secondbox,decidueye-ex-por
+Breloom,SVI,grass,1,LEGALG,secondbox,breloom-svi
+Heracross,SVI,grass,1,LEGALG,secondbox,heracross-svi
+Floragato,SVI,grass,1,LEGALG,secondbox,floragato-svi
+Tropius,SVI,grass,1,LEGALG,secondbox,tropius-svi
+Luxray,POR,electric,3,LEGALJ,secondbox,luxray-por
+Kilowattrel,SVI,electric,1,LEGALG,secondbox,kilowattrel-svi
+Pawmi,SVI,electric,2,LEGALG,secondbox,pawmi-svi
+Magnemite,SVI,electric,1,LEGALG,secondbox,magnemite-svi
+Pawmo,SVI,electric,2,LEGALG,secondbox,pawmo-svi
+Pawmot,SVI,electric,1,LEGALG,secondbox,pawmot-svi
+Miraidon EX,SVI,electric,1,LEGALG,secondbox,miraidon-ex-svi
+Toxtricity,SVI,electric,1,LEGALG,secondbox,toxtricity-svi
+Hippowdon,POR,fighting,5,LEGALJ,secondbox,hippowdon-por
+Landorus,POR,fighting,2,LEGALJ,secondbox,landorus-por
+Mega Zygarde EX,POR,fighting,1,LEGALJ,secondbox,mega-zygarde-ex-por
+Riolu,SVI,fighting,2,LEGALG,secondbox,riolu-svi
+Primeape,SVI,fighting,2,LEGALG,secondbox,primeape-svi
+Sandaconda,SVI,fighting,2,LEGALG,secondbox,sandaconda-svi
+Klawf,SVI,fighting,1,LEGALG,secondbox,klawf-svi
+Stonjourner,SVI,fighting,1,LEGALG,secondbox,stonjourner-svi
+Fletchling,POR,normal,2,LEGALJ,secondbox,fletchling-por
+Snorlax,POR,normal,2,LEGALJ,secondbox,snorlax-por
+Greedent,SVI,normal,1,LEGALG,secondbox,greedent-svi
+Staravia,SVI,normal,1,LEGALG,secondbox,staravia-svi
+Zangoose,SVI,normal,1,LEGALG,secondbox,zangoose-svi
+Blissey,SVI,normal,1,LEGALG,secondbox,blissey-svi
+Staraptor,SVI,normal,2,LEGALG,secondbox,staraptor-svi
+Espurr,POR,psychic,3,LEGALJ,secondbox,espurr-por
+Meowstic,POR,psychic,3,LEGALJ,secondbox,meowstic-por
+Clefairy,POR,psychic,4,LEGALJ,secondbox,clefairy-por
+Mawile,POR,psychic,3,LEGALJ,secondbox,mawile-por
+Mega Clefable EX,POR,psychic,1,LEGALJ,secondbox,mega-clefable-ex-por
+Houndstone,SVI,psychic,1,LEGALG,secondbox,houndstone-svi
+Greavard,SVI,psychic,2,LEGALG,secondbox,greavard-svi
+Dedenne,SVI,psychic,1,LEGALG,secondbox,dedenne-svi
+Dachsbun,SVI,psychic,1,LEGALG,secondbox,dachsbun-svi
+Flittle,SVI,psychic,1,LEGALG,secondbox,flittle-svi
+Drifloon,SVI,psychic,1,LEGALG,secondbox,drifloon-svi
+Steelix,MEG,metal,4,LEGALI,secondbox,steelix-meg
+Turtonator,POR,fire,5,LEGALJ,secondbox,turtonator-por
+Salandit,POR,fire,3,LEGALJ,secondbox,salandit-por
+Torkoal,SVI,fire,1,LEGALG,secondbox,torkoal-svi
+Growlithe,SVI,fire,1,LEGALG,secondbox,growlithe-svi
+Fuecoco,SVI,fire,1,LEGALG,secondbox,fuecoco-svi
+Pawniard,SVI,dark,2,LEGALG,secondbox,pawniard-svi
+Haunter,POR,dark,2,LEGALJ,secondbox,haunter-por
+Gastly,POR,dark,4,LEGALJ,secondbox,gastly-por
+Gengar,POR,dark,2,LEGALJ,secondbox,gengar-por
+Maschiff,SVI,dark,1,LEGALG,secondbox,maschiff-svi
+Croagunk,SVI,dark,2,LEGALG,secondbox,croagunk-svi

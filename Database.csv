@@ -61,7 +61,7 @@ Iono,N/A,SUPPORTER,3,LEGALG,IONO
 Iris's Fighting Spirit,N/A,SUPPORTER,7,LEGALI,IRISFIGHTINGSPIRIT
 Jacq,N/A,SUPPORTER,1,LEGALG,JACQ
 Janine's Secret Art,N/A,SUPPORTER,5,LEGALH,JANINESECRETART
-Judge,N/A,SUPPORTER,3,LEGALJ,JUDGE
+Judge,N/A,SUPPORTER,9,LEGALJ,JUDGE
 Kieran,N/A,SUPPORTER,4,LEGALH,KIERAN
 Lacey,N/A,SUPPORTER,2,LEGALH,LACEY
 Lana's Aid,N/A,SUPPORTER,13,LEGALH,LANAAID
@@ -73,7 +73,7 @@ Norman,N/A,SUPPORTER,1,LEGALG,NORMAN
 N's Plan,N/A,SUPPORTER,1,LEGALI,NSPLAN
 Perrin,N/A,SUPPORTER,1,LEGALH,PERRIN
 Pokemon Center Lady,N/A,SUPPORTER,4,LEGALI,POKECENTERLADY
-Professor's Research,N/A,SUPPORTER,25,LEGALG,PROFSRESEARCH
+Professor's Research,N/A,SUPPORTER,27,LEGALG,PROFSRESEARCH
 Professor Sada's Vitality,N/A,SUPPORTER,4,LEGALG,SADASVITALITY
 Professor Turo's Scenario,N/A,SUPPORTER,8,LEGALG,TUROSSCENARIO
 Raifort,N/A,SUPPORTER,2,LEGALG,RAIFORT
@@ -89,7 +89,7 @@ Tulip,N/A,SUPPORTER,2,LEGALG,TULIP
 Urbain,N/A,SUPPORTER,1,LEGALJ,URBAIN
 Waitress,N/A,SUPPORTER,1,LEGALJ,WAITRESS
 Wally's Compassion,N/A,SUPPORTER,3,LEGALI,WALLY
-Youngster,N/A,SUPPORTER,1,LEGALG,YOUNGSTER
+Youngster,N/A,SUPPORTER,2,LEGALG,YOUNGSTER
 Blowtorch,,ITEM,2,LEGALI,BLOWTORCH
 Brilliant Blender,ACE SPEC,ITEM,1,LEGALH,BRILBLENDER
 Buddy-Buddy Poffin,,ITEM,9,LEGALH,BUDDYBUDDYPOFFIN
@@ -104,8 +104,8 @@ Dusk Ball,,ITEM,3,LEGALH,DUSKBALL
 Earthen Vessel,ANCIENT,ITEM,7,LEGALG,EARTHENVESSEL
 Energy Recycler,,ITEM,3,LEGALI,ENERGYRECYCLER
 Energy Retrieval,,ITEM,1,LEGALI,ENERGYRETRIEVAL
-Energy Search,,ITEM,2,LEGALG,ENERGYSEARCH
-Energy Switch,,ITEM,3,LEGALI,ENERGYSWITCH
+Energy Search,,ITEM,5,LEGALG,ENERGYSEARCH
+Energy Switch,,ITEM,5,LEGALI,ENERGYSWITCH
 Enhanced Hammer,,ITEM,4,LEGALH,ENHANCEDHAMMER
 Fighting Gong,,ITEM,8,LEGALI,FIGHTINGGONG
 Glass Trumpet,,ITEM,8,LEGALH,GLASSTRUMPET
@@ -126,8 +126,8 @@ Ogre's Mask,,ITEM,2,LEGALH,OGRESMASK
 Pal Pad,,ITEM,1,LEGALG,PALPAD
 Picnic Basket,,ITEM,3,LEGALG,PICNICBASKET
 Antique Plume Fossil,,ITEM,1,LEGALI,APLUMEFOSSIL
-Pokegear 3.0,,ITEM,9,LEGALG,POKEGEAR3
-Poke Pad,,ITEM,6,LEGALJ,POKEPAD
+Pokegear 3.0,,ITEM,10,LEGALG,POKEGEAR3
+Poke Pad,,ITEM,10,LEGALJ,POKEPAD
 Poke Vital A,ACE SPEC,ITEM,1,LEGALH,POKEVITALA
 Premium Power Pro,,ITEM,7,LEGALI,PREMIUMPOWERPRO
 Prime Catcher,ACE SPEC,ITEM,1,LEGALH,PRIMECATCHER
@@ -140,7 +140,7 @@ Snorlax Doll,,ITEM,1,LEGALG,SNORLAXDOLL
 Strange Timepiece,,ITEM,10,LEGALI,STRANGETIMEPIECE
 Super Potion,,ITEM,4,LEGALI,SUPERPOTION
 Super Rod,,ITEM,3,LEGALG,SUPERROD
-Switch,,ITEM,11,LEGALI,SWITCH
+Switch,,ITEM,13,LEGALI,SWITCH
 Team Rocket's Bother-Bot,,ITEM,3,LEGALI,TEAMROCKETBOTHERBOT
 Team Rocket's Great Ball,,ITEM,2,LEGALI,TRGREATBALL
 Team Rocket's Transceiver,,ITEM,4,LEGALI,TRTRANSCEIVER
@@ -155,7 +155,7 @@ Wondrous Patch,,ITEM,5,LEGALI,WONDROUSPATCH
 Area Zero Underdepths,,STADIUM,6,LEGALH,AREAZERO
 Artazon,,STADIUM,3,LEGALG,ARTAZON
 Battle Cage,,STADIUM,1,LEGALI,BATTLECAGE
-Beach Court,,STADIUM,1,LEGALG,BEACHCOURT
+Beach Court,,STADIUM,2,LEGALG,BEACHCOURT
 Calamitous Snowy Mountain,,STADIUM,4,LEGALG,CALAMITOUSSNOWYMOUNT
 Community Center,,STADIUM,1,LEGALH,COMMUNITYCENTER
 Festival Grounds,,STADIUM,2,LEGALH,FESTIVALGROUNDS
@@ -181,19 +181,19 @@ Surfing Beach,,STADIUM,2,LEGALI,SURFINGBEACH
 Team Rocket's Factory,,STADIUM,4,LEGALI,TRFACTORY
 Team Rocket's Watchtower,,STADIUM,1,LEGALI,TRWATCHTOWER
 Town Store,,STADIUM,1,LEGALG,TOWNSTORE
-Energy Swatter,N/A,ITEM,1,LEGALJ,energy-swatter-item
-Crushing Hammer,N/A,ITEM,1,LEGALJ,crushing-hammer-item
-Hole-Digging Shovel,N/A,ITEM,1,LEGALI,hole-digging-shovel-item
-Lumiose Galette,N/A,ITEM,2,LEGALJ,lumiose-galette-item
-Antique Sail Fossil,N/A,ITEM,3,LEGALJ,antique-sail-fossil-item
-Antique Jaw Fossil,N/A,ITEM,5,LEGALJ,antique-jaw-fossil-item
-Tarragon,N/A,SUPPORTER,2,LEGALJ,tarragon-supporter
+Energy Swatter,N/A,ITEM,5,LEGALJ,energy-swatter-item
+Crushing Hammer,N/A,ITEM,3,LEGALJ,crushing-hammer-item
+Hole-Digging Shovel,N/A,ITEM,4,LEGALI,hole-digging-shovel-item
+Lumiose Galette,N/A,ITEM,7,LEGALJ,lumiose-galette-item
+Antique Sail Fossil,N/A,ITEM,5,LEGALJ,antique-sail-fossil-item
+Antique Jaw Fossil,N/A,ITEM,8,LEGALJ,antique-jaw-fossil-item
+Tarragon,N/A,SUPPORTER,6,LEGALJ,tarragon-supporter
 Lillie's Determination,N/A,SUPPORTER,2,LEGALI,lillie's-determination-supporter
-Lumiose City,N/A,STADIUM,1,LEGALJ,lumiose-city-stadium
-Core Memory,N/A,TOOL,1,LEGALJ,core-memory-tool
-Rocky Energy,N/A,ENERGY,4,LEGALJ,rocky-energy-energy
-Telepathic Energy,N/A,ENERGY,1,LEGALJ,telepathic-energy-energy
-Growing Energy,N/A,ENERGY,1,LEGALJ,growing-energy-energy
+Lumiose City,N/A,STADIUM,4,LEGALJ,lumiose-city-stadium
+Core Memory,N/A,TOOL,7,LEGALJ,core-memory-tool
+Rocky Energy,N/A,ENERGY,6,LEGALJ,rocky-energy-energy
+Telepathic Energy,N/A,ENERGY,5,LEGALJ,telepathic-energy-energy
+Growing Energy,N/A,ENERGY,3,LEGALJ,growing-energy-energy
 Medical Energy,N/A,ENERGY,3,LEGALG,medical-energy-energy
 Team Rocket's Energy,N/A,ENERGY,4,LEGALI,team-rocket's-energy-energy
 Mist Energy,N/A,ENERGY,4,LEGALH,mist-energy-energy
@@ -205,3 +205,16 @@ Reversal Energy,N/A,ENERGY,5,LEGALG,reversal-energy-energy
 Luminous Energy,N/A,ENERGY,2,LEGALG,luminous-energy-energy
 Ignition Energy,N/A,ENERGY,2,LEGALI,ignition-energy-energy
 Boomerang Energy,N/A,ENERGY,1,LEGALH,boomerang-energy-energy
+Miriam,N/A,SUPPORTER,1,LEGALG,miriam-supporter
+Katy,N/A,SUPPORTER,2,LEGALG,katy-supporter
+Rosa's Encouragement,N/A,SUPPORTER,4,LEGALJ,rosa's-encouragement-supporter
+Nemona,N/A,SUPPORTER,1,LEGALG,nemona-supporter
+Jacinthe,N/A,SUPPORTER,3,LEGALJ,jacinthe-supporter
+Naveen,N/A,SUPPORTER,3,LEGALJ,naveen-supporter
+Mesagoza,N/A,STADIUM,1,LEGALG,mesagoza-stadium
+Vitality Band,N/A,TOOL,1,LEGALG,vitality-band-tool
+Defiance Band,N/A,TOOL,2,LEGALG,defiance-band-tool
+Electric Generator,N/A,ITEM,2,LEGALG,electric-generator-item
+Poke Ball,N/A,ITEM,3,LEGALJ,poke-ball-item
+Pokemon Catcher,N/A,ITEM,2,LEGALJ,pokemon-catcher-item
+Trekking Shoes,N/A,ITEM,1,LEGALF,trekking-shoes-item
