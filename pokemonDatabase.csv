@@ -1017,7 +1017,7 @@ Yanma,DRI,grass,4,LEGALI,secondbox,yanma-dri
 Mega Heracross EX,PFL,grass,1,LEGALI,secondbox,mega-heracross-ex-pfl
 Gloom,PFL,grass,2,LEGALI,secondbox,gloom-pfl
 Tangela,TWM,grass,2,LEGALH,secondbox,tangela-twm
-Applin,TWM,grass,2,LEGALH,secondbox,applin-twm
+Applin 17,TWM,grass,1,LEGALH,secondbox,applin-twm-17
 Thwackey,TWM,grass,1,LEGALH,secondbox,thwackey-twm
 Pinsir,TWM,grass,1,LEGALH,secondbox,pinsir-twm
 Sunflora,TWM,grass,1,LEGALH,secondbox,sunflora-twm
@@ -1038,7 +1038,7 @@ Venonat,MEW,grass,1,LEGALG,secondbox,venonat-mew
 Shroomish,DRI,grass,1,LEGALI,secondbox,shroomish-dri
 Dustox,ASC,grass,1,LEGALI,secondbox,dustox-asc
 Cascoon,ASC,grass,1,LEGALI,secondbox,cascoon-asc
-Ethan's Weepinbell,ASC,grass,1,LEGALJ,secondbox,ethan's-weepinbell-asc
+Erika's Weepinbell,ASC,grass,1,LEGALJ,secondbox,erika's-weepinbell-asc
 Wurmple,ASC,grass,1,LEGALI,secondbox,wurmple-asc
 Beautifly,ASC,grass,1,LEGALI,secondbox,beautifly-asc
 Erika's Tangela,ASC,grass,2,LEGALJ,secondbox,erika's-tangela-asc
@@ -1079,7 +1079,7 @@ Flabebe,SVI,psychic,2,LEGALG,secondbox,flabebe-svi
 Aromatisse,PRE,psychic,1,LEGALH,secondbox,aromatisse-pre
 Spoink,OBF,psychic,1,LEGALG,secondbox,spoink-obf
 Natu,PAF,psychic,1,LEGALG,secondbox,natu-paf
-Mr. Mime,JTG,psychic,2,LEGALI,secondbox,mr.-mime-jtg
+Mr. Mime,JTG,psychic,2,LEGALI,secondbox,mr-mime-jtg
 Dhelmise,JTG,psychic,2,LEGALH,secondbox,dhelmise-jtg
 Morgrem,JTG,psychic,2,LEGALH,secondbox,morgrem-jtg
 Golurk,BLK,psychic,1,LEGALI,secondbox,golurk-blk
@@ -1224,3 +1224,4 @@ Gastly,POR,dark,4,LEGALJ,secondbox,gastly-por
 Gengar,POR,dark,2,LEGALJ,secondbox,gengar-por
 Maschiff,SVI,dark,1,LEGALG,secondbox,maschiff-svi
 Croagunk,SVI,dark,2,LEGALG,secondbox,croagunk-svi
+Applin 126,TWM,dragon,1,LEGALH,secondbox,applin-twm-126
