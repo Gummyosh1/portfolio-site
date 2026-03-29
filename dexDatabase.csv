@@ -191,7 +191,7 @@ number,name,set,index,buydata,image
 190,,,,,
 191,,,,,
 192,,,,,
-193,,,,,
+193,Yanma,DRI,183,Bought from unsettled geeks for my Bugs with Balloons deck that I never ended up playing,yanma-dri-183
 194,Wooper,pal,221,card show,wooper-pal-221
 195,,,,,
 196,,,,,
@@ -248,7 +248,7 @@ number,name,set,index,buydata,image
 247,,,,,
 248,,,,,
 249,,,,,
-250,,,,,
+250,Ho-Oh,DRI,209,Pulled from a pack,ho-oh-dri-209
 251,,,,,
 252,,,,,
 253,,,,,
@@ -273,7 +273,7 @@ number,name,set,index,buydata,image
 272,,,,,
 273,,,,,
 274,,,,,
-275,,,,,
+275,Shiftry,tef,163,Connor pulled from a Colbimon pack,shiftry-tef-163
 276,,,,,
 277,,,,,
 278,,,,,
@@ -305,7 +305,7 @@ number,name,set,index,buydata,image
 304,,,,,
 305,,,,,
 306,,,,,
-307,,,,,
+307,Meditite,SCR,153,Connor pulled from a Colbimon pack,meditite-scr-153
 308,,,,,
 309,,,,,
 310,,,,,
@@ -382,7 +382,7 @@ number,name,set,index,buydata,image
 381,,,,,
 382,,,,,
 383,,,,,
-384,,,,,
+384,Rayquaza,CRZ,102,Colbi pulled from a pack at Shane's appartment that we bought in the Morpeko box that we got from Action Packed on opening day of new store,rayquaza-crz-102
 385,Jirachi,Viv,119,connor bought for colbi,jirachi-viv-119
 386,,,,,
 387,,,,,
@@ -398,7 +398,7 @@ number,name,set,index,buydata,image
 397,,,,,
 398,,,,,
 399,,,,,
-400,,,,,
+400,Bibarel,CRZ,25,Colbi pulled from a pack at Shane's appartment that we bought in the Morpeko box that we got from Action Packed on opening day of the new store,bibarel-crz-25
 401,,,,,
 402,,,,,
 403,,,,,
@@ -450,7 +450,7 @@ number,name,set,index,buydata,image
 449,,,,,
 450,,,,,
 451,,,,,
-452,,,,,
+452,Drapion,POR,97,pulled from a POR pack from Action Packed opening day,drapion-por-97
 453,,,,,
 454,,,,,
 455,,,,,
@@ -623,7 +623,7 @@ number,name,set,index,buydata,image
 622,,,,,
 623,,,,,
 624,,,,,
-625,,,,,
+625,Bisharp,blk,143,Connor pulled from a Colbimon pack,bisharp-blk-143
 626,,,,,
 627,,,,,
 628,,,,,
@@ -661,7 +661,7 @@ number,name,set,index,buydata,image
 660,,,,,
 661,,,,,
 662,,,,,
-663,,,,,
+663,Talonflame,POR,91,Connor pulled from a pack from POR ETB from opening day at Action Packed after waiting in line with bruce & his friends,talonflame-por-91
 664,,,,,
 665,,,,,
 666,Vivillon,ssp,193,unsure,vivillon-ssp-193
@@ -694,7 +694,7 @@ number,name,set,index,buydata,image
 693,Clawitzer,meg,141,pulled,clawitzer-meg-141
 694,,,,,
 695,,,,,
-696,,,,,
+696,Tyrunt,MEP,70,promo from POR ETB that Connor bought at Action Packed opening day,tyrunt-mep-70
 697,,,,,
 698,,,,,
 699,,,,,
@@ -707,7 +707,7 @@ number,name,set,index,buydata,image
 706,,,,,
 707,,,,,
 708,,,,,
-709,,,,,
+709,Trevenant,EVS,14,Connor pulled from a Colbimon pack,trevenant-evs-14
 710,,,,,
 711,,,,,
 712,,,,,
@@ -720,7 +720,7 @@ number,name,set,index,buydata,image
 719,,,,,
 720,,,,,
 721,Volcanion,jtg,171,unsure,volcanion-jtg-171
-722,,,,,
+722,Rowlet,POR,90,Pulled from a pack from Action Packed opening day,rowlet-por-90
 723,,,,,
 724,,,,,
 725,,,,,
@@ -805,7 +805,7 @@ number,name,set,index,buydata,image
 804,,,,,
 805,,,,,
 806,,,,,
-807,Zeraora,scr,151,card show,zeraora-scr-151
+807,Zeraora,CRZ,43,Colbi pulled from a pack at Shane's appartment that we bought in the Morpeko box that we got from Action Packed on opening day of the new store,zeraora-crz-43
 808,,,,,
 809,,,,,
 810,,,,,
@@ -885,7 +885,7 @@ number,name,set,index,buydata,image
 884,,,,,
 885,,,,,
 886,,,,,
-887,,,,,
+887,Dragapult,SWSH,132,Promo from Dragapult Prime box at Greg's store on opening day of bigger location,dragapult-swsh-132
 888,,,,,
 889,,,,,
 890,,,,,
@@ -898,7 +898,7 @@ number,name,set,index,buydata,image
 897,,,,,
 898,,,,,
 899,,,,,
-900,,,,,
+900,Kleavor,SWSH,248,Connor pulled from a Colbimon pack,kleavor-swsh-248
 901,,,,,
 902,,,,,
 903,,,,,
@@ -916,8 +916,8 @@ number,name,set,index,buydata,image
 915,,,,,
 916,,,,,
 917,Tarountula,svi,199,card show,tarountula-svi-199
-918,,,,,
-919,,,,,
+918,Spidops,svi,243,Connor pulled from a Colbimon pack,spidops-svi-243
+919,Nymble,pfl,96,Connor pulled from a Colbimon pack,nymble-pfl-96
 920,,,,,
 921,Pawmi,paf,226,Colbi for Valentine's Day,pawmi-paf-226
 922,,,,,
@@ -927,12 +927,12 @@ number,name,set,index,buydata,image
 926,Fidough,svi,213,card show,fidough-svi-213
 927,,,,,
 928,,,,,
-929,,,,,
+929,Dolliv,SVI,200,Pulled from Koraidon ETB packs that Connor bought at Action Packed opening day,dolliv-svi-200
 930,,,,,
 931,,,,,
 932,,,,,
 933,,,,,
-934,,,,,
+934,Garganacl,meg,147,Connor pulled from a Colbimon pack,garganacl-meg-147
 935,,,,,
 936,,,,,
 937,,,,,
@@ -954,7 +954,7 @@ number,name,set,index,buydata,image
 953,,,,,
 954,,,,,
 955,,,,,
-956,,,,,
+956,Espathra,PAR,197,Connor pulled from a Colbimon pack,espathra-par-197
 957,,,,,
 958,,,,,
 959,,,,,
@@ -992,7 +992,7 @@ number,name,set,index,buydata,image
 991,,,,,
 992,,,,,
 993,,,,,
-994,,,,,
+994,Iron Moth,PAR,187,Connor pulled from a Colbimon pack,ironmoth-par-187
 995,,,,,
 996,,,,,
 997,,,,,
@@ -1005,7 +1005,7 @@ number,name,set,index,buydata,image
 1004,,,,,
 1005,,,,,
 1006,,,,,
-1007,,,,,
+1007,Koraidon,SVP,14,promo card from Koraidon ETB connor bought from Action Packed opening day,koraidon-svp-14
 1008,,,,,
 1009,,,,,
 1010,Iron Leaves,pre,176,unsure,ironleaves-pre-176
