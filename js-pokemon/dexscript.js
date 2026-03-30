@@ -88,32 +88,37 @@ function renderCards(cards) {
   cardRow.innerHTML = html;
 }
 
-searchBar.addEventListener("keydown", function (event) {
-  if (event.key === "Enter") {
-    event.preventDefault(); // prevents form submit / page reload
+function filterCards(searchText) {
+  const text = searchText.toLowerCase().trim();
 
-      const searchText = searchBar.value.toLowerCase().trim();
-    
-      const filteredCards = allCards.filter((card) => {
-        const searchableText =
-          `${card.name} ${card.set} ${card.number}`.toLowerCase();
-    
-        return searchableText.includes(searchText);
-      });
-    
-      renderCards(filteredCards);
+  // SPECIAL CASE: "owned"
+  if (text === "owned") {
+    return allCards.filter((card) => {
+      return card.name && card.name.trim() !== "";
+    });
   }
-});
 
-searchButton.addEventListener("click", function () {
-  const searchText = searchBar.value.toLowerCase().trim();
-
-  const filteredCards = allCards.filter((card) => {
+  // NORMAL SEARCH
+  return allCards.filter((card) => {
     const searchableText =
       `${card.name || ""} ${card.set || ""} ${card.number || ""}`.toLowerCase();
 
-    return searchableText.includes(searchText);
+    return searchableText.includes(text);
   });
+}
 
+// ENTER KEY
+searchBar.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+
+    const filteredCards = filterCards(searchBar.value);
+    renderCards(filteredCards);
+  }
+});
+
+// BUTTON CLICK
+searchButton.addEventListener("click", function () {
+  const filteredCards = filterCards(searchBar.value);
   renderCards(filteredCards);
 });
