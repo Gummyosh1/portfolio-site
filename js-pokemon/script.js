@@ -44,7 +44,9 @@ function parseCSV(csvText) {
 function renderCards(cards, imageFolder) {
   cardRow.innerHTML = "";
 
-  if (cards.length === 0) {
+  const sortedCards = sortCardsByType(cards);
+
+  if (sortedCards.length === 0) {
     noResults.style.display = "block";
     return;
   }
@@ -53,7 +55,7 @@ function renderCards(cards, imageFolder) {
 
   let html = "";
 
-  cards.forEach((card) => {
+  sortedCards.forEach((card) => {
     html += `
       <div class="col-6 col-md-4 col-lg-3 card-wrapper"
            data-name="${card.name.toLowerCase()}"
@@ -71,6 +73,12 @@ function renderCards(cards, imageFolder) {
     `;
   });
   cardRow.innerHTML = html;
+}
+
+function sortCardsByType(cards) {
+  return [...cards].sort((a, b) => {
+    return (a.number || "").localeCompare(b.number || "");
+  });
 }
 
 function updateTotalCardCount(cards) {
