@@ -11,6 +11,7 @@ fetch("dexDatabase.csv")
   .then((csvText) => {
     allCards = parseCSV(csvText);
     renderCards(allCards);
+    updateCollectionProgress();
   })
   .catch((error) => {
     console.error("Error loading CSV:", error);
@@ -122,3 +123,21 @@ searchButton.addEventListener("click", function () {
   const filteredCards = filterCards(searchBar.value);
   renderCards(filteredCards);
 });
+
+function updateCollectionProgress() {
+  const totalPokemon = 1025;
+
+  const collectedCount = allCards.filter((card) => {
+    return card.name && card.name.trim() !== "";
+  }).length;
+
+  const percent = (collectedCount / totalPokemon) * 100;
+
+  const progressText = document.getElementById("collectionProgressText");
+  const progressBar = document.getElementById("collectionProgressBar");
+
+  progressText.textContent = `Collected ${collectedCount} / ${totalPokemon}`;
+  progressBar.style.width = `${percent}%`;
+  progressBar.setAttribute("aria-valuenow", collectedCount);
+  progressBar.textContent = `${percent.toFixed(1)}%`;
+}
