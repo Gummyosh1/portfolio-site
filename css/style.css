@@ -26,7 +26,7 @@ html, body {
   transform-style: preserve-3d;
   will-change: transform;
   box-shadow:0 10px 25px rgba(0,0,0,0.15);
-  transform: translateY(80px);
+  /*transform: translateY(80px);*/
   transition: all 0.6s cubic-bezier(.2,.8,.2,1);
 }
 
@@ -40,7 +40,7 @@ html, body {
     #c99700
   );
   color: #222;
-  translate: 0px -50px;
+  /*translate: 0px -50px;*/
 }
 
 .silver {
@@ -48,7 +48,7 @@ html, body {
     linear-gradient(rgba(255,255,255,0.35), rgba(255,255,255,0)),
     linear-gradient(145deg, #f5f7fa, #e4e7eb, #cfd4da, #b0b8c1, #8f9aa7);
   color: #222;
-  translate: 0px -25px;
+  /*translate: 0px -25px;*/
 }
 
 .bronze {
