@@ -1,16 +1,25 @@
 .hero{
-    width: 100vw;
-    height: 200px;
+    width: 100%;
+    height: auto;
 
-    padding-top: clamp(1rem, 4vw, 3rem);
-    padding-bottom: clamp(0.5rem, 2vw, 1.5rem);
+    padding-top: clamp(0.5rem, 2vw, 1.5rem);
+    padding-bottom: clamp(0.25rem, 1vw, 0.75rem);
 }
 
 .share-tech-regular {
   font-family: "Share Tech", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: clamp(2rem, 6vw, 5.5rem);
+  font-size: clamp(2.5rem, 6vw, 5.5rem);
+  line-height: 1;
+  white-space: normal;
+}
+
+.share-tech-regular-v2 {
+  font-family: "Share Tech", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: clamp(1rem, 4vw, 3.5rem);
   line-height: 1;
   white-space: normal;
 }

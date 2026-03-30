@@ -4,6 +4,7 @@ const noResults = document.getElementById("noResults");
 const loadBulkButton = document.querySelector("#pokemonBtn");
 const loadTrainerButton = document.querySelector("#trainersBtn");
 const searchButton = document.querySelector("#searchButton");
+const totalCardCount = document.getElementById("totalCardCount");
 let trainerActive=true;
 let pokemonInit=false;
 
@@ -16,6 +17,7 @@ fetch("Database.csv")
   .then((csvText) => {
     allCards = parseCSV(csvText);
     renderCards(allCards, "trainers");
+    updateTotalCardCount(allCards);
   })
   .catch((error) => {
     console.error("Error loading CSV:", error);
@@ -69,6 +71,15 @@ function renderCards(cards, imageFolder) {
     `;
   });
   cardRow.innerHTML = html;
+}
+
+function updateTotalCardCount(cards) {
+  const total = cards.reduce((sum, card) => {
+    const qty = parseInt(card.quantity, 10);
+    return sum + (isNaN(qty) ? 0 : qty);
+  }, 0);
+
+  totalCardCount.textContent = `Total Cards: ${total}`;
 }
 
 // Search cards
@@ -132,6 +143,7 @@ loadBulkButton.addEventListener("click", function () {
         bulkCards = parseCSV(csvTextBulk);
         cardRow.innerHTML = "";
         noResults.style.display = "none";
+        updateTotalCardCount(bulkCards);
         //renderCards(bulkCards, "bulk");
         pokemonInit=true;
       })
@@ -142,6 +154,7 @@ loadBulkButton.addEventListener("click", function () {
   else if (trainerActive){
     cardRow.innerHTML = "";
     noResults.style.display = "none";
+    updateTotalCardCount(bulkCards);
     //renderCards(bulkCards, "bulk");
   }
   trainerActive = false;
@@ -153,6 +166,7 @@ loadTrainerButton.addEventListener("click", function () {
   }
   if (!trainerActive){
     renderCards(allCards, "trainers");
+    updateTotalCardCount(allCards);
   }
   trainerActive=true;
 });
