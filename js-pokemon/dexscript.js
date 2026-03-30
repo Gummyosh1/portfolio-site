@@ -99,6 +99,12 @@ function filterCards(searchText) {
     });
   }
 
+  if (text === "missing" || text === "unowned") {
+    return allCards.filter((card) => {
+      return !card.name || card.name.trim() === "";
+    });
+  }
+
   // NORMAL SEARCH
   return allCards.filter((card) => {
     const searchableText =
