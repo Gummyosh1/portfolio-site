@@ -2,6 +2,7 @@
 document.querySelectorAll('.podium').forEach(card => {
     let animFrame;
     card.addEventListener('mousemove', e => {
+    if (window.innerWidth < 768) return;
     if (animFrame) cancelAnimationFrame(animFrame);
     animFrame = requestAnimationFrame(() => {
         const rect = card.getBoundingClientRect();
@@ -16,6 +17,7 @@ document.querySelectorAll('.podium').forEach(card => {
     });
     });
     card.addEventListener('mouseleave', () => {
+    if (window.innerWidth < 768) return;
     card.style.transition = 'transform 0.3s ease';
     card.style.transform = `translateY(${card.dataset.offsetY}px) rotateX(0deg) rotateY(0deg) scale(1)`;
     setTimeout(() => card.style.transition = '', 300);
