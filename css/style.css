@@ -58,11 +58,11 @@ html, body {
   color: white;
 }
 
-.pokemon-blue {
+.play-gradient {
   background:
-    linear-gradient(rgba(255,255,255,0.15), rgba(255,255,255,0)),
-    linear-gradient(145deg, #3b5ba9, #4e79d9, #2c4fa3);
-  color: white;
+    linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0)),
+    linear-gradient(145deg, #e6f0ff, #cfe0ff, #e8e6ff);
+  color: #333;
 }
 
 .pastel-catch {
@@ -70,6 +70,27 @@ html, body {
     linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0)),
     linear-gradient(145deg, #ffd6e5, #ffb3d1, #ffc9a9);
   color: #333;
+}
+
+.gummy-gradient {
+  background:
+    linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0)),
+    linear-gradient(145deg, #d9f7f8, #bfecee, #a8e0e6);
+  color: #333;
+}
+
+.fish-gradient {
+  background:
+    linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0)),
+    linear-gradient(145deg, #f4d6c6, #f2a7a0, #cfd8ff, #7fb3ff);
+  color: #333;
+}
+
+.devlogs-gradient {
+  background:
+    linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0)),
+    linear-gradient(145deg, #ff4ecb, #ff9a3c, #ffe44d, #3cffb5, #4d9cff);
+  color: #222;
 }
 
 .button-grow{
@@ -88,6 +109,10 @@ html, body {
   letter-spacing: 5px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .first-card{
   height: 500px;
@@ -101,6 +126,7 @@ html, body {
 
 .podium-card {
   overflow: hidden;              /* IMPORTANT: clips image to rounded corners */
+  background-blend-mode: overlay;
 }
 
 .podium-img-wrap {
