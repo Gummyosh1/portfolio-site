@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top 10 Pokémon TCG Decks</title>
+  <link rel="stylesheet" href="css/decklists.css" />
+</head>
+<body>
+  <section class="top-decks-section">
+    <div class="top-decks-header">
+      <p class="eyebrow">Limitless TCG Metagame</p>
+      <h1>Current Top 10 Decks</h1>
+      <p class="subtitle">
+        Pulled from recent public Limitless tournaments and ranked by appearances.
+      </p>
+
+      <button id="refreshBtn">Refresh Decks</button>
+      <button id="showTournamentsBtn" class="secondary-btn">Show Tournaments Used</button>
+
+        <div id="tournamentListBox" class="tournament-list-box hidden">
+        <h2>Tournaments Used</h2>
+        <div id="tournamentList"></div>
+        </div>
+    </div>
+
+    <div id="status" class="status">Loading decks...</div>
+
+    <div id="deckGrid" class="deck-grid"></div>
+    <div id="deckModal" class="modal hidden">
+        <div class="modal-box">
+            <button id="closeModal" class="close-btn">×</button>
+
+            <h2 id="modalDeckName"></h2>
+            <p id="modalInfo"></p>
+
+            <div id="imageStatus" class="image-status"></div>
+            <div id="cardImageGrid" class="card-image-grid"></div>
+
+            <h3>Text Decklist</h3>
+            <button id="copyDecklistBtn" class="copy-decklist-btn">Copy Decklist</button>
+            <pre id="modalDecklist"></pre>
+        </div>
+        </div>
+  <script src="js/decklists.js"></script>
+</body>
+</html>

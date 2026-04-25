@@ -1,0 +1,452 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.9), transparent 34%),
+    radial-gradient(circle at bottom right, rgba(148, 163, 184, 0.22), transparent 35%),
+    linear-gradient(135deg, #e8f7ff, #ffffff);
+  color: #1c2b39;
+  min-height: 100vh;
+}
+
+.top-decks-section {
+  width: min(1250px, 92%);
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.top-decks-header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.eyebrow {
+  color: #64748b;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin: 0;
+  color: #17496b;
+}
+
+.subtitle {
+  max-width: 650px;
+  margin: 15px auto 25px;
+  color: #526675;
+  line-height: 1.6;
+}
+
+button {
+  border: none;
+  background: #17496b;
+  color: white;
+  padding: 13px 24px;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+button:hover {
+  background: #0f354f;
+  transform: translateY(-2px);
+}
+
+.status {
+  text-align: center;
+  margin: 25px 0;
+  font-weight: 800;
+  color: #526675;
+}
+
+/* =========================
+   SILVER POKEMON-STYLE CARDS
+========================= */
+
+.deck-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  margin-top: 35px;
+}
+
+.deck-card {
+  position: relative;
+  overflow: hidden;
+  min-height: 520px;
+  padding: 18px;
+  border-radius: 24px;
+  cursor: pointer;
+  background:
+    linear-gradient(135deg, #f8fafc 0%, #dbe4ee 45%, #9ca8b7 100%);
+  border: 5px solid #cbd5e1;
+  box-shadow:
+    0 18px 45px rgba(15, 23, 42, 0.22),
+    inset 0 0 0 3px rgba(255, 255, 255, 0.65);
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.deck-card:hover {
+  transform: translateY(-8px);
+  box-shadow:
+    0 28px 65px rgba(15, 23, 42, 0.3),
+    inset 0 0 0 3px rgba(255, 255, 255, 0.85);
+}
+
+.deck-card::before {
+  content: "";
+  position: absolute;
+  inset: 11px;
+  border-radius: 18px;
+  border: 2px solid rgba(71, 85, 105, 0.45);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.deck-card::after {
+  content: "";
+  position: absolute;
+  inset: 23px;
+  border-radius: 13px;
+  background:
+    radial-gradient(circle at 30% 10%, rgba(255, 255, 255, 0.95), transparent 26%),
+    linear-gradient(180deg, #f8fafc 0%, #eef2f7 50%, #e2e8f0 100%);
+  z-index: 0;
+}
+
+.pokemon-card-top,
+.deck-preview-art,
+.deck-info-box,
+.deck-attack-box {
+  position: relative;
+  z-index: 2;
+}
+
+.pokemon-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 10px 12px;
+  border-radius: 12px 12px 6px 6px;
+  background: linear-gradient(180deg, #ffffff, #e5e7eb);
+  border: 3px solid #64748b;
+}
+
+.deck-name {
+  margin: 0;
+  color: #111827;
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  line-height: 1.05;
+}
+
+.rank {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 30% 30%, #ffffff, #dbe4ee 35%, #94a3b8 80%);
+  color: #111827;
+  font-weight: 900;
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.25);
+}
+
+.deck-preview-art {
+  height: 245px;
+  margin-top: 10px;
+  border: 4px solid #64748b;
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.95), transparent 45%),
+    linear-gradient(135deg, #cbd5e1, #f8fafc, #94a3b8);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.deck-preview-art img {
+  width: 78%;
+  max-height: 235px;
+  object-fit: contain;
+  filter: drop-shadow(0 12px 16px rgba(15, 23, 42, 0.3));
+}
+
+.deck-preview-loading {
+  font-weight: 900;
+  color: #475569;
+  text-align: center;
+  padding: 12px;
+}
+
+.deck-info-box {
+  background: #f8fafc;
+  border-left: 3px solid #64748b;
+  border-right: 3px solid #64748b;
+  padding: 12px 16px;
+}
+
+.deck-stat {
+  margin: 8px 0;
+  color: #1f2937;
+  font-size: 1rem;
+}
+
+.deck-stat strong {
+  color: #111827;
+}
+
+.deck-attack-box {
+  padding: 16px;
+  border: 3px solid #64748b;
+  border-radius: 0 0 14px 14px;
+  background: linear-gradient(180deg, #ffffff, #e2e8f0);
+  color: #111827;
+  font-weight: 900;
+  text-align: center;
+}
+
+/* =========================
+   MODAL
+========================= */
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(8, 22, 34, 0.72);
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  z-index: 999;
+  backdrop-filter: blur(6px);
+}
+
+.hidden {
+  display: none;
+}
+
+.modal-box {
+  background:
+    radial-gradient(circle at top right, rgba(203, 213, 225, 0.35), transparent 30%),
+    linear-gradient(135deg, #ffffff, #eef8fd);
+  width: min(1100px, 96vw);
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 30px;
+  padding: 32px;
+  position: relative;
+  box-shadow: 0 25px 90px rgba(0, 0, 0, 0.38);
+  border: 2px solid rgba(255, 255, 255, 0.65);
+}
+
+.close-btn {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 0;
+  background: #17496b;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+}
+
+#modalDeckName {
+  color: #123d5a;
+  margin: 0 50px 8px 0;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+}
+
+#modalInfo {
+  color: #536879;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.image-status {
+  margin: 15px 0;
+  font-weight: 800;
+  color: #526675;
+}
+
+.card-image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+  gap: 18px;
+  margin: 24px 0;
+}
+
+.card-img-box {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(23, 73, 107, 0.12);
+  border-radius: 18px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 12px 28px rgba(23, 73, 107, 0.14);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-img-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 42px rgba(23, 73, 107, 0.22);
+}
+
+.card-img-box img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
+.card-img-box p {
+  margin: 9px 0 2px;
+  font-size: 0.82rem;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #17496b;
+}
+
+.card-img-box small {
+  color: #7a8d9d;
+  font-weight: 800;
+}
+
+#modalDecklist {
+  background: #f2f7fb;
+  border: 1px solid rgba(23, 73, 107, 0.12);
+  padding: 18px;
+  border-radius: 16px;
+  white-space: pre-wrap;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #1c2b39;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+  .top-decks-section {
+    width: min(100% - 28px, 1200px);
+    padding: 45px 0;
+  }
+
+  .deck-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .deck-card {
+    min-height: 500px;
+    padding: 16px;
+  }
+
+  .pokemon-card-top {
+    padding: 9px 10px;
+  }
+
+  .deck-preview-art {
+    height: 230px;
+  }
+
+  .deck-preview-art img {
+    max-height: 220px;
+  }
+
+  .modal-box {
+    padding: 24px;
+    border-radius: 24px;
+  }
+
+  .card-image-grid {
+    grid-template-columns: repeat(auto-fill, minmax(105px, 1fr));
+    gap: 14px;
+  }
+}
+
+.copy-decklist-btn {
+  margin: 14px 0;
+  background: #17496b;
+  color: white;
+  border: 0;
+  padding: 11px 18px;
+  border-radius: 999px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.copy-decklist-btn:hover {
+  background: #0f354f;
+}
+
+.secondary-btn {
+  margin-left: 10px;
+  background: #64748b;
+}
+
+.secondary-btn:hover {
+  background: #475569;
+}
+
+.tournament-list-box {
+  margin: 35px auto;
+  padding: 24px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 16px 40px rgba(23, 73, 107, 0.12);
+  border: 1px solid rgba(23, 73, 107, 0.12);
+}
+
+.tournament-list-box h2 {
+  margin-top: 0;
+  color: #17496b;
+}
+
+.tournament-row {
+  display: grid;
+  grid-template-columns: 1fr 130px 110px;
+  gap: 14px;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(23, 73, 107, 0.12);
+}
+
+.tournament-row:last-child {
+  border-bottom: none;
+}
+
+.tournament-name {
+  font-weight: 800;
+  color: #1c2b39;
+}
+
+.tournament-date,
+.tournament-players {
+  color: #526675;
+  font-weight: 700;
+}
+
+@media (max-width: 650px) {
+  .tournament-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .secondary-btn {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
