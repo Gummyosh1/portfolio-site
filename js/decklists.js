@@ -310,15 +310,64 @@ async function loadDeckPreviewImages(decks) {
       continue;
     }
 
-    const firstPokemon = parsedDeck.pokemon[0] || parsedDeck.allCards[0];
-    const imageUrl = await getCardImage(firstPokemon);
+    const previewCard = getDeckTitlePreviewCard(deck.name, parsedDeck);
+
+    const imageUrl = await getCardImage(previewCard);
 
     if (imageUrl) {
-      previewBox.innerHTML = `<img src="${imageUrl}" alt="${escapeHtml(firstPokemon.name)}">`;
+      previewBox.innerHTML = `<img src="${imageUrl}" alt="${escapeHtml(previewCard.name)}">`;
     } else {
-      previewBox.innerHTML = `<div class="deck-preview-loading">${escapeHtml(firstPokemon.name)}</div>`;
+      previewBox.innerHTML = `<div class="deck-preview-loading">${escapeHtml(previewCard.name)}</div>`;
     }
   }
+}
+
+function getDeckTitlePreviewCard(deckName, parsedDeck) {
+  const pokemonCards = parsedDeck.pokemon.length > 0
+    ? parsedDeck.pokemon
+    : parsedDeck.allCards;
+
+  const normalizedDeckName = normalizeNameForPreview(deckName);
+  const titleWords = normalizedDeckName.split(" ");
+
+  // PRIORITY: match first word in deck title
+  for (const titleWord of titleWords) {
+    const match = pokemonCards.find(card => {
+      const cleanCardName = getBasePokemonName(card.name);
+      return cleanCardName.split(" ").includes(titleWord);
+    });
+
+    if (match) return match;
+  }
+
+  // fallback
+  return parsedDeck.pokemon[0] || parsedDeck.allCards[0];
+}
+
+function getBasePokemonName(name) {
+  return normalizeNameForPreview(name)
+    .replace(/\bex\b/g, "")
+    .replace(/\bvmax\b/g, "")
+    .replace(/\bvstar\b/g, "")
+    .replace(/\bv\b/g, "")
+    .replace(/\bmega\b/g, "")
+    .replace(/\bradiant\b/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function normalizeNameForPreview(name) {
+  return String(name)
+    .toLowerCase()
+
+    // REMOVE problematic prefixes
+    .replace(/\bn'?s\b/g, "")               // removes "n's" or "ns"
+    .replace(/team\s+rockets?/g, "")        // removes "team rocket" or "team rockets"
+
+    // normal cleanup
+    .replace(/[^\w\s]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 async function showExampleDeck(deckName) {
