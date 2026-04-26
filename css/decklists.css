@@ -450,3 +450,17 @@ button:hover {
     margin-top: 10px;
   }
 }
+
+.tournament-row {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 12px;
+  align-items: center;
+}
+
+.tournament-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}

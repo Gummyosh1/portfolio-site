@@ -22,12 +22,16 @@ const imageStatus = document.getElementById("imageStatus");
 
 const TOURNAMENT_LIMIT = 100;
 const MIN_PLAYERS = 20;
-const DAYS_TO_LOOK_BACK = 21;
+const DAYS_TO_LOOK_BACK = 7;
 const GAME = "PTCG";
 const FORMAT = "STANDARD";
 
 let savedStandings = [];
 let imageCache = {};
+
+let loadedTournaments = [];
+let standingsByTournamentId = {};
+let excludedTournamentIds = new Set();
 
 const LIMITLESS_TO_TCGDEX_SETS = {
   SVI: "sv01",
@@ -102,12 +106,17 @@ deckModal.addEventListener("click", event => {
 async function loadTopDecks() {
   deckGrid.innerHTML = "";
   savedStandings = [];
+  loadedTournaments = [];
+  standingsByTournamentId = {};
+  excludedTournamentIds = new Set();
+
   statusEl.textContent = "Loading recent tournaments...";
 
   try {
     const tournaments = await getRecentTournaments();
+    loadedTournaments = tournaments;
 
-    renderTournamentList(tournaments);
+    renderTournamentList(loadedTournaments);
 
     if (tournaments.length === 0) {
       statusEl.textContent = "No recent tournaments found.";
@@ -120,31 +129,50 @@ async function loadTopDecks() {
       const standings = await getTournamentStandings(tournament.id);
 
       standings.forEach(player => {
+        player.tournamentId = String(tournament.id);
         player.tournamentName = tournament.name;
         player.tournamentDate = tournament.date;
       });
 
-      savedStandings.push(...standings);
+      standingsByTournamentId[String(tournament.id)] = standings;
     }
 
-    const topDecks = calculateTopDecks(savedStandings);
+    recalculateDecks();
 
-    if (topDecks.length === 0) {
-      statusEl.textContent = "No deck data found.";
-      return;
-    }
-
-    renderDecks(topDecks);
-    statusEl.textContent = `Updated from ${tournaments.length} recent tournaments.`;
   } catch (error) {
     console.error(error);
     statusEl.textContent = "Could not load deck data. Check the console.";
   }
 }
 
+function recalculateDecks() {
+  savedStandings = [];
+
+  loadedTournaments.forEach(tournament => {
+    const id = String(tournament.id);
+
+    if (!excludedTournamentIds.has(id)) {
+      savedStandings.push(...(standingsByTournamentId[id] || []));
+    }
+  });
+
+  const topDecks = calculateTopDecks(savedStandings);
+
+  if (topDecks.length === 0) {
+    deckGrid.innerHTML = "";
+    statusEl.textContent = "No deck data found with the selected tournaments.";
+    return;
+  }
+
+  renderDecks(topDecks);
+
+  const activeCount = loadedTournaments.length - excludedTournamentIds.size;
+  statusEl.textContent = `Updated from ${activeCount} selected tournaments.`;
+}
+
 async function getRecentTournaments() {
   const qualified = [];
-  const maxPages = 30;
+  const maxPages = 10;
   const perPage = 50;
 
   const cutoffDate = new Date();
@@ -362,6 +390,7 @@ function normalizeNameForPreview(name) {
 
     // REMOVE problematic prefixes
     .replace(/\bn'?s\b/g, "")               // removes "n's" or "ns"
+    .replace(/\bcynthia'?s\b/g, "")               // removes "n's" or "ns"
     .replace(/team\s+rockets?/g, "")        // removes "team rocket" or "team rockets"
 
     // normal cleanup
@@ -803,19 +832,45 @@ function renderTournamentList(tournaments) {
   }
 
   tournamentList.innerHTML = tournaments.map(tournament => {
+    const id = String(tournament.id);
     const name = tournament.name || tournament.title || "Unknown Tournament";
     const players = tournament.players || tournament.player_count || tournament.numPlayers || "Unknown";
     const rawDate = tournament.date || tournament.startDate || tournament.start || "";
     const date = rawDate ? formatTournamentDate(rawDate) : "Unknown date";
+    const checked = excludedTournamentIds.has(id) ? "" : "checked";
 
     return `
       <div class="tournament-row">
+        <label class="tournament-toggle">
+          <input 
+            type="checkbox" 
+            class="tournament-checkbox" 
+            data-tournament-id="${escapeHtml(id)}"
+            ${checked}
+          >
+          <span>Use</span>
+        </label>
+
         <div class="tournament-name">${escapeHtml(name)}</div>
         <div class="tournament-date">${escapeHtml(date)}</div>
         <div class="tournament-players">${escapeHtml(players)} players</div>
       </div>
     `;
   }).join("");
+
+  document.querySelectorAll(".tournament-checkbox").forEach(checkbox => {
+    checkbox.addEventListener("change", event => {
+      const tournamentId = event.target.dataset.tournamentId;
+
+      if (event.target.checked) {
+        excludedTournamentIds.delete(tournamentId);
+      } else {
+        excludedTournamentIds.add(tournamentId);
+      }
+
+      recalculateDecks();
+    });
+  });
 }
 
 function formatTournamentDate(dateValue) {
