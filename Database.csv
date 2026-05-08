@@ -34,7 +34,7 @@ Anthea & Concordia,N/A,SUPPORTER,1,LEGALI,ANC
 Arven,N/A,SUPPORTER,3,LEGALG,ARVEN
 Billy & O'Nare,N/A,SUPPORTER,3,LEGALH,BILLYONARE
 Black Belt's Training,N/A,SUPPORTER,14,LEGALH,BBTRAINING
-Boss's Orders,N/A,SUPPORTER,5,LEGALI,BOSS
+Boss's Orders,N/A,SUPPORTER,1,LEGALI,BOSS
 Briar,N/A,SUPPORTER,2,LEGALH,BRIAR
 Brock's Scouting,N/A,SUPPORTER,14,LEGALI,BROCKS
 Carmine,N/A,SUPPORTER,6,LEGALH,CARMINE
@@ -83,7 +83,7 @@ Surfer,N/A,SUPPORTER,4,LEGALH,SURFER
 Team Rocket's Archer,N/A,SUPPORTER,6,LEGALI,TEAMRARCHER
 Team Rocket's Ariana,N/A,SUPPORTER,2,LEGALI,TEAMRARIANA
 Team Rocket's Giovanni,N/A,SUPPORTER,2,LEGALI,TEAMRGIOVANNI
-Team Rocket's Petrel,N/A,SUPPORTER,8,LEGALI,TEAMRPETREL
+Team Rocket's Petrel,N/A,SUPPORTER,4,LEGALI,TEAMRPETREL
 Team Rocket's Proton,N/A,SUPPORTER,2,LEGALI,TEAMRPROTON
 Tulip,N/A,SUPPORTER,2,LEGALG,TULIP
 Urbain,N/A,SUPPORTER,1,LEGALJ,URBAIN
@@ -126,8 +126,8 @@ Ogre's Mask,,ITEM,2,LEGALH,OGRESMASK
 Pal Pad,,ITEM,1,LEGALG,PALPAD
 Picnic Basket,,ITEM,3,LEGALG,PICNICBASKET
 Antique Plume Fossil,,ITEM,1,LEGALI,APLUMEFOSSIL
-Pokegear 3.0,,ITEM,10,LEGALG,POKEGEAR3
-Poke Pad,,ITEM,10,LEGALJ,POKEPAD
+Pokegear 3.0,,ITEM,8,LEGALG,POKEGEAR3
+Poke Pad,,ITEM,6,LEGALJ,POKEPAD
 Poke Vital A,ACE SPEC,ITEM,1,LEGALH,POKEVITALA
 Premium Power Pro,,ITEM,7,LEGALI,PREMIUMPOWERPRO
 Prime Catcher,ACE SPEC,ITEM,1,LEGALH,PRIMECATCHER
@@ -192,11 +192,11 @@ Lillie's Determination,N/A,SUPPORTER,2,LEGALI,lillie's-determination-supporter
 Lumiose City,N/A,STADIUM,4,LEGALJ,lumiose-city-stadium
 Core Memory,N/A,TOOL,7,LEGALJ,core-memory-tool
 Rocky Energy,N/A,ENERGY,6,LEGALJ,rocky-energy-energy
-Telepathic Energy,N/A,ENERGY,5,LEGALJ,telepathic-energy-energy
+Telepathic Energy,N/A,ENERGY,1,LEGALJ,telepathic-energy-energy
 Growing Energy,N/A,ENERGY,3,LEGALJ,growing-energy-energy
 Medical Energy,N/A,ENERGY,3,LEGALG,medical-energy-energy
 Team Rocket's Energy,N/A,ENERGY,4,LEGALI,team-rocket's-energy-energy
-Mist Energy,N/A,ENERGY,4,LEGALH,mist-energy-energy
+Mist Energy,N/A,ENERGY,1,LEGALH,mist-energy-energy
 Spiky Energy,N/A,ENERGY,5,LEGALI,spiky-energy-energy
 Jet Energy,N/A,ENERGY,3,LEGALG,jet-energy-energy
 Prism Energy,N/A,ENERGY,4,LEGALI,prism-energy-energy
