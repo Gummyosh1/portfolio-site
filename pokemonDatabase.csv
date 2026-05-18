@@ -123,7 +123,7 @@ Morpeko,PAR,dark,2,LEGALG,originalbox,morpeko-par
 Team Rocket's Weezing,DRI,dark,1,LEGALI,originalbox,team-rocket's-weezing-dri
 Mandibuzz,WHT,dark,1,LEGALI,originalbox,mandibuzz-wht
 Spiritomb,MEG,dark,8,LEGALI,originalbox,spiritomb-meg
-Yveltal,MEG,dark,7,LEGALI,originalbox,yveltal-meg
+Yveltal,MEG,dark,6,LEGALI,originalbox,yveltal-meg
 Victini,SSP,fire,1,LEGALH,originalbox,victini-ssp
 Ethan's Typhlosion,DRI,fire,3,LEGALI,originalbox,ethan's-typhlosion-dri
 Ethan's Quilava,DRI,fire,4,LEGALI,originalbox,ethan's-quilava-dri
@@ -1309,7 +1309,6 @@ Kyurem,SFA,dragon,1,LEGALH,secondbox,kyurem-sfa
 Houndour,PRE,dark,1,LEGALH,secondbox,houndour-pre
 Fezandipiti EX,SFA,dark,2,LEGALH,secondbox,fezandipiti-ex-sfa
 Zorua,SFA,dark,2,LEGALH,secondbox,zorua-sfa
-Pecharunt EX,SFA,dark,1,LEGALH,secondbox,pecharunt-ex-sfa
 Crobat,SFA,dark,1,LEGALH,secondbox,crobat-sfa
 Yveltal,SFA,dark,3,LEGALH,secondbox,yveltal-sfa
 Absol,SFA,dark,1,LEGALH,secondbox,absol-sfa
@@ -1328,8 +1327,8 @@ Genesect,SFA,metal,2,LEGALH,secondbox,genesect-sfa
 Cufant,SFA,metal,1,LEGALH,secondbox,cufant-sfa
 Varoom,SFA,metal,3,LEGALH,secondbox,varoom-sfa
 Copperajah,SFA,metal,1,LEGALH,secondbox,copperajah-sfa
-Jolteon,PRE,,1,LEGALG,secondbox,jolteon-pre
-Zebstrika,PAR,,1,LEGALG,secondbox,zebstrika-par
-Oricorio,PAR,,1,LEGALG,secondbox,oricorio-par
-Zekrom,PAR,,1,LEGALG,secondbox,zekrom-par
-Elekid,PAR,,2,LEGALG,secondbox,elekid-par
+Jolteon,PRE,electric,1,LEGALG,secondbox,jolteon-pre
+Zebstrika,PAR,electric,1,LEGALG,secondbox,zebstrika-par
+Oricorio,PAR,electric,1,LEGALG,secondbox,oricorio-par
+Zekrom,PAR,electric,1,LEGALG,secondbox,zekrom-par
+Elekid,PAR,electric,2,LEGALG,secondbox,elekid-par
