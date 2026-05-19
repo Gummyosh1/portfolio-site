@@ -221,7 +221,7 @@ Drilbur,SSP,fighting,1,LEGALH,originalbox,drilbur-ssp
 Gurdurr,BLK,fighting,2,LEGALI,originalbox,gurdurr-blk
 Drilbur,BLK,fighting,3,LEGALI,originalbox,drilbur-blk
 Excadrill EX,BLK,fighting,1,LEGALI,originalbox,excadrill-ex-blk
-Conkeldurr,BLK,fighting,2,LEGALI,originalbox,conkeldurr-blk
+Conkeldurr,BLK,fighting,3,LEGALI,originalbox,conkeldurr-blk
 Hawlucha,SVI,fighting,4,LEGALG,originalbox,hawlucha-svi
 Okidogi,TWM,fighting,2,LEGALH,originalbox,okidogi-twm
 Timburr,BLK,fighting,1,LEGALI,originalbox,timburr-blk
@@ -383,7 +383,7 @@ Slaking,PAL,normal,1,LEGALG,originalbox,slaking-pal
 Rookidee,PAL,normal,1,LEGALG,originalbox,rookidee-pal
 Noivern,JTG,normal,2,LEGALI,originalbox,noivern-jtg
 Vigoroth,SSP,normal,1,LEGALH,originalbox,vigoroth-ssp
-Hop's Snorlax,JTG,normal,4,LEGALI,originalbox,hop's-snorlax-jtg
+Hop's Snorlax,JTG,normal,5,LEGALI,originalbox,hop's-snorlax-jtg
 Drampa,TEF,normal,1,LEGALH,originalbox,drampa-tef
 Team Rocket's Persian EX,SVP,normal,1,LEGALI,originalbox,team-rocket's-persian-ex-svp
 Hoothoot,PRE,normal,4,LEGALH,originalbox,hoothoot-pre
@@ -470,7 +470,7 @@ N's Joltik,JTG,electric,3,LEGALI,originalbox,n's-joltik-jtg
 Morpeko,TWM,electric,5,LEGALH,originalbox,morpeko-twm
 Magnezone,SSP,electric,1,LEGALH,originalbox,magnezone-ssp
 Emolga,BLK,electric,1,LEGALI,originalbox,emolga-blk
-Eelektrik,BLK,electric,1,LEGALI,originalbox,eelektrik-blk
+Eelektrik,BLK,electric,2,LEGALI,originalbox,eelektrik-blk
 Tynamo,BLK,electric,4,LEGALI,originalbox,tynamo-blk
 Team Rocket's Mareep,DRI,electric,2,LEGALI,originalbox,team-rocket's-mareep-dri
 Eelektross,BLK,electric,1,LEGALI,originalbox,eelektross-blk
