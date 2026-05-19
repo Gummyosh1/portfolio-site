@@ -1264,7 +1264,7 @@ Hawlucha,PRE,normal,2,LEGALH,secondbox,hawlucha-pre
 Dunsparce,PRE,normal,1,LEGALH,secondbox,dunsparce-pre
 Dudunsparce,PRE,normal,1,LEGALH,secondbox,dudunsparce-pre
 Squawkabilly EX,PAL,normal,1,LEGALG,secondbox,squawkabilly-ex-pal
-Bloodmoon Ursaluna EX,TWM,normal,2,LEGALH,secondbox,bloodmoon-ursaluna-ex-twm
+Bloodmoon Ursaluna EX,TWM,normal,3,LEGALH,secondbox,bloodmoon-ursaluna-ex-twm
 Tandemaus,PAR,normal,2,LEGALG,secondbox,tandemaus-par
 Porygon2,PAR,normal,1,LEGALG,secondbox,porygon2-par
 Porygon,PAR,normal,1,LEGALG,secondbox,porygon-par
@@ -1332,3 +1332,4 @@ Zebstrika,PAR,electric,1,LEGALG,secondbox,zebstrika-par
 Oricorio,PAR,electric,1,LEGALG,secondbox,oricorio-par
 Zekrom,PAR,electric,1,LEGALG,secondbox,zekrom-par
 Elekid,PAR,electric,2,LEGALG,secondbox,elekid-par
+Meowth EX,POR,,1,LEGALJ,secondbox,meowth-ex-por
