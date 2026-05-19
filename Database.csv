@@ -218,7 +218,7 @@ Electric Generator,N/A,ITEM,2,LEGALG,electric-generator-item
 Poke Ball,N/A,ITEM,4,LEGALJ,poke-ball-item
 Pokemon Catcher,N/A,ITEM,4,LEGALJ,pokemon-catcher-item
 Trekking Shoes,N/A,ITEM,1,LEGALF,trekking-shoes-item
-Technical Machine: Turbo Energize,N/A,TOOL,1,LEGALG,technical-machine:-turbo-energize-tool
+Technical Machine: Turbo Energize,TM,TOOL,1,LEGALG,tm-turbo-energize-tool
 Cursed Duster,N/A,TOOL,1,LEGALG,cursed-duster-tool
 Bravery Charm,N/A,TOOL,2,LEGALG,bravery-charm-tool
 Academy at Night,N/A,STADIUM,2,LEGALH,academy-at-night-stadium
