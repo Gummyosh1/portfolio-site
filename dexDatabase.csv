@@ -108,7 +108,7 @@ number,name,set,index,buydata,image
 107,,,,,
 108,,,,,
 109,,,,,
-110,,,,,
+110,Weezing,dri,199,Bought at Hard Hittin card show at Foxwoods with Colbi late May 2026,weezing-dri-199
 111,,,,,
 112,,,,,
 113,,,,,
@@ -122,7 +122,7 @@ number,name,set,index,buydata,image
 121,Starmie,POR,102,Pulled from a pre release pack that connor went to for perfect order,starmie-por-102
 122,,,,,
 123,,,,,
-124,,,,,
+124,Jynx,sit,4,Bought at Hard Hittin card show at Foxwoods with Colbi late May 2026,jynx-sit-4
 125,,,,,
 126,,,,,
 127,,,,,
@@ -190,7 +190,7 @@ number,name,set,index,buydata,image
 189,,,,,
 190,,,,,
 191,,,,,
-192,,,,,
+192,Sunflora,twm,169,Bought at Hard Hittin card show at Foxwoods with Colbi late May 2026,sunflora-twm-169
 193,Yanma,DRI,183,Bought from unsettled geeks for my Bugs with Balloons deck that I never ended up playing,yanma-dri-183
 194,Wooper,pal,221,card show,wooper-pal-221
 195,,,,,
@@ -235,7 +235,7 @@ number,name,set,index,buydata,image
 234,,,,,
 235,,,,,
 236,,,,,
-237,,,,,
+237,Hitmontop,asc,240,Bought at Hard Hittin card show at Foxwoods with Colbi late May 2026,hitmontop-asc-240
 238,,,,,
 239,,,,,
 240,Magby,par,186,unsure,magby-par-186
@@ -349,7 +349,7 @@ number,name,set,index,buydata,image
 348,,,,,
 349,Feebas,ssp,198,unsure,feebas-ssp-198
 350,Milotic,ssp,217,connor pulled,milotic-ssp-217
-351,,,,,
+351,Castform,ssp,195,Bought at Hard Hittin card show at Foxwoods with Colbi late May 2026,castform-ssp-195
 352,,,,,
 353,,,,,
 354,,,,,
@@ -486,7 +486,7 @@ number,name,set,index,buydata,image
 485,,,,,
 486,,,,,
 487,,,,,
-488,,,,,
+488,Cresselia,sfa,71,Pulled from shrouded fable ETB on Connor's 21st birthday,cresselia-sfa-71
 489,,,,,
 490,,,,,
 491,,,,,
@@ -515,7 +515,7 @@ number,name,set,index,buydata,image
 514,,,,,
 515,,,,,
 516,Simipour,blk,102,unsure,simipour-blk-102
-517,,,,,
+517,Munna,blk,116,Pulled from Black Bolt ETB on Foxwoods cardshow day,munna-blk-116
 518,,,,,
 519,,,,,
 520,,,,,
@@ -533,10 +533,10 @@ number,name,set,index,buydata,image
 532,Timburr,twm,183,unsure,timburr-twm-183
 533,,,,,
 534,Conkeldurr,PGO,040,Pulled from a ETB I bought at Greg's on my birthday,conkeldurr-pgo-040
-535,,,,,
-536,,,,,
+535,Tympole,blk,103,Pulled from Black Bolt ETB on Foxwoods cardshow day,tympole-blk-103
+536,Palpitoad,blk,104,Pulled from Black Bolt ETB on Foxwoods cardshow day,palpitoad-blk-104
 537,,,,,
-538,,,,,
+538,Throh,blk,128,Bought at Hard Hittin card show at Foxwoods with Colbi late May 2026,throh-blk-128
 539,,,,,
 540,,,,,
 541,,,,,
@@ -654,7 +654,7 @@ number,name,set,index,buydata,image
 653,Fennekin,mep,080,ETB I got from a tabletop weekly night right before Chaos Rising release,fennekin-mep-080
 654,,,,,
 655,,,,,
-656,,,,,
+656,Froakie,cri,88,Pulled from Chaos Rising pokemon center booster bundle,froakie-cri-88
 657,,,,,
 658,,,,,
 659,,,,,
@@ -675,7 +675,7 @@ number,name,set,index,buydata,image
 674,,,,,
 675,,,,,
 676,,,,,
-677,,,,,
+677,Espurr,por,95,Bought at Hard Hittin card show at Foxwoods with Colbi late May 2026,espurr-por-95
 678,,,,,
 679,,,,,
 680,Doublade,POR,98,Pulled from a pack connor got for going 2-1 at perfect order pre release,doublade-por-98
@@ -685,7 +685,7 @@ number,name,set,index,buydata,image
 684,,,,,
 685,,,,,
 686,,,,,
-687,,,,,
+687,Malamar,sit,6,Bought at Hard Hittin card show at Foxwoods with Colbi late May 2026,malamar-sit-6
 688,,,,,
 689,,,,,
 690,,,,,
@@ -754,7 +754,7 @@ number,name,set,index,buydata,image
 753,,,,,
 754,,,,,
 755,,,,,
-756,,,,,
+756,Shiinotic,ssp,194,Bought at Hard Hittin card show at Foxwoods with Colbi late May 2026,shiinotic-ssp-194
 757,,,,,
 758,,,,,
 759,Stufful,meg,154,pulled,stufful-meg-154
@@ -763,7 +763,7 @@ number,name,set,index,buydata,image
 762,,,,,
 763,,,,,
 764,,,,,
-765,,,,,
+765,Oranguru,brs,12,Bought at Hard Hittin card show at Foxwoods with Colbi late May 2026,oranguru-brs-12
 766,,,,,
 767,,,,,
 768,,,,,
@@ -860,7 +860,7 @@ number,name,set,index,buydata,image
 859,,,,,
 860,,,,,
 861,,,,,
-862,,,,,
+862,Obstagoon,asc,245,Bought at Hard Hittin card show at Foxwoods with Colbi late May 2026,obstagoon-asc-245
 863,,,,,
 864,,,,,
 865,,,,,
@@ -868,7 +868,7 @@ number,name,set,index,buydata,image
 867,,,,,
 868,Milcery,scr,152,Bought for Colbi for Valentine's Day,milcery-scr-152
 869,,,,,
-870,,,,,
+870,Falinks,asr,7,Bought at hard hittin cardshow at Foxwoods with Colbi! We watched Spurs lose to the Thunder last night making it 2-1 in the series,falinks-asr-7
 871,,,,,
 872,,,,,
 873,Frosmoth,tg,4,unsure,frosmoth-tg-4
@@ -930,7 +930,7 @@ number,name,set,index,buydata,image
 929,Dolliv,SVI,200,Pulled from Koraidon ETB packs that Connor bought at Action Packed opening day,dolliv-svi-200
 930,,,,,
 931,,,,,
-932,,,,,
+932,Nacli,pal,220,Bought at Hard Hittin card show at Foxwoods with Colbi late May 2026,nacli-pal-220
 933,,,,,
 934,Garganacl,meg,147,Connor pulled from a Colbimon pack,garganacl-meg-147
 935,Charcadet,mep,022,Promo from phantasmal flames etb,charcadet-mep-022
@@ -973,7 +973,7 @@ number,name,set,index,buydata,image
 972,,,,,
 973,,,,,
 974,,,,,
-975,,,,,
+975,Cetitan,ssp,201,Bought at Hard Hittin card show at Foxwoods with Colbi late May 2026,cetitan-ssp-201
 976,Veluza,par,192,ho-oh deal,veluza-par-192
 977,Dondozo,svi,207,ho-oh deal i think,dondozo-svi-207
 978,,,,,
@@ -983,7 +983,7 @@ number,name,set,index,buydata,image
 982,Dudunsparce,jtg,178,pulled,dudunsparce-jtg-178
 983,,,,,
 984,,,,,
-985,,,,,
+985,Scream Tail,svp,65,ETB promo from Connor's birthday :],screamtail-svp-65
 986,,,,,
 987,,,,,
 988,,,,,
@@ -1002,9 +1002,9 @@ number,name,set,index,buydata,image
 1001,Wo-Chien,pal,232,unsure,wo-chien-pal-232
 1002,,,,,
 1003,,,,,
-1004,,,,,
+1004,Chi-Yu,pal,234,Bought at Hard Hittin card show at Foxwoods with Colbi late May 2026,chi-yu-pal-234
 1005,,,,,
-1006,,,,,
+1006,Iron Valiant,par,249,Pulled from paradox rift ETB on Connor's birthday,ironvaliant-par-249
 1007,Koraidon,SVP,14,promo card from Koraidon ETB connor bought from Action Packed opening day,koraidon-svp-14
 1008,,,,,
 1009,,,,,
@@ -1013,9 +1013,9 @@ number,name,set,index,buydata,image
 1012,Poltchageist,twm,171,unsure,poltchageist-twm-171
 1013,,,,,
 1014,,,,,
-1015,,,,,
+1015,Munkidori,sfa,83,pulled from ETB on Connor's 21st birthday,munkidori-sfa-83
 1016,,,,,
-1017,Ogerpon,svp,123,unsure,ogerpon-svp-123
+1017,Ogerpon,twm,190,Bought at Foxwoods card show,ogerpon-twm-190
 1018,Archaludon,scr,155,card show,archaludon-scr-155
 1019,,,,,
 1020,,,,,
@@ -1023,4 +1023,4 @@ number,name,set,index,buydata,image
 1022,,,,,
 1023,,,,,
 1024,,,,,
-1025,,,,,
+1025,Pecharunt,svp,129,Promo from etb connor got on his 21st birthday,pecharunt-svp-129
