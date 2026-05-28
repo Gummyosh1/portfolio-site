@@ -4,7 +4,7 @@ Crustle,DRI,grass,6,LEGALI,originalbox,crustle-dri
 Bulbasaur,MEG,grass,5,LEGALI,originalbox,bulbasaur-meg
 Karrablast,BLK,grass,4,LEGALI,originalbox,karrablast-blk
 Virizion,WHT,grass,2,LEGALI,originalbox,virizion-wht
-Budew,PRE,grass,12,LEGALH,originalbox,budew-pre
+Budew,PRE,grass,11,LEGALH,originalbox,budew-pre
 Shaymin,DRI,grass,3,LEGALI,originalbox,shaymin-dri
 Snivy,BLK,grass,5,LEGALI,originalbox,snivy-blk
 Simisage,BLK,grass,3,LEGALI,originalbox,simisage-blk
@@ -54,7 +54,7 @@ Crustle,PAR,grass,4,LEGALG,originalbox,crustle-par
 Scatterbug,SVI,grass,1,LEGALG,originalbox,scatterbug-svi
 Spinarak,TWM,grass,3,LEGALH,originalbox,spinarak-twm
 Latios,MEG,dragon,5,LEGALI,originalbox,latios-meg
-Tatsugiri,TWM,dragon,5,LEGALH,originalbox,tatsugiri-twm
+Tatsugiri,TWM,dragon,4,LEGALH,originalbox,tatsugiri-twm
 Miraidon,TEF,dragon,4,LEGALH,originalbox,miraidon-tef
 N's Reshiram,JTG,dragon,3,LEGALI,originalbox,n's-reshiram-jtg
 Tatsugiri,PAR,dragon,1,LEGALG,originalbox,tatsugiri-par
@@ -65,13 +65,13 @@ Appletun,SSP,dragon,1,LEGALH,originalbox,appletun-ssp
 Koraidon,TEF,dragon,2,LEGALH,originalbox,koraidon-tef
 Salamence EX,JTG,dragon,1,LEGALI,originalbox,salamence-ex-jtg
 Haxorus,BLK,dragon,3,LEGALI,originalbox,haxorus-blk
-Drakloak,PRE,dragon,7,LEGALH,originalbox,drakloak-pre
+Drakloak,PRE,dragon,5,LEGALH,originalbox,drakloak-pre
 Fraxure,BLK,dragon,5,LEGALI,originalbox,fraxure-blk
-Dreepy,PRE,dragon,9,LEGALH,originalbox,dreepy-pre
+Dreepy,PRE,dragon,5,LEGALH,originalbox,dreepy-pre
 Raging Bolt,SCR,dragon,1,LEGALH,originalbox,raging-bolt-scr
 Axew,BLK,dragon,2,LEGALI,originalbox,axew-blk
 Altaria,SSP,dragon,1,LEGALH,originalbox,altaria-ssp
-Drakloak,TWM,dragon,5,LEGALH,originalbox,drakloak-twm
+Drakloak,TWM,dragon,4,LEGALH,originalbox,drakloak-twm
 Raging Bolt EX,TEF,dragon,1,LEGALH,originalbox,raging-bolt-ex-tef
 Zweilous,WHT,dark,3,LEGALI,originalbox,zweilous-wht
 Deino,WHT,dark,1,LEGALI,originalbox,deino-wht
@@ -264,7 +264,7 @@ Tyrogue,MEG,fighting,5,LEGALI,originalbox,tyrogue-meg
 Slither Wing,PAR,fighting,2,LEGALG,originalbox,slither-wing-par
 Relicanth,TEF,fighting,1,LEGALH,originalbox,relicanth-tef
 Munkidori,TWM,psychic,6,LEGALH,originalbox,munkidori-twm
-Munkidori,PRE,psychic,9,LEGALH,originalbox,munkidori-pre
+Munkidori,PRE,psychic,8,LEGALH,originalbox,munkidori-pre
 Gardevoir EX,SVI,psychic,2,LEGALG,originalbox,gardevoir-ex-svi
 Jellicent EX,WHT,psychic,4,LEGALI,originalbox,jellicent-ex-wht
 Kirlia,MEG,psychic,5,LEGALI,originalbox,kirlia-meg
@@ -345,7 +345,7 @@ Fan Rotom,PRE,normal,11,LEGALH,originalbox,fan-rotom-pre
 Pidove,TEF,normal,2,LEGALH,originalbox,pidove-tef
 Hop's Cramorant,JTG,normal,6,LEGALI,originalbox,hop's-cramorant-jtg
 Hop's Wooloo,JTG,normal,4,LEGALI,originalbox,hop's-wooloo-jtg
-Dunsparce,JTG,normal,3,LEGALI,originalbox,dunsparce-jtg
+Dunsparce,JTG,normal,1,LEGALI,originalbox,dunsparce-jtg
 Komala,JTG,normal,5,LEGALI,originalbox,komala-jtg
 Hop's Rookidee,JTG,normal,4,LEGALI,originalbox,hop's-rookidee-jtg
 Cramorant,JTG,normal,2,LEGALH,originalbox,cramorant-jtg
@@ -353,14 +353,14 @@ Farigiraf,PAL,normal,2,LEGALG,originalbox,farigiraf-pal
 Slakoth,PAL,normal,2,LEGALG,originalbox,slakoth-pal
 Zangoose,SSP,normal,2,LEGALH,originalbox,zangoose-ssp
 Maushold,SSP,normal,1,LEGALH,originalbox,maushold-ssp
-Hop's Dubwool,JTG,normal,2,LEGALI,originalbox,hop's-dubwool-jtg
+Hop's Dubwool,JTG,normal,3,LEGALI,originalbox,hop's-dubwool-jtg
 Hop's Corvisquire,JTG,normal,6,LEGALI,originalbox,hop's-corvisquire-jtg
 Herdier,WHT,normal,2,LEGALI,originalbox,herdier-wht
 Tornadus,WHT,normal,2,LEGALI,originalbox,tornadus-wht
 Stoutland,WHT,normal,2,LEGALI,originalbox,stoutland-wht
 Bouffalant EX,WHT,normal,1,LEGALI,originalbox,bouffalant-ex-wht
 Dudunsparce EX,JTG,normal,1,LEGALI,originalbox,dudunsparce-ex-jtg
-Dudunsparce,TEF,normal,2,LEGALH,originalbox,dudunsparce-tef
+Dudunsparce,TEF,normal,1,LEGALH,originalbox,dudunsparce-tef
 Bouffalant,SCR,normal,3,LEGALH,originalbox,bouffalant-scr
 Regigigas,PRE,normal,5,LEGALH,originalbox,regigigas-pre
 Noctowl,PRE,normal,2,LEGALH,originalbox,noctowl-pre
@@ -784,7 +784,7 @@ Druddigon,WHT,dragon,1,LEGALI,secondbox,druddigon-wht
 Turtonator,SSP,dragon,2,LEGALH,secondbox,turtonator-ssp
 Applin,SSP,dragon,1,LEGALH,secondbox,applin-ssp
 Noibat,PAF,dragon,1,LEGALG,secondbox,noibat-paf
-Drakloak,ASC,dragon,1,LEGALH,secondbox,drakloak-asc
+Drakloak,ASC,dragon,0,LEGALH,secondbox,drakloak-asc
 Noibat,ASC,dragon,1,LEGALI,secondbox,noibat-asc
 Sandslash,MEG,fighting,7,LEGALI,secondbox,sandslash-meg
 Grapploct,SSP,fighting,3,LEGALH,secondbox,grapploct-ssp
@@ -1262,7 +1262,7 @@ Mew EX,MEW,psychic,1,LEGALG,secondbox,mew-ex-mew
 Gardevoir EX,PAF,psychic,1,LEGALG,secondbox,gardevoir-ex-paf
 Hawlucha,PRE,normal,2,LEGALH,secondbox,hawlucha-pre
 Dunsparce,PRE,normal,1,LEGALH,secondbox,dunsparce-pre
-Dudunsparce,PRE,normal,1,LEGALH,secondbox,dudunsparce-pre
+Dudunsparce,PRE,normal,0,LEGALH,secondbox,dudunsparce-pre
 Squawkabilly EX,PAL,normal,1,LEGALG,secondbox,squawkabilly-ex-pal
 Bloodmoon Ursaluna EX,TWM,normal,3,LEGALH,secondbox,bloodmoon-ursaluna-ex-twm
 Tandemaus,PAR,normal,2,LEGALG,secondbox,tandemaus-par
@@ -1301,7 +1301,7 @@ Psyduck,MEP,water,1,LEGALI,secondbox,psyduck-mep
 Suicune,PFL,water,1,LEGALI,secondbox,suicune-pfl
 Mamoswine,PFL,water,1,LEGALI,secondbox,mamoswine-pfl
 Glaceon EX,PRE,water,1,LEGALH,secondbox,glaceon-ex-pre
-Dragapult EX,TWM,dragon,4,LEGALH,secondbox,dragapult-ex-twm
+Dragapult EX,TWM,dragon,1,LEGALH,secondbox,dragapult-ex-twm
 Haxorus,SFA,dragon,2,LEGALH,secondbox,haxorus-sfa
 Axew,SFA,dragon,2,LEGALH,secondbox,axew-sfa
 Fraxure,SFA,dragon,2,LEGALH,secondbox,fraxure-sfa
@@ -1332,7 +1332,7 @@ Zebstrika,PAR,electric,1,LEGALG,secondbox,zebstrika-par
 Oricorio,PAR,electric,1,LEGALG,secondbox,oricorio-par
 Zekrom,PAR,electric,1,LEGALG,secondbox,zekrom-par
 Elekid,PAR,electric,2,LEGALG,secondbox,elekid-par
-Meowth EX,POR,normal,2,LEGALJ,secondbox,meowth-ex-por
+Meowth EX,POR,normal,1,LEGALJ,secondbox,meowth-ex-por
 Phantump,CRI,psychic,2,LEGALJ,secondbox,phantump-cri
 Deoxys 31,CRI,psychic,2,LEGALJ,secondbox,deoxys-31-cri
 Pumpkaboo,CRI,psychic,3,LEGALJ,secondbox,pumpkaboo-cri
