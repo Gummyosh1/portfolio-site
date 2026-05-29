@@ -1,7 +1,7 @@
 import csv
 import os
 
-CSV_FILE = "../dexDatabase.csv"
+CSV_FILE = "../pokemonDatabase/dexDatabase.csv"
 
 FIELDS = ["number", "name", "set", "index", "buydata", "image"]
 INPUT_FIELDS = ["number", "name", "set", "index", "buydata"]
