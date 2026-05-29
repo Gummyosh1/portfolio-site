@@ -12,7 +12,7 @@ let allCards = [];
 let bulkCards = [];
 
 // Load CSV and build cards
-fetch("Database.csv")
+fetch("pokemonDatabase/Database.csv")
   .then((response) => response.text())
   .then((csvText) => {
     allCards = parseCSV(csvText);
@@ -145,7 +145,7 @@ loadBulkButton.addEventListener("click", function () {
     searchButton.style.display = "inline-block";
   }
   if (trainerActive && !pokemonInit){
-    fetch("pokemonDatabase.csv")
+    fetch("pokemonDatabase/pokemonDatabase.csv")
       .then((responseBulk) => responseBulk.text())
       .then((csvTextBulk) => {
         bulkCards = parseCSV(csvTextBulk);

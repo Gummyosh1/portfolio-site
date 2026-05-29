@@ -1,7 +1,7 @@
 import csv
 import os
 
-CSV_FILE = "pokemonDatabase.csv"
+CSV_FILE = "../pokemonDatabase.csv"
 
 FIELDNAMES = ["name", "set", "number", "quantity", "legality", "storage", "image"]
 

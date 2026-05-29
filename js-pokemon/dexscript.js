@@ -6,7 +6,7 @@ const searchButton = document.querySelector("#searchButton");
 let allCards = [];
 
 // Load CSV and build cards
-fetch("dexDatabase.csv")
+fetch("pokemonDatabase/dexDatabase.csv")
   .then((response) => response.text())
   .then((csvText) => {
     allCards = parseCSV(csvText);
