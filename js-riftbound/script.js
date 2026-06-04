@@ -18,25 +18,27 @@ let activeType = "all";
 init();
 
 async function init() {
+  statusMessage.textContent = "Loading your CSV and Riot card data...";
+
+  inventoryCards = await loadInventoryCSV();
+
+  let riotContent = null;
+
   try {
-    statusMessage.textContent = "Loading your CSV and Riot card data...";
-
-    const [csvCards, riotContent] = await Promise.all([
-      loadInventoryCSV(),
-      loadRiotContent()
-    ]);
-
-    inventoryCards = csvCards;
+    riotContent = await loadRiotContent();
     riotCards = flattenRiotCards(riotContent);
-    mergedCards = mergeInventoryWithRiotData(inventoryCards, riotCards);
-
-    updateContentVersion(riotContent);
-    applyFilters();
-    statusMessage.textContent = `Loaded ${inventoryCards.length} inventory rows and ${riotCards.length} Riot cards.`;
   } catch (error) {
-    console.error(error);
-    statusMessage.textContent = "Something failed to load. Check the console and make sure your CSV path and Vercel API are correct.";
+    console.warn("Riot content unavailable, continuing with local inventory only.", error);
+    riotCards = [];
   }
+
+  mergedCards = mergeInventoryWithRiotData(inventoryCards, riotCards);
+  updateContentVersion(riotContent);
+  applyFilters();
+
+  statusMessage.textContent = riotCards.length
+    ? `Loaded ${inventoryCards.length} inventory rows and ${riotCards.length} Riot cards.`
+    : `Loaded ${inventoryCards.length} inventory rows. Riot data unavailable; showing local inventory only.`;
 }
 
 async function loadInventoryCSV() {
@@ -112,6 +114,7 @@ function normalizeInventoryCard(card) {
     set: card.set || card.setid || "",
     collectorNumber: card.collectornumber || card.number || card.cardnumber || "",
     quantity: Number.parseInt(card.quantity || card.qty || "0", 10) || 0,
+    image: card.image || card.img || "",
     notes: card.notes || ""
   };
 }
@@ -254,6 +257,25 @@ function typeMatchesFilter(cardType, filterType) {
   return cleanType.includes(filterType);
 }
 
+function getCardImageURL(card) {
+  const localImage = getLocalCSVImage(card);
+  const fallbackImage = "riftbound-images/loose-cannon.avif";
+
+  // Use CSV local images first while not relying on Riot art.
+  return localImage || fallbackImage;
+
+  // Later, when you want Riot art first, use this instead:
+  // return card.art?.thumbnailURL || card.art?.fullURL || localImage || fallbackImage;
+}
+
+function getLocalCSVImage(card) {
+  if (!card.image) {
+    return "";
+  }
+
+  return `riftbound-images/${card.image}`;
+}
+
 function renderCards(cards) {
   cardRow.innerHTML = "";
 
@@ -269,7 +291,7 @@ function renderCards(cards) {
   let html = "";
 
   sortedCards.forEach((card) => {
-    const imageURL = card.art?.thumbnailURL || card.art?.fullURL || "";
+    const imageURL = getCardImageURL(card);
     const stats = formatStats(card.stats);
     const keywords = card.keywords.length ? card.keywords.join(", ") : "None";
     const missingClass = card.riot ? "" : "missing-riot-data";
