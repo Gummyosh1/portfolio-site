@@ -1,0 +1,106 @@
+const searchBar = document.querySelector(".searchBar");
+const cardRow = document.getElementById("cardRow");
+const noResults = document.getElementById("noResults");
+const totalCardCount = document.getElementById("totalCardCount");
+const filterButtons = document.querySelectorAll(".filter-button");
+let allCards = [];
+let activeFilter = "All";
+
+fetch("riftbound/cards.csv")
+  .then((response) => response.text())
+  .then((csvText) => {
+    allCards = parseCSV(csvText);
+    renderCards(allCards);
+    updateTotalCardCount(allCards);
+  })
+  .catch((error) => {
+    console.error("Error loading CSV:", error);
+  });
+
+function parseCSV(csvText) {
+  const lines = csvText.trim().split("\n");
+  const headers = lines[0].split(",").map((header) => header.trim());
+
+  return lines.slice(1).map((line) => {
+    const values = line.split(",");
+    const card = {};
+
+    headers.forEach((header, index) => {
+      card[header] = values[index]?.trim() || "";
+    });
+
+    return card;
+  });
+}
+
+function renderCards(cards) {
+  const filteredCards = cards.filter((card) => {
+    const matchesType = activeFilter === "All" || card.type === activeFilter;
+    const searchText = searchBar.value.toLowerCase().trim();
+
+    const matchesSearch = searchText === "" ||
+      `${card.name} ${card.set} ${card.collectorNumber} ${card.type}`.toLowerCase().includes(searchText);
+
+    return matchesType && matchesSearch;
+  });
+
+  const sortedCards = sortCardsByNumber(filteredCards);
+
+  if (sortedCards.length === 0) {
+    cardRow.innerHTML = "";
+    noResults.style.display = "block";
+    return;
+  }
+
+  noResults.style.display = "none";
+
+  cardRow.innerHTML = sortedCards.map((card) => {
+    return `
+      <div class="col-6 col-md-4 col-lg-3 card-wrapper"
+           data-name="${card.name.toLowerCase()}"
+           data-set="${card.set.toLowerCase()}"
+           data-number="${card.collectorNumber.toLowerCase()}"
+           data-type="${card.type.toLowerCase()}">
+        <div class="card-custom">
+          <img src="riftbound-images/${card.image}" class="card-img" alt="${card.name}">
+        </div>
+        <div class="card-caption">
+          <strong>${card.name}</strong><br>
+          Quantity: ${card.quantity}<br>
+          Type: ${card.type}
+        </div>
+      </div>
+    `;
+  }).join("");
+}
+
+function sortCardsByNumber(cards) {
+  return [...cards].sort((a, b) => {
+    if (a.collectorNumber && b.collectorNumber) {
+      return a.collectorNumber.localeCompare(b.collectorNumber, undefined, { numeric: true });
+    }
+    return a.name.localeCompare(b.name);
+  });
+}
+
+function updateTotalCardCount(cards) {
+  const total = cards.reduce((sum, card) => {
+    const qty = parseInt(card.quantity, 10);
+    return sum + (isNaN(qty) ? 0 : qty);
+  }, 0);
+
+  totalCardCount.textContent = `Total Cards: ${total}`;
+}
+
+searchBar.addEventListener("input", () => {
+  renderCards(allCards);
+});
+
+filterButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    filterButtons.forEach((btn) => btn.classList.remove("active"));
+    button.classList.add("active");
+    activeFilter = button.getAttribute("data-filter");
+    renderCards(allCards);
+  });
+});
