@@ -29,6 +29,9 @@ function parseCSV(csvText) {
       card[header] = values[index]?.trim() || "";
     });
 
+    card.altArt = (card.altArt || "false").toLowerCase() === "true";
+    card.overnumbered = (card.overnumbered || "false").toLowerCase() === "true";
+
     return card;
   });
 }
@@ -39,7 +42,7 @@ function renderCards(cards) {
     const searchText = searchBar.value.toLowerCase().trim();
 
     const matchesSearch = searchText === "" ||
-      `${card.name} ${card.set} ${card.collectorNumber} ${card.type}`.toLowerCase().includes(searchText);
+      `${card.name} ${card.set} ${card.type} ${card.color} ${card.altArt ? "alt art" : ""} ${card.overnumbered ? "overnumbered" : ""}`.toLowerCase().includes(searchText);
 
     return matchesType && matchesSearch;
   });
@@ -55,19 +58,23 @@ function renderCards(cards) {
   noResults.style.display = "none";
 
   cardRow.innerHTML = sortedCards.map((card) => {
+    const flags = [];
+    if (card.altArt) flags.push("Alt Art");
+    if (card.overnumbered) flags.push("Overnumbered");
+
     return `
       <div class="col-6 col-md-4 col-lg-3 card-wrapper"
            data-name="${card.name.toLowerCase()}"
            data-set="${card.set.toLowerCase()}"
-           data-number="${card.collectorNumber.toLowerCase()}"
-           data-type="${card.type.toLowerCase()}">
+           data-type="${card.type.toLowerCase()}"
+           data-color="${(card.color || "").toLowerCase()}">
         <div class="card-custom">
           <img src="riftbound-images/${card.image}" class="card-img" alt="${card.name}">
         </div>
         <div class="card-caption">
           <strong>${card.name}</strong><br>
           Quantity: ${card.quantity}<br>
-          Type: ${card.type}
+          Type: ${card.type}${flags.length ? `<br>${flags.join(" | ")}` : ""}
         </div>
       </div>
     `;
@@ -76,9 +83,6 @@ function renderCards(cards) {
 
 function sortCardsByNumber(cards) {
   return [...cards].sort((a, b) => {
-    if (a.collectorNumber && b.collectorNumber) {
-      return a.collectorNumber.localeCompare(b.collectorNumber, undefined, { numeric: true });
-    }
     return a.name.localeCompare(b.name);
   });
 }

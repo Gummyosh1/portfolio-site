@@ -1,10 +1,22 @@
-name,set,collectorNumber,quantity,type,notes,image
-Pridestalker,SET3,1,2,Legend,lol,pridestalker.avif
-Pridestalker Alt Signed,SET1,2,1,Legend,I don't actually own this but it would be cool if I did,pridestalker-alt-signed.avif
-Pridestalker Alt,SET1,3,4,Legend,Fortnite amongus,pridestalker-alt.avif
-Rengar Pouncing,SET1,4,1,Unit,,rengar-pouncing.avif
-Rengar Trophy Hunter,SET1,5,1,Unit,,rengar-trophy-hunter.avif
-Rengar Trophy Hunter Alt,SET1,6,1,Unit,,rengar-trophy-hunter-alt.avif
-Rengar Unseen,SET1,7,1,Unit,,rengar-unseen.avif
-Rengar Unseen Alt,SET1,8,1,Unit,,rengar-unseen-alt.avif
-Thrill of the Hunt,SET1,9,1,Spell,,thrill-of-the-hunt.avif
+name,set,quantity,type,color,altArt,overnumbered,image
+Scuttle Crab,UNL,1,UNIT,CALM,false,false,scuttle-crab-unl.avif
+Frisky Hunter,UNL,3,UNIT,CALM,false,false,frisky-hunter-unl.avif
+Wuju Apprentice,UNL,4,UNIT,CALM,false,false,wuju-apprentice-unl.avif
+Trevor Snoozebottom,UNL,2,UNIT,CALM,false,false,trevor-snoozebottom-unl.avif
+Monch,UNL,3,UNIT,CALM,false,false,monch-unl.avif
+Shadow Watcher,UNL,3,UNIT,CALM,false,false,shadow-watcher-unl.avif
+Lillia Protector of Dreams,UNL,1,UNIT,CALM,false,false,lillia-protector-of-dreams-unl.avif
+Herald of Spring,UNL,2,UNIT,CALM,false,false,herald-of-spring-unl.avif
+Vex Mocking,UNL,1,UNIT,CALM,false,false,vex-mocking-unl.avif
+Mutated Mouser,UNL,3,UNIT,CALM,false,false,mutated-mouser-unl.avif
+Allay Eager Admirer,UNL,1,UNIT,CALM,false,false,allay-eager-admirer-unl.avif
+Yuumi Magical Cat,UNL,1,UNIT,CALM,false,false,yuumi-magical-cat-unl.avif
+Mosstomper,UNL,1,UNIT,CALM,false,false,mosstomper-unl.avif
+Back Off,UNL,2,SPELL,CALM,false,false,back-off-unl.avif
+Skyward Strike,UNL,3,SPELL,CALM,false,false,skyward-strike-unl.avif
+Double Trouble,UNL,3,SPELL,CALM,false,false,double-trouble-unl.avif
+Friendship,UNL,1,SPELL,CALM,false,false,friendship-unl.avif
+Combat Experience,UNL,3,SPELL,CALM,false,false,combat-experience-unl.avif
+Flurry of Feathers,UNL,1,SPELL,CALM,false,false,flurry-of-feathers-unl.avif
+Honeyfruit,UNL,1,GEAR,CALM,false,false,honeyfruit-unl.avif
+Soul Sword,UNL,3,GEAR,CALM,false,false,soul-sword-unl.avif
