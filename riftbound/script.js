@@ -38,7 +38,7 @@ function parseCSV(csvText) {
 
 function renderCards(cards) {
   const filteredCards = cards.filter((card) => {
-    const matchesType = activeFilter === "All" || card.type === activeFilter;
+    const matchesType = activeFilter === "All" || card.type.toLowerCase() === activeFilter.toLowerCase();
     const searchText = searchBar.value.toLowerCase().trim();
 
     const matchesSearch = searchText === "" ||
@@ -69,7 +69,7 @@ function renderCards(cards) {
            data-type="${card.type.toLowerCase()}"
            data-color="${(card.color || "").toLowerCase()}">
         <div class="card-custom">
-          <img src="riftbound-images/${card.image}" class="card-img" alt="${card.name}">
+          <img src="riftbound-images/${card.image}" class="card-img${(card.type||'').toLowerCase() === 'battlefield' ? ' rotate-90' : ''}" alt="${card.name}">
         </div>
         <div class="card-caption">
           <strong>${card.name}</strong><br>
@@ -82,6 +82,36 @@ function renderCards(cards) {
 }
 
 function sortCardsByNumber(cards) {
+  if (activeFilter === "All") {
+    const typePriority = {
+      unit: 1,
+      spell: 2,
+      legend: 3,
+      rune: 4,
+      gear: 5,
+      battlefield: 6,
+      token: 7,
+    };
+
+    return [...cards].sort((a, b) => {
+      const colorA = (a.color || "").split("&")[0].trim().toLowerCase();
+      const colorB = (b.color || "").split("&")[0].trim().toLowerCase();
+      if (colorA !== colorB) {
+        return colorA.localeCompare(colorB);
+      }
+
+      const typeA = (a.type || "").toLowerCase();
+      const typeB = (b.type || "").toLowerCase();
+      const priorityA = typePriority[typeA] ?? 99;
+      const priorityB = typePriority[typeB] ?? 99;
+      if (priorityA !== priorityB) {
+        return priorityA - priorityB;
+      }
+
+      return a.name.localeCompare(b.name);
+    });
+  }
+
   return [...cards].sort((a, b) => {
     return a.name.localeCompare(b.name);
   });

@@ -23,6 +23,19 @@ def prompt_bool(prompt: str) -> bool:
         print("Please enter y or n.")
 
 
+ALLOWED_COLORS = {"CALM", "FURY", "MIND", "BODY", "CHAOS", "ORDER", "NONE"}
+
+
+def normalize_color_input(color_input: str) -> str:
+    parts = re.split(r"[&,;\s]+", color_input)
+    normalized = []
+    for part in parts:
+        value = part.strip().upper()
+        if value and value not in normalized:
+            normalized.append(value)
+    return "&".join(normalized)
+
+
 def load_cards() -> list[dict[str, str]]:
     if not CSV_PATH.exists():
         return []
@@ -44,7 +57,7 @@ def normalize_card_key(card: dict[str, str]) -> tuple[str, str, str, str, str, s
         card["name"].strip().lower(),
         card["set"].strip().lower(),
         card["type"].strip().lower(),
-        card["color"].strip().lower(),
+        normalize_color_input(card.get("color", "")) or "",
         str(card["altArt"]).strip().lower(),
         str(card["overnumbered"]).strip().lower(),
     )
@@ -67,21 +80,25 @@ def build_image_filename(name: str, set_code: str, alt_art: bool, overnumbered: 
     return f"{image}.avif"
 
 
-ALLOWED_COLORS = {"CALM", "FURY", "MIND", "BODY", "CHAOS", "ORDER"}
-
 def main() -> None:
     print("Add or update Riftbound card entries")
     print("Set is fixed to UNL, and altArt/overnumbered are both false by default.")
     print("Type 'exit' for card name to quit.\n")
 
     while True:
-        card_color = input("Color for this session (calm, fury, mind, body, chaos, order): ").strip().upper()
+        card_color = input("Color(s) for this session (calm, fury, mind, body, chaos, order; separate with &, comma, semicolon, or space): ").strip()
         if not card_color:
             print("Color cannot be empty.")
             continue
-        if card_color not in ALLOWED_COLORS:
-            print("Color must be one of: calm, fury, mind, body, chaos, order.")
+        normalized_color = normalize_color_input(card_color)
+        if not normalized_color:
+            print("Color cannot be empty.")
             continue
+        invalid = [c for c in normalized_color.split("&") if c not in ALLOWED_COLORS]
+        if invalid:
+            print(f"Invalid color(s): {', '.join(invalid)}. Must be one of: calm, fury, mind, body, chaos, order.")
+            continue
+        card_color = normalized_color
         break
 
     while True:
@@ -113,7 +130,7 @@ def main() -> None:
             "set": set_code,
             "quantity": "1",
             "type": card_type,
-            "color": card_color,
+            "color": normalize_color_input(card_color),
             "altArt": str(alt_art).lower(),
             "overnumbered": str(overnumbered).lower(),
             "image": image,

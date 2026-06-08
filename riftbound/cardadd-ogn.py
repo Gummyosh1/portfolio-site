@@ -82,6 +82,7 @@ def build_image_filename(name: str, set_code: str, alt_art: bool, overnumbered: 
 
 def main() -> None:
     print("Add or update Riftbound card entries")
+    print("Set is fixed to OGN, and altArt/overnumbered are both false by default.")
     print("Type 'exit' for card name to quit.\n")
 
     while True:
@@ -101,6 +102,15 @@ def main() -> None:
         break
 
     while True:
+        card_type = input("Type for this session (Legend/Unit/Rune/Spell/Gear/Battlefield/Token): ").strip().upper()
+        if not card_type:
+            print("Type cannot be empty.")
+            continue
+        break
+
+    set_code = "OGN"
+
+    while True:
         name = input("Card name (or 'exit'): ").strip()
         if name.lower() == "exit":
             print("Done!")
@@ -109,23 +119,8 @@ def main() -> None:
             print("Card name cannot be empty.")
             continue
 
-        while True:
-            set_code = input("Set (3 letters): ").strip().upper()
-            if not set_code:
-                print("Set cannot be empty.")
-                continue
-            if len(set_code) != 3:
-                print("Set must be exactly 3 letters.")
-                continue
-            break
-
-        card_type = input("Type (Legend/Unit/Rune/Spell/Gear/Battlefield/Token): ").strip().upper()
-        if not card_type:
-            print("Type cannot be empty.")
-            continue
-
-        alt_art = prompt_bool("Alt art?")
-        overnumbered = prompt_bool("Overnumbered?")
+        alt_art = False
+        overnumbered = False
 
         image = build_image_filename(name, set_code, alt_art, overnumbered)
 
