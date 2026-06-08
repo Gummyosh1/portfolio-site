@@ -186,7 +186,7 @@ Archaludon,SCR,metal,5,LEGALH,originalbox,archaludon-scr
 Doublade 132,PAR,metal,1,LEGALG,originalbox,doublade-par-132
 Honedge,PAR,metal,2,LEGALG,originalbox,honedge-par
 Jirachi,PAR,metal,1,LEGALG,originalbox,jirachi-par
-Duraludon,SCR,metal,3,LEGALH,originalbox,duraludon-scr
+Duraludon,SCR,metal,0,LEGALH,originalbox,duraludon-scr
 Ferroseed,WHT,metal,3,LEGALI,originalbox,ferroseed-wht
 Durant,WHT,metal,2,LEGALI,originalbox,durant-wht
 Alolan Dugtrio,SSP,metal,1,LEGALH,originalbox,alolan-dugtrio-ssp
@@ -197,7 +197,7 @@ Pawniard,BLK,metal,2,LEGALI,originalbox,pawniard-blk
 Tinkatuff,MEG,metal,4,LEGALI,originalbox,tinkatuff-meg
 Revavroom,TWM,metal,1,LEGALH,originalbox,revavroom-twm
 Steven's Metagross EX,DRI,metal,1,LEGALI,originalbox,steven's-metagross-ex-dri
-Archaludon EX,SSP,metal,5,LEGALH,originalbox,archaludon-ex-ssp
+Archaludon EX,SSP,metal,1,LEGALH,originalbox,archaludon-ex-ssp
 Hop's Zacian EX,JTG,metal,2,LEGALI,originalbox,hop's-zacian-ex-jtg
 Duraludon,SSP,metal,1,LEGALH,originalbox,duraludon-ssp
 Magearna,JTG,metal,1,LEGALI,originalbox,magearna-jtg
@@ -262,7 +262,7 @@ Lunatone,MEG,fighting,8,LEGALI,originalbox,lunatone-meg
 Solrock,MEG,fighting,15,LEGALI,originalbox,solrock-meg
 Tyrogue,MEG,fighting,5,LEGALI,originalbox,tyrogue-meg
 Slither Wing,PAR,fighting,2,LEGALG,originalbox,slither-wing-par
-Relicanth,TEF,fighting,1,LEGALH,originalbox,relicanth-tef
+Relicanth,TEF,fighting,0,LEGALH,originalbox,relicanth-tef
 Munkidori,TWM,psychic,6,LEGALH,originalbox,munkidori-twm
 Munkidori,PRE,psychic,8,LEGALH,originalbox,munkidori-pre
 Gardevoir EX,SVI,psychic,2,LEGALG,originalbox,gardevoir-ex-svi
@@ -763,16 +763,16 @@ Steven's Beldum,DRI,metal,1,LEGALI,secondbox,steven's-beldum-dri
 Bronzong,PFL,metal,2,LEGALI,secondbox,bronzong-pfl
 Bronzor,PFL,metal,2,LEGALI,secondbox,bronzor-pfl
 Skarmory,DRI,metal,1,LEGALI,secondbox,skarmory-dri
-Archaludon,PFL,metal,6,LEGALI,secondbox,archaludon-pfl
+Archaludon,PFL,metal,5,LEGALI,secondbox,archaludon-pfl
 Togedemaru,PFL,metal,2,LEGALI,secondbox,togedemaru-pfl
-Mega Mawile EX,MEG,metal,2,LEGALI,secondbox,mega-mawile-ex-meg
+Mega Mawile EX,MEG,metal,1,LEGALI,secondbox,mega-mawile-ex-meg
 Aron,TWM,metal,2,LEGALH,secondbox,aron-twm
 Lairon,TWM,metal,1,LEGALH,secondbox,lairon-twm
 Skarmory,TWM,metal,1,LEGALH,secondbox,skarmory-twm
 Gholdengo,MEG,metal,6,LEGALI,secondbox,gholdengo-meg
 Dialga,MEG,metal,4,LEGALI,secondbox,dialga-meg
 Mawile,ASC,metal,1,LEGALJ,secondbox,mawile-asc
-Duraludon,PFL,metal,3,LEGALI,secondbox,duraludon-pfl
+Duraludon,PFL,metal,2,LEGALI,secondbox,duraludon-pfl
 Kingambit,ASC,metal,1,LEGALI,secondbox,kingambit-asc
 Tinkaton,MEG,metal,6,LEGALI,secondbox,tinkaton-meg
 Mega Latias EX,MEG,dragon,2,LEGALI,secondbox,mega-latias-ex-meg
@@ -1307,7 +1307,7 @@ Axew,SFA,dragon,2,LEGALH,secondbox,axew-sfa
 Fraxure,SFA,dragon,2,LEGALH,secondbox,fraxure-sfa
 Kyurem,SFA,dragon,1,LEGALH,secondbox,kyurem-sfa
 Houndour,PRE,dark,1,LEGALH,secondbox,houndour-pre
-Fezandipiti EX,SFA,dark,2,LEGALH,secondbox,fezandipiti-ex-sfa
+Fezandipiti EX,SFA,dark,1,LEGALH,secondbox,fezandipiti-ex-sfa
 Zorua,SFA,dark,2,LEGALH,secondbox,zorua-sfa
 Crobat,SFA,dark,1,LEGALH,secondbox,crobat-sfa
 Yveltal,SFA,dark,3,LEGALH,secondbox,yveltal-sfa
@@ -1332,7 +1332,7 @@ Zebstrika,PAR,electric,1,LEGALG,secondbox,zebstrika-par
 Oricorio,PAR,electric,1,LEGALG,secondbox,oricorio-par
 Zekrom,PAR,electric,1,LEGALG,secondbox,zekrom-par
 Elekid,PAR,electric,2,LEGALG,secondbox,elekid-par
-Meowth EX,POR,normal,1,LEGALJ,secondbox,meowth-ex-por
+Meowth EX,POR,normal,0,LEGALJ,secondbox,meowth-ex-por
 Phantump,CRI,psychic,2,LEGALJ,secondbox,phantump-cri
 Deoxys 31,CRI,psychic,2,LEGALJ,secondbox,deoxys-31-cri
 Pumpkaboo,CRI,psychic,3,LEGALJ,secondbox,pumpkaboo-cri

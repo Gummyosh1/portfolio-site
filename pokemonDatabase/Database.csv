@@ -1,5 +1,5 @@
 name,set,number,quantity,legality,image
-Air Balloon,N/A,TOOL,8,LEGALI,AIRBALLOON
+Air Balloon,N/A,TOOL,6,LEGALI,AIRBALLOON
 Thick Scale,N/A,TOOL,1,LEGALI,THICKSCALE
 Technical Machine: Evolution,TM,TOOL,9,LEGALG,TMEVO
 Technical Machine: Devolution,TM,TOOL,5,LEGALG,TMDEVO
@@ -33,11 +33,11 @@ Amarys,N/A,SUPPORTER,1,LEGALH,AMARYS
 Anthea & Concordia,N/A,SUPPORTER,1,LEGALI,ANC
 Arven,N/A,SUPPORTER,16,LEGALG,ARVEN
 Billy & O'Nare,N/A,SUPPORTER,3,LEGALH,BILLYONARE
-Black Belt's Training,N/A,SUPPORTER,18,LEGALH,BBTRAINING
-Boss's Orders,N/A,SUPPORTER,8,LEGALI,BOSS
+Black Belt's Training,N/A,SUPPORTER,17,LEGALH,BBTRAINING
+Boss's Orders,N/A,SUPPORTER,5,LEGALI,BOSS
 Briar,N/A,SUPPORTER,4,LEGALH,BRIAR
 Brock's Scouting,N/A,SUPPORTER,18,LEGALI,BROCKS
-Carmine,N/A,SUPPORTER,9,LEGALH,CARMINE
+Carmine,N/A,SUPPORTER,5,LEGALH,CARMINE
 Ciphermaniac's Codebreaking,N/A,SUPPORTER,11,LEGALH,CIPHER
 Clavell,N/A,SUPPORTER,1,LEGALG,CLAVELL
 Clive,N/A,SUPPORTER,1,LEGALG,CLIVE
@@ -83,7 +83,7 @@ Surfer,N/A,SUPPORTER,4,LEGALH,SURFER
 Team Rocket's Archer,N/A,SUPPORTER,6,LEGALI,TEAMRARCHER
 Team Rocket's Ariana,N/A,SUPPORTER,3,LEGALI,TEAMRARIANA
 Team Rocket's Giovanni,N/A,SUPPORTER,2,LEGALI,TEAMRGIOVANNI
-Team Rocket's Petrel,N/A,SUPPORTER,5,LEGALI,TEAMRPETREL
+Team Rocket's Petrel,N/A,SUPPORTER,3,LEGALI,TEAMRPETREL
 Team Rocket's Proton,N/A,SUPPORTER,3,LEGALI,TEAMRPROTON
 Tulip,N/A,SUPPORTER,2,LEGALG,TULIP
 Urbain,N/A,SUPPORTER,1,LEGALJ,URBAIN
@@ -120,7 +120,7 @@ Mega Signal,,ITEM,11,LEGALI,MEGASIGNAL
 Miracle Headset,ACE SPEC,ITEM,1,LEGALH,MIRACLEHEADSET
 Nemona's Backpack,,ITEM,2,LEGALG,NEMONABACKPACK
 Nest Ball,,ITEM,29,LEGALG,NESTBALL
-Night Stretcher,,ITEM,10,LEGALH,NIGHTSTRETCHER
+Night Stretcher,,ITEM,7,LEGALH,NIGHTSTRETCHER
 N's PP Up,COLBI,ITEM,12,LEGALI,NSPPUP
 Ogre's Mask,,ITEM,2,LEGALH,OGRESMASK
 Pal Pad,,ITEM,3,LEGALG,PALPAD
@@ -150,7 +150,7 @@ Tera Orb,,ITEM,6,LEGALH,TERAORB
 TM Machine,,ITEM,2,LEGALH,TMMACHINE
 Tool Scrapper,,ITEM,4,LEGALI,TOOLSCRAPPER
 Treasure Tracker,ACE SPEC,ITEM,2,LEGALH,TREASURETRACKER
-Ultra Ball,,ITEM,23,LEGALI,ULTRABALL
+Ultra Ball,,ITEM,19,LEGALI,ULTRABALL
 Wondrous Patch,,ITEM,9,LEGALI,WONDROUSPATCH
 Area Zero Underdepths,,STADIUM,10,LEGALH,AREAZERO
 Artazon,,STADIUM,11,LEGALG,ARTAZON
@@ -179,7 +179,7 @@ Risky Ruins,,STADIUM,3,LEGALI,RISKYRUINS
 Spikemuth Gym,,STADIUM,11,LEGALI,SPIKEMUTHGYM
 Surfing Beach,,STADIUM,2,LEGALI,SURFINGBEACH
 Team Rocket's Factory,,STADIUM,4,LEGALI,TRFACTORY
-Team Rocket's Watchtower,,STADIUM,1,LEGALI,TRWATCHTOWER
+Team Rocket's Watchtower,,STADIUM,0,LEGALI,TRWATCHTOWER
 Town Store,,STADIUM,1,LEGALG,TOWNSTORE
 Energy Swatter,N/A,ITEM,5,LEGALJ,energy-swatter-item
 Crushing Hammer,N/A,ITEM,1,LEGALJ,crushing-hammer-item
@@ -188,7 +188,7 @@ Lumiose Galette,N/A,ITEM,8,LEGALJ,lumiose-galette-item
 Antique Sail Fossil,N/A,ITEM,6,LEGALJ,antique-sail-fossil-item
 Antique Jaw Fossil,N/A,ITEM,9,LEGALJ,antique-jaw-fossil-item
 Tarragon,N/A,SUPPORTER,8,LEGALJ,tarragon-supporter
-Lillie's Determination,N/A,SUPPORTER,14,LEGALI,lillie's-determination-supporter
+Lillie's Determination,N/A,SUPPORTER,10,LEGALI,lillie's-determination-supporter
 Lumiose City,N/A,STADIUM,5,LEGALJ,lumiose-city-stadium
 Core Memory,N/A,TOOL,8,LEGALJ,core-memory-tool
 Rocky Energy,N/A,ENERGY,7,LEGALJ,rocky-energy-energy
@@ -224,7 +224,7 @@ Bravery Charm,N/A,TOOL,2,LEGALG,bravery-charm-tool
 Academy at Night,N/A,STADIUM,2,LEGALH,academy-at-night-stadium
 Potion,N/A,ITEM,1,LEGALJ,potion-item
 Rotom Dex,N/A,ITEM,1,LEGALF,rotom-dex-item
-Secret Box,ACE SPEC,ITEM,1,LEGALH,secret-box-item
+Secret Box,ACE SPEC,ITEM,0,LEGALH,secret-box-item
 Roark,N/A,SUPPORTER,1,LEGALG,roark-supporter
 Cyrano,N/A,SUPPORTER,2,LEGALH,cyrano-supporter
 Cassiopeia,N/A,SUPPORTER,2,LEGALH,cassiopeia-supporter
@@ -233,12 +233,12 @@ Xerosic's Machinations,N/A,SUPPORTER,1,LEGALH,xerosic's-machinations-supporter
 Neo Upper Energy,ACE SPEC,ENERGY,1,LEGALH,neo-upper-energy-energy
 Larry's Skill,N/A,SUPPORTER,1,LEGALH,larry's-skill-supporter
 Ange Floette,N/A,STADIUM,1,LEGALJ,ange-floette-stadium
-Prism Tower,N/A,STADIUM,4,LEGALJ,prism-tower-stadium
+Prism Tower,N/A,STADIUM,0,LEGALJ,prism-tower-stadium
 Nitro Energy,N/A,ENERGY,2,LEGALJ,nitro-energy-energy
 Adversity Policy,N/A,TOOL,1,LEGALI,adversity-policy-tool
 Great Haul Net,N/A,ITEM,4,LEGALJ,great-haul-net-tool
 Special Red Card,N/A,ITEM,3,LEGALJ,special-red-card-tool
 AZ's Tranquility,N/A,SUPPORTER,1,LEGALJ,az's-tranquility-supporter
 Emma,N/A,SUPPORTER,3,LEGALJ,emma-supporter
-Philippe,N/A,SUPPORTER,2,LEGALJ,philippe-supporter
+Philippe,N/A,SUPPORTER,1,LEGALJ,philippe-supporter
 Roxie's Performance,N/A,SUPPORTER,1,LEGALJ,roxie's-performance-supporter
