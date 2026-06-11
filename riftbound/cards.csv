@@ -408,3 +408,30 @@ Lord Broadmane,UNL,2,UNIT,FURY,false,false,lord-broadmane-unl.avif
 Jhin Murderous Artist,UNL,2,UNIT,FURY,false,false,jhin-murderous-artist-unl.avif
 Fresh Beans,UNL,2,GEAR,FURY,false,false,fresh-beans-unl.avif
 Rengar Pouncing,SFD,3,UNIT,FURY,false,false,rengar-pouncing-sfd.avif
+Riposte,SFD,1,SPELL,BODY&ORDER,false,false,riposte-sfd.avif
+Spinning Axe,SFD,1,SPELL,FURY&CHAOS,false,false,spinning-axe-sfd.avif
+Siphon Power,OGN,1,SPELL,MIND&ORDER,false,false,siphon-power-ogn.avif
+Dragon's Rage,OGN,1,SPELL,CALM&BODY,false,false,dragons-rage-ogn.avif
+Thrill of the Hunt,UNL,2,SPELL,FURY&BODY,false,false,thrill-of-the-hunt-unl.avif
+Death from Below,UNL,1,SPELL,FURY&CHAOS,false,false,death-from-below-unl.avif
+Shadow,UNL,1,UNIT,CALM&CHAOS,false,false,shadow-unl.avif
+Vex Gloomist,UNL,1,LEGEND,CALM&CHAOS,false,false,vex-gloomist-unl.avif
+LeBlanc Deceiver,UNL,1,LEGEND,MIND&ORDER,false,false,leblanc-deceiver-unl.avif
+Kha'Zix Voidreaver,UNL,2,LEGEND,BODY&CHAOS,false,false,khazix-voidreaver-unl.avif
+Lillia Bashful Bloom,UNL,2,LEGEND,MIND&CALM,false,false,lillia-bashful-bloom-unl.avif
+Poppy Keeper of the Hammer,UNL,2,LEGEND,BODY&ORDER,false,false,poppy-keeper-of-the-hammer-unl.avif
+Vi Piltover Enforcer,UNL,2,LEGEND,FURY&ORDER,false,false,vi-piltover-enforcer-unl.avif
+Ivern Green Father,UNL,2,LEGEND,CALM&ORDER,false,false,ivern-green-father-unl.avif
+Master Yi Wuju Master,UNL,2,LEGEND,CALM&BODY,false,false,master-yi-wuju-master-unl.avif
+Fiora Grand Duelist,SFD,3,LEGEND,BODY&ORDER,false,false,fiora-grand-duelist-sfd.avif
+Renata Glasc Chem-Baroness,SFD,1,LEGEND,MIND&ORDER,false,false,renata-glasc-chem-baroness-sfd.avif
+Irelia Blade Dancer,SFD,1,LEGEND,CALM&CHAOS,false,false,irelia-blade-dancer-sfd.avif
+Sett The Boss,OGN,1,LEGEND,BODY&ORDER,false,false,sett-the-boss-ogn.avif
+Volibear Relentless Storm,OGN,1,LEGEND,FURY&BODY,false,false,volibear-relentless-storm-ogn.avif
+Viktor Herald of the Arcane,OGN,1,LEGEND,MIND&ORDER,false,false,viktor-herald-of-the-arcane-ogn.avif
+Lee Sin Blind Monk,OGN,2,LEGEND,CALM&BODY,false,false,lee-sin-blind-monk-ogn.avif
+Fury Rune,UNL,5,RUNE,FURY,false,false,fury-rune.avif
+Mind Rune,UNL,6,RUNE,MIND,false,false,mind-rune.avif
+Body Rune,UNL,5,RUNE,BODY,false,false,body-rune.avif
+Chaos Rune,UNL,6,RUNE,CHAOS,false,false,chaos-rune.avif
+Order Rune,UNL,6,RUNE,ORDER,false,false,order-rune.avif
