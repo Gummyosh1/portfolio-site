@@ -6,10 +6,22 @@ document.querySelectorAll('.podium').forEach(card => {
     if (animFrame) cancelAnimationFrame(animFrame);
     animFrame = requestAnimationFrame(() => {
         const rect = card.getBoundingClientRect();
-        const x = e.clientX - rect.left;
-        const y = e.clientY - rect.top;
         const centerX = rect.width / 2;
         const centerY = rect.height / 2;
+        var x = 0;
+        var y = 0;
+        if (x > centerX) {
+            x = e.clientX - rect.right;
+        }
+        else{
+            x = e.clientX - rect.left;
+        }
+        if (y > centerY) {
+            y = e.clientY - rect.bottom;
+        }
+        else{
+            y = e.clientY - rect.top;
+        }
         const maxTilt = 10;
         const rotateX = ((y - centerY) / centerY) * -maxTilt;
         const rotateY = ((x - centerX) / centerX) * maxTilt;

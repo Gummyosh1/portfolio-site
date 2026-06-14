@@ -346,7 +346,7 @@ Pit Rookie,OGN,9,UNIT,BODY,false,false,pit-rookie-ogn.avif
 Herald of Scales,OGN,2,UNIT,BODY,false,false,herald-of-scales-ogn.avif
 Lee Sin Centered,OGN,2,UNIT,BODY,false,false,lee-sin-centered-ogn.avif
 First Mate,OGN,7,UNIT,BODY,false,false,first-mate-ogn.avif
-Cithria of Cloudfield,OGN,2,UNIT,BODY,false,false,cithria-of-cloudfield-ogn.avif
+Cithria of Cloudfield,OGN,0,UNIT,BODY,false,false,cithria-of-cloudfield-ogn.avif
 Bilgewater Bully,OGN,5,UNIT,BODY,false,false,bilgewater-bully-ogn.avif
 Kinkou Monk,OGN,1,UNIT,BODY,false,false,kinkou-monk-ogn.avif
 Dune Drake,OGN,2,UNIT,BODY,false,false,dune-drake-ogn.avif
@@ -354,7 +354,7 @@ Mountain Drake,OGN,5,UNIT,BODY,false,false,mountain-drake-ogn.avif
 Carnivorous Snapvine,OGN,1,UNIT,BODY,false,false,carnivorous-snapvine-ogn.avif
 Udyr Wildman,OGN,2,UNIT,BODY,false,false,udyr-wildman-ogn.avif
 Anivia Primal,OGN,1,UNIT,BODY,false,false,anivia-primal-ogn.avif
-Pakaa Cub,OGN,4,UNIT,BODY,false,false,pakaa-cub-ogn.avif
+Pakaa Cub,OGN,3,UNIT,BODY,false,false,pakaa-cub-ogn.avif
 Mobilize,OGN,3,SPELL,BODY,false,false,mobilize-ogn.avif
 Flurry of Blades,OGN,4,SPELL,BODY,false,false,flurry-of-blades-ogn.avif
 Challenge,OGN,7,SPELL,BODY,false,false,challenge-ogn.avif
@@ -406,13 +406,13 @@ Dragonsoul Sage,UNL,2,UNIT,BODY,false,false,dragonsoul-sage-unl.avif
 Clash of Giants,UNL,1,SPELL,BODY,false,false,clash-of-giants-unl.avif
 Lord Broadmane,UNL,2,UNIT,FURY,false,false,lord-broadmane-unl.avif
 Jhin Murderous Artist,UNL,2,UNIT,FURY,false,false,jhin-murderous-artist-unl.avif
-Fresh Beans,UNL,2,GEAR,FURY,false,false,fresh-beans-unl.avif
-Rengar Pouncing,SFD,3,UNIT,FURY,false,false,rengar-pouncing-sfd.avif
+Fresh Beans,UNL,0,GEAR,FURY,false,false,fresh-beans-unl.avif
+Rengar Pouncing,SFD,1,UNIT,FURY,false,false,rengar-pouncing-sfd.avif
 Riposte,SFD,1,SPELL,BODY&ORDER,false,false,riposte-sfd.avif
 Spinning Axe,SFD,1,SPELL,FURY&CHAOS,false,false,spinning-axe-sfd.avif
 Siphon Power,OGN,1,SPELL,MIND&ORDER,false,false,siphon-power-ogn.avif
 Dragon's Rage,OGN,1,SPELL,CALM&BODY,false,false,dragons-rage-ogn.avif
-Thrill of the Hunt,UNL,2,SPELL,FURY&BODY,false,false,thrill-of-the-hunt-unl.avif
+Thrill of the Hunt,UNL,1,SPELL,FURY&BODY,false,false,thrill-of-the-hunt-unl.avif
 Death from Below,UNL,1,SPELL,FURY&CHAOS,false,false,death-from-below-unl.avif
 Shadow,UNL,1,UNIT,CALM&CHAOS,false,false,shadow-unl.avif
 Vex Gloomist,UNL,1,LEGEND,CALM&CHAOS,false,false,vex-gloomist-unl.avif
