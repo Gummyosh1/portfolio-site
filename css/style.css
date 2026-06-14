@@ -118,6 +118,19 @@ html, body {
   box-sizing: border-box;
 }
 
+.pastel-colbi {
+  background:
+    linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0)),
+    linear-gradient(145deg, #f0e5ff, #dfd0f9, #e9d4f5, #f7e7fb);
+  color: #222;
+  border: 6px solid #6b7280;
+  box-sizing: border-box;
+}
+
+/*.pastel-colbi .podium-img-wrap {
+  background: rgba(243, 236, 255, 0.55);
+}*/
+
 .fish-gradient {
   background:
     linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0)),
