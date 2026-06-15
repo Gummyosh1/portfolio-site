@@ -42,7 +42,7 @@ Abandon,UNL,2,SPELL,CHAOS,false,false,abandon-unl.avif
 Blast Cone,UNL,5,GEAR,CHAOS,false,false,blast-cone-unl.avif
 Scryer's Bloom,UNL,1,GEAR,CHAOS,false,false,scryers-bloom-unl.avif
 The List,UNL,2,GEAR,CHAOS,false,false,the-list-unl.avif
-Sharkling,UNL,3,UNIT,FURY,false,false,sharkling-unl.avif
+Sharkling,UNL,4,UNIT,FURY,false,false,sharkling-unl.avif
 Arena Kingpin,UNL,5,UNIT,FURY,false,false,arena-kingpin-unl.avif
 Yeti Brawler,UNL,2,UNIT,FURY,false,false,yeti-brawler-unl.avif
 Mischievous Marai,UNL,4,UNIT,FURY,false,false,mischievous-marai-unl.avif
@@ -316,7 +316,7 @@ Rebuke,OGN,1,SPELL,CHAOS,false,false,rebuke-ogn.avif
 Scrapheap,OGN,1,GEAR,CHAOS,false,false,scrapheap-ogn.avif
 The Syren,OGN,1,GEAR,CHAOS,false,false,the-syren-ogn.avif
 Pack of Wonders,OGN,1,GEAR,CHAOS,false,false,pack-of-wonders-ogn.avif
-Pouty Poro,OGN,2,UNIT,FURY,false,false,pouty-poro-ogn.avif
+Pouty Poro,OGN,5,UNIT,FURY,false,false,pouty-poro-ogn.avif
 Jinx Demolitionist,OGN,2,UNIT,FURY,false,false,jinx-demolitionist-ogn.avif
 Dangerous Duo,OGN,1,UNIT,FURY,false,false,dangerous-duo-ogn.avif
 Vi Destructive,OGN,2,UNIT,FURY,false,false,vi-destructive-ogn.avif
@@ -327,7 +327,7 @@ Brazen Buccaneer,OGN,2,UNIT,FURY,false,false,brazen-buccaneer-ogn.avif
 Scrapyard Champion,OGN,1,UNIT,FURY,false,false,scrapyard-champion-ogn.avif
 Flame Chompers,OGN,3,UNIT,FURY,false,false,flame-chompers-ogn.avif
 Captain Farron,OGN,1,UNIT,FURY,false,false,captain-farron-ogn.avif
-Legion Rearguard,OGN,1,UNIT,FURY,false,false,legion-rearguard-ogn.avif
+Legion Rearguard,OGN,2,UNIT,FURY,false,false,legion-rearguard-ogn.avif
 Magma Wurm,OGN,1,UNIT,FURY,false,false,magma-wurm-ogn.avif
 Get Excited!,OGN,3,SPELL,FURY,false,false,get-excited-ogn.avif
 Disintegrate,OGN,2,SPELL,FURY,false,false,disintegrate-ogn.avif
@@ -345,7 +345,7 @@ Wildclaw Shaman,OGN,7,UNIT,BODY,false,false,wildclaw-shaman-ogn.avif
 Pit Rookie,OGN,9,UNIT,BODY,false,false,pit-rookie-ogn.avif
 Herald of Scales,OGN,2,UNIT,BODY,false,false,herald-of-scales-ogn.avif
 Lee Sin Centered,OGN,2,UNIT,BODY,false,false,lee-sin-centered-ogn.avif
-First Mate,OGN,7,UNIT,BODY,false,false,first-mate-ogn.avif
+First Mate,OGN,8,UNIT,BODY,false,false,first-mate-ogn.avif
 Cithria of Cloudfield,OGN,0,UNIT,BODY,false,false,cithria-of-cloudfield-ogn.avif
 Bilgewater Bully,OGN,5,UNIT,BODY,false,false,bilgewater-bully-ogn.avif
 Kinkou Monk,OGN,1,UNIT,BODY,false,false,kinkou-monk-ogn.avif
@@ -360,7 +360,7 @@ Flurry of Blades,OGN,4,SPELL,BODY,false,false,flurry-of-blades-ogn.avif
 Challenge,OGN,7,SPELL,BODY,false,false,challenge-ogn.avif
 Wallop,OGN,1,SPELL,BODY,false,false,wallop-ogn.avif
 Cannon Barrage,OGN,3,SPELL,BODY,false,false,cannon-barrage-ogn.avif
-Confront,OGN,2,SPELL,BODY,false,false,confront-ogn.avif
+Confront,OGN,3,SPELL,BODY,false,false,confront-ogn.avif
 Overt Operation,OGN,1,SPELL,BODY,false,false,overt-operation-ogn.avif
 Mistfall,OGN,4,GEAR,BODY,false,false,mistfall-ogn.avif
 Pirate's Haven,OGN,1,GEAR,BODY,false,false,pirates-haven-ogn.avif
@@ -402,7 +402,7 @@ Evelynn Entrancing,UNL,1,UNIT,CHAOS,false,false,evelynn-entrancing-unl.avif
 Kha'Zix Mutating Horror,UNL,1,UNIT,CHAOS,false,false,khazix-mutating-horror-unl.avif
 Master Yi Tempered,UNL,2,UNIT,BODY,false,false,master-yi-tempered-unl.avif
 Kinkou Initiate,UNL,2,UNIT,BODY,false,false,kinkou-initiate-unl.avif
-Dragonsoul Sage,UNL,2,UNIT,BODY,false,false,dragonsoul-sage-unl.avif
+Dragonsoul Sage,UNL,3,UNIT,BODY,false,false,dragonsoul-sage-unl.avif
 Clash of Giants,UNL,1,SPELL,BODY,false,false,clash-of-giants-unl.avif
 Lord Broadmane,UNL,2,UNIT,FURY,false,false,lord-broadmane-unl.avif
 Jhin Murderous Artist,UNL,2,UNIT,FURY,false,false,jhin-murderous-artist-unl.avif
@@ -435,3 +435,6 @@ Mind Rune,UNL,17,RUNE,MIND,false,false,mind-rune.avif
 Body Rune,UNL,22,RUNE,BODY,false,false,body-rune.avif
 Chaos Rune,UNL,10,RUNE,CHAOS,false,false,chaos-rune.avif
 Order Rune,UNL,20,RUNE,ORDER,false,false,order-rune.avif
+Rengar Unseen,UNL,1,UNIT,FURY,false,false,rengar-unseen-unl.avif
+Lotus Trap,UNL,1,SPELL,FURY,false,false,lotus-trap-unl.avif
+Cleave,OGN,1,SPELL,FURY,false,false,cleave-ogn.avif
