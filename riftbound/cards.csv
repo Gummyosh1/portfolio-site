@@ -20,7 +20,7 @@ Combat Experience,UNL,3,SPELL,CALM,false,false,combat-experience-unl.avif
 Flurry of Feathers,UNL,2,SPELL,CALM,false,false,flurry-of-feathers-unl.avif
 Honeyfruit,UNL,3,GEAR,CALM,false,false,honeyfruit-unl.avif
 Soul Sword,UNL,7,GEAR,CALM,false,false,soul-sword-unl.avif
-Calm Rune,UNL,20,RUNE,CALM,false,false,calm-rune.avif
+Calm Rune,UNL,23,RUNE,CALM,false,false,calm-rune.avif
 Crescent Guardian,UNL,4,UNIT,CHAOS,false,false,crescent-guardian-unl.avif
 Vicious Snapjaws,UNL,5,UNIT,CHAOS,false,false,vicious-snapjaws-unl.avif
 Evershade Stalker,UNL,4,UNIT,CHAOS,false,false,evershade-stalker-unl.avif
@@ -430,11 +430,11 @@ Sett The Boss,OGN,1,LEGEND,BODY&ORDER,false,false,sett-the-boss-ogn.avif
 Volibear Relentless Storm,OGN,1,LEGEND,FURY&BODY,false,false,volibear-relentless-storm-ogn.avif
 Viktor Herald of the Arcane,OGN,1,LEGEND,MIND&ORDER,false,false,viktor-herald-of-the-arcane-ogn.avif
 Lee Sin Blind Monk,OGN,2,LEGEND,CALM&BODY,false,false,lee-sin-blind-monk-ogn.avif
-Fury Rune,UNL,7,RUNE,FURY,false,false,fury-rune.avif
-Mind Rune,UNL,17,RUNE,MIND,false,false,mind-rune.avif
-Body Rune,UNL,22,RUNE,BODY,false,false,body-rune.avif
-Chaos Rune,UNL,10,RUNE,CHAOS,false,false,chaos-rune.avif
-Order Rune,UNL,20,RUNE,ORDER,false,false,order-rune.avif
+Fury Rune,UNL,23,RUNE,FURY,false,false,fury-rune.avif
+Mind Rune,UNL,19,RUNE,MIND,false,false,mind-rune.avif
+Body Rune,UNL,24,RUNE,BODY,false,false,body-rune.avif
+Chaos Rune,UNL,24,RUNE,CHAOS,false,false,chaos-rune.avif
+Order Rune,UNL,22,RUNE,ORDER,false,false,order-rune.avif
 Rengar Unseen,UNL,1,UNIT,FURY,false,false,rengar-unseen-unl.avif
 Lotus Trap,UNL,1,SPELL,FURY,false,false,lotus-trap-unl.avif
 Cleave,OGN,1,SPELL,FURY,false,false,cleave-ogn.avif
