@@ -307,7 +307,7 @@ Ember Monk,OGN,3,UNIT,CHAOS,FALSE,FALSE,ember-monk-ogn.avif
 Rhasa the Sunderer,OGN,4,UNIT,CHAOS,FALSE,FALSE,rhasa-the-sunderer-ogn.avif
 Teemo Scout,OGN,1,UNIT,CHAOS,FALSE,FALSE,teemo-scout-ogn.avif
 Nocturne Horrifying,OGN,2,UNIT,CHAOS,FALSE,FALSE,nocturne-horrifying-ogn.avif
-Gust,OGN,9,SPELL,CHAOS,FALSE,FALSE,gust-ogn.avif
+Gust,OGN,10,SPELL,CHAOS,FALSE,FALSE,gust-ogn.avif
 Stacked Deck,OGN,3,SPELL,CHAOS,FALSE,FALSE,stacked-deck-ogn.avif
 Morbid Return,OGN,6,SPELL,CHAOS,FALSE,FALSE,morbid-return-ogn.avif
 Fight or Flight,OGN,14,SPELL,CHAOS,FALSE,FALSE,fight-or-flight-ogn.avif
@@ -444,7 +444,6 @@ Soulgorger,OGN,1,UNIT,CHAOS,FALSE,FALSE,soulgorger-ogn.avif
 Fading Memories,OGN,6,SPELL,CHAOS,FALSE,FALSE,fading-memories-ogn.avif
 Acceptable Losses,OGN,2,SPELL,CHAOS,FALSE,FALSE,acceptable-losses-ogn.avif
 Ride the Wind,OGN,2,SPELL,CHAOS,FALSE,FALSE,ride-the-wind-ogn.avif
-Gust,OGN,1,GEAR,CHAOS,FALSE,FALSE,gust-ogn.avif
 Possession,OGN,1,SPELL,CHAOS,FALSE,FALSE,possession-ogn.avif
 Whirlwind,OGN,1,SPELL,CHAOS,FALSE,FALSE,whirlwind-ogn.avif
 Treasure Trove,OGN,1,GEAR,CHAOS,FALSE,FALSE,treasure-trove-ogn.avif
