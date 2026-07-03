@@ -10,7 +10,7 @@ Herald of Spring,UNL,4,UNIT,CALM,FALSE,FALSE,herald-of-spring-unl.avif
 Vex Mocking,UNL,1,UNIT,CALM,FALSE,FALSE,vex-mocking-unl.avif
 Mutated Mouser,UNL,3,UNIT,CALM,FALSE,FALSE,mutated-mouser-unl.avif
 Allay Eager Admirer,UNL,1,UNIT,CALM,FALSE,FALSE,allay-eager-admirer-unl.avif
-Yuumi Magical Cat,UNL,1,UNIT,CALM,FALSE,FALSE,yuumi-magical-cat-unl.avif
+Yuumi Magical Cat,UNL,3,UNIT,CALM,FALSE,FALSE,yuumi-magical-cat-unl.avif
 Mosstomper,UNL,1,UNIT,CALM,FALSE,FALSE,mosstomper-unl.avif
 Back Off,UNL,4,SPELL,CALM,FALSE,FALSE,back-off-unl.avif
 Skyward Strike,UNL,4,SPELL,CALM,FALSE,FALSE,skyward-strike-unl.avif
@@ -131,7 +131,7 @@ Abandoned Hall,UNL,1,BATTLEFIELD,NONE,FALSE,FALSE,abandoned-hall-unl.avif
 Altar of Blood,UNL,1,BATTLEFIELD,NONE,FALSE,FALSE,altar-of-blood-unl.avif
 Vaults of Helia,UNL,2,BATTLEFIELD,NONE,FALSE,FALSE,vaults-of-helia-unl.avif
 Star Spring,UNL,2,BATTLEFIELD,NONE,FALSE,FALSE,star-spring-unl.avif
-Brush,UNL,1,BATTLEFIELD,NONE,FALSE,FALSE,brush-unl.avif
+Brush,UNL,4,BATTLEFIELD,NONE,FALSE,FALSE,brush-unl.avif
 Baron Pit,UNL,4,BATTLEFIELD,NONE,FALSE,FALSE,baron-pit-unl.avif
 Minefield,SFD,1,BATTLEFIELD,NONE,FALSE,FALSE,minefield-sfd.avif
 Veiled Temple,SFD,3,BATTLEFIELD,NONE,FALSE,FALSE,veiled-temple-sfd.avif
@@ -500,3 +500,16 @@ Windswept Hillock,OGN,2,BATTLEFIELD,NONE,FALSE,FALSE,windswept-hillock-ogn.avif
 Startipped Peak,OGN,1,BATTLEFIELD,NONE,FALSE,FALSE,startipped-peak-ogn.avif
 Navori Fighting Pit,OGN,1,BATTLEFIELD,NONE,FALSE,FALSE,navori-fighting-pit-ogn.avif
 Grim Apothecary,UNL,1,UNIT,FURY,FALSE,FALSE,grim-apothecary-unl.avif
+Mind Rune,OGN,1,RUNE,MIND,true,false,mind-rune-ogn-a.avif
+Mind Rune,UNL,1,RUNE,MIND,true,false,mind-rune-unl-a.avif
+Calm Rune,OGN,1,RUNE,CALM,true,false,calm-rune-ogn-a.avif
+Order Rune,UNL,1,RUNE,ORDER,true,false,order-rune-unl-a.avif
+Order Rune,SFD,1,RUNE,ORDER,true,false,order-rune-sfd-a.avif
+Poppy Defender of the Meek,UNL,1,UNIT,ORDER,false,false,poppy-defender-of-the-meek-unl.avif
+Arise!,SFD,1,SPELL,ORDER&CALM,false,false,arise-sfd.avif
+Seal of Discord,OGN,1,GEAR,CHAOS,false,false,seal-of-discord-ogn.avif
+Poppy Defender of the Meek,UNL,2,UNIT,ORDER,true,false,poppy-defender-of-the-meek-unl-a.avif
+Lee Sin Ascetic,OGN,1,UNIT,CALM,true,false,lee-sin-ascetic-ogn-a.avif
+Ahri Inquisitive,OGN,1,UNIT,MIND,true,false,ahri-inquisitive-ogn-a.avif
+LeBlanc Everywhere at Once,UNL,1,UNIT,MIND,true,false,leblanc-everywhere-at-once-unl-a.avif
+Volibear Imposing,OGN,1,UNIT,BODY,true,false,volibear-imposing-ogn-a.avif
