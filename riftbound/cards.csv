@@ -435,7 +435,7 @@ Mind Rune,UNL,19,RUNE,MIND,FALSE,FALSE,mind-rune.avif
 Body Rune,UNL,24,RUNE,BODY,FALSE,FALSE,body-rune.avif
 Chaos Rune,UNL,24,RUNE,CHAOS,FALSE,FALSE,chaos-rune.avif
 Order Rune,UNL,22,RUNE,ORDER,FALSE,FALSE,order-rune.avif
-Rengar Unseen,UNL,1,UNIT,FURY,FALSE,FALSE,rengar-unseen-unl.avif
+Rengar Unseen,UNL,0,UNIT,FURY,FALSE,FALSE,rengar-unseen-unl.avif
 Lotus Trap,UNL,1,SPELL,FURY,FALSE,FALSE,lotus-trap-unl.avif
 Cleave,OGN,4,SPELL,FURY,FALSE,FALSE,cleave-ogn.avif
 Tideturner,OGN,1,UNIT,CHAOS,FALSE,FALSE,tideturner-ogn.avif
@@ -495,7 +495,7 @@ Guerilla Warfare,OGN,1,SPELL,CALM&CHAOS,FALSE,FALSE,guerilla-warfare-ogn.avif
 Noxian Guillotine,OGN,1,SPELL,FURY&ORDER,FALSE,FALSE,noxian-guillotine-ogn.avif
 Zaun Warrens,OGN,3,BATTLEFIELD,NONE,FALSE,FALSE,zaun-warrens-ogn.avif
 Void Gate,OGN,2,BATTLEFIELD,NONE,FALSE,FALSE,void-gate-ogn.avif
-The Arena's Greatest,OGN,2,BATTLEFIELD,NONE,FALSE,FALSE,the-arenas-greatest-ogn.avif
+The Arena's Greatest,OGN,1,BATTLEFIELD,NONE,FALSE,FALSE,the-arenas-greatest-ogn.avif
 Windswept Hillock,OGN,2,BATTLEFIELD,NONE,FALSE,FALSE,windswept-hillock-ogn.avif
 Startipped Peak,OGN,1,BATTLEFIELD,NONE,FALSE,FALSE,startipped-peak-ogn.avif
 Navori Fighting Pit,OGN,1,BATTLEFIELD,NONE,FALSE,FALSE,navori-fighting-pit-ogn.avif
