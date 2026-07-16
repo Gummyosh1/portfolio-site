@@ -24,18 +24,18 @@ Calm Rune,UNL,23,RUNE,CALM,FALSE,FALSE,calm-rune.avif
 Crescent Guardian,UNL,4,UNIT,CHAOS,FALSE,FALSE,crescent-guardian-unl.avif
 Vicious Snapjaws,UNL,5,UNIT,CHAOS,FALSE,FALSE,vicious-snapjaws-unl.avif
 Evershade Stalker,UNL,4,UNIT,CHAOS,FALSE,FALSE,evershade-stalker-unl.avif
-Sinister Poro,UNL,1,UNIT,CHAOS,FALSE,FALSE,sinister-poro-unl.avif
+Sinister Poro,UNL,2,UNIT,CHAOS,FALSE,FALSE,sinister-poro-unl.avif
 Megatusk,UNL,6,UNIT,CHAOS,FALSE,FALSE,megatusk-unl.avif
 Angler Beast,UNL,3,UNIT,CHAOS,FALSE,FALSE,angler-beast-unl.avif
 Bewitching Spirit,UNL,4,UNIT,CHAOS,FALSE,FALSE,bewitching-spirit-unl.avif
 Walking Roost,UNL,4,UNIT,CHAOS,FALSE,FALSE,walking-roost-unl.avif
-Mister Root,UNL,5,UNIT,CHAOS,FALSE,FALSE,mister-root-unl.avif
+Mister Root,UNL,2,UNIT,CHAOS,FALSE,FALSE,mister-root-unl.avif
 Pyke Returned,UNL,1,UNIT,CHAOS,FALSE,FALSE,pyke-returned-unl.avif
 Maduli the Gatekeeper,UNL,1,UNIT,CHAOS,FALSE,FALSE,maduli-the-gatekeeper-unl.avif
 Heedless Resurrection,UNL,2,SPELL,CHAOS,FALSE,FALSE,heedless-resurrection-unl.avif
 Lunar Boon,UNL,6,SPELL,CHAOS,FALSE,FALSE,lunar-boon-unl.avif
 Bone Skewer,UNL,1,SPELL,CHAOS,FALSE,FALSE,bone-skewer-unl.avif
-Star-Crossed,UNL,4,SPELL,CHAOS,FALSE,FALSE,star-crossed-unl.avif
+Star-Crossed,UNL,1,SPELL,CHAOS,FALSE,FALSE,star-crossed-unl.avif
 Existential Dread,UNL,2,SPELL,CHAOS,FALSE,FALSE,existential-dread-unl.avif
 Isolate,UNL,3,SPELL,CHAOS,FALSE,FALSE,isolate-unl.avif
 Abandon,UNL,2,SPELL,CHAOS,FALSE,FALSE,abandon-unl.avif
@@ -89,10 +89,10 @@ Gentle Gemdragon,UNL,4,UNIT,BODY,FALSE,FALSE,gentle-gemdragon-unl.avif
 Voracious Gromp,UNL,7,UNIT,BODY,FALSE,FALSE,voracious-gromp-unl.avif
 Wily Newtfish,UNL,1,UNIT,BODY,FALSE,FALSE,wily-newtfish-unl.avif
 Disposal Order,UNL,1,SPELL,BODY,FALSE,FALSE,disposal-order-unl.avif
-Stare Down,UNL,1,SPELL,BODY,FALSE,FALSE,stare-down-unl.avif
+Stare Down,UNL,2,SPELL,BODY,FALSE,FALSE,stare-down-unl.avif
 Concentrate,UNL,5,SPELL,BODY,FALSE,FALSE,concentrate-unl.avif
 Call to Battle,UNL,1,SPELL,BODY,FALSE,FALSE,call-to-battle-unl.avif
-Grim Resolve,UNL,3,SPELL,BODY,FALSE,FALSE,grim-resolve-unl.avif
+Grim Resolve,UNL,1,SPELL,BODY,FALSE,FALSE,grim-resolve-unl.avif
 Blood Rose,UNL,3,GEAR,BODY,FALSE,FALSE,blood-rose-unl.avif
 Hunter's Machete,UNL,5,GEAR,BODY,FALSE,FALSE,hunters-machete-unl.avif
 Fate Weaver,UNL,4,UNIT,MIND,FALSE,FALSE,fate-weaver-unl.avif
@@ -103,7 +103,7 @@ Chakram Dancer,UNL,4,UNIT,MIND,FALSE,FALSE,chakram-dancer-unl.avif
 Icevale Archer,UNL,4,UNIT,MIND,FALSE,FALSE,icevale-archer-unl.avif
 Petal Pixie,UNL,1,UNIT,MIND,FALSE,FALSE,petal-pixie-unl.avif
 Lillia Fae Fawn,UNL,1,UNIT,MIND,FALSE,FALSE,lillia-fae-fawn-unl.avif
-Diana Lunari,UNL,1,UNIT,MIND,FALSE,FALSE,diana-lunari-unl.avif
+Diana Lunari,UNL,2,UNIT,MIND,FALSE,FALSE,diana-lunari-unl.avif
 Sprite Queen,UNL,2,UNIT,MIND,FALSE,FALSE,sprite-queen-unl.avif
 Soul Shepherd,UNL,1,UNIT,MIND,FALSE,FALSE,soul-shepherd-unl.avif
 Sprite Burst,UNL,4,SPELL,MIND,FALSE,FALSE,sprite-burst-unl.avif
@@ -116,7 +116,7 @@ Deadly Flourish,UNL,1,SPELL,MIND,FALSE,FALSE,deadly-flourish-unl.avif
 Frigid Jewel,UNL,1,GEAR,MIND,FALSE,FALSE,frigid-jewel-unl.avif
 Sprite Fountain,UNL,1,GEAR,MIND,FALSE,FALSE,sprite-fountain-unl.avif
 Sumpworks Map,UNL,1,GEAR,MIND,FALSE,FALSE,sumpworks-map-unl.avif
-Forbidding Waste,UNL,4,BATTLEFIELD,NONE,FALSE,FALSE,forbidding-waste-unl.avif
+Forbidding Waste,UNL,3,BATTLEFIELD,NONE,FALSE,FALSE,forbidding-waste-unl.avif
 Black Flame Altar,UNL,2,BATTLEFIELD,NONE,FALSE,FALSE,black-flame-altar-unl.avif
 Gardens of Becoming,UNL,3,BATTLEFIELD,NONE,FALSE,FALSE,gardens-of-becoming-unl.avif
 Forgotten Library,UNL,3,BATTLEFIELD,NONE,FALSE,FALSE,forgotten-library-unl.avif
@@ -158,89 +158,89 @@ Vilemaw's Lair,OGN,2,BATTLEFIELD,NONE,FALSE,FALSE,vilemaws-lair-ogn.avif
 Targon's Peak,OGN,5,BATTLEFIELD,NONE,FALSE,FALSE,targons-peak-ogn.avif
 Fortified Position,OGN,2,BATTLEFIELD,NONE,FALSE,FALSE,fortified-position-ogn.avif
 Bandle Tree,OGN,2,BATTLEFIELD,NONE,FALSE,FALSE,bandle-tree-ogn.avif
-Sea Monkey,SFD,1,UNIT,BODY,FALSE,FALSE,sea-monkey-sfd.avif
-Buhru Captain,SFD,2,UNIT,BODY,FALSE,FALSE,buhru-captain-sfd.avif
+Sea Monkey,SFD,3,UNIT,BODY,FALSE,FALSE,sea-monkey-sfd.avif
+Buhru Captain,SFD,3,UNIT,BODY,FALSE,FALSE,buhru-captain-sfd.avif
 Veteran Poro,SFD,3,UNIT,BODY,FALSE,FALSE,veteran-poro-sfd.avif
-Combat Chef,SFD,1,UNIT,BODY,FALSE,FALSE,combat-chef-sfd.avif
-Laurent Bladekeeper,SFD,2,UNIT,BODY,FALSE,FALSE,laurent-bladekeeper-sfd.avif
-Fiora Peerless,SFD,3,UNIT,BODY,FALSE,FALSE,fiora-peerless-sfd.avif
-Yordle Explorer,SFD,1,UNIT,BODY,FALSE,FALSE,yordle-explorer-sfd.avif
-Jaull-Fish,SFD,2,UNIT,BODY,FALSE,FALSE,jaull-fish-sfd.avif
-Lucian Merciless,SFD,2,UNIT,BODY,FALSE,FALSE,lucian-merciless-sfd.avif
-Yone Blademaster,SFD,1,UNIT,BODY,FALSE,FALSE,yone-blademaster-sfd.avif
-Dauntless Vanguard,SFD,2,UNIT,BODY,FALSE,FALSE,dauntless-vanguard-sfd.avif
+Combat Chef,SFD,3,UNIT,BODY,FALSE,FALSE,combat-chef-sfd.avif
+Laurent Bladekeeper,SFD,3,UNIT,BODY,FALSE,FALSE,laurent-bladekeeper-sfd.avif
+Fiora Peerless,SFD,4,UNIT,BODY,FALSE,FALSE,fiora-peerless-sfd.avif
+Yordle Explorer,SFD,3,UNIT,BODY,FALSE,FALSE,yordle-explorer-sfd.avif
+Jaull-Fish,SFD,3,UNIT,BODY,FALSE,FALSE,jaull-fish-sfd.avif
+Lucian Merciless,SFD,0,UNIT,BODY,FALSE,FALSE,lucian-merciless-sfd.avif
+Yone Blademaster,SFD,3,UNIT,BODY,FALSE,FALSE,yone-blademaster-sfd.avif
+Dauntless Vanguard,SFD,3,UNIT,BODY,FALSE,FALSE,dauntless-vanguard-sfd.avif
 Strike Down,SFD,3,SPELL,BODY,FALSE,FALSE,strike-down-sfd.avif
-Show of Strength,SFD,2,SPELL,BODY,FALSE,FALSE,show-of-strength-sfd.avif
+Show of Strength,SFD,3,SPELL,BODY,FALSE,FALSE,show-of-strength-sfd.avif
 Punch First,SFD,2,SPELL,BODY,FALSE,FALSE,punch-first-sfd.avif
-Doran's Blade,SFD,4,GEAR,BODY,FALSE,FALSE,dorans-blade-sfd.avif
+Doran's Blade,SFD,6,GEAR,BODY,FALSE,FALSE,dorans-blade-sfd.avif
 Warmog's Armor,SFD,4,GEAR,BODY,FALSE,FALSE,warmogs-armor-sfd.avif
-Hexdrinker,SFD,1,GEAR,BODY,FALSE,FALSE,hexdrinker-sfd.avif
-Disarming Rake,SFD,2,UNIT,CALM,FALSE,FALSE,disarming-rake-sfd.avif
-Ribbon Dancer,SFD,1,UNIT,CALM,FALSE,FALSE,ribbon-dancer-sfd.avif
+Hexdrinker,SFD,3,GEAR,BODY,FALSE,FALSE,hexdrinker-sfd.avif
+Disarming Rake,SFD,3,UNIT,CALM,FALSE,FALSE,disarming-rake-sfd.avif
+Ribbon Dancer,SFD,3,UNIT,CALM,FALSE,FALSE,ribbon-dancer-sfd.avif
 Aphelios Exalted,SFD,1,UNIT,CALM,FALSE,FALSE,aphelios-exalted-sfd.avif
-Royal Entourage,SFD,1,UNIT,CALM,FALSE,FALSE,royal-entourage-sfd.avif
-Apprentice Smith,SFD,1,UNIT,CALM,FALSE,FALSE,apprentice-smith-sfd.avif
+Royal Entourage,SFD,3,UNIT,CALM,FALSE,FALSE,royal-entourage-sfd.avif
+Apprentice Smith,SFD,3,UNIT,CALM,FALSE,FALSE,apprentice-smith-sfd.avif
 Navori Scout,SFD,3,UNIT,CALM,FALSE,FALSE,navori-scout-sfd.avif
 Stellacorn Herder,SFD,2,UNIT,CALM,FALSE,FALSE,stellacorn-herder-sfd.avif
-Feral Strength,SFD,2,SPELL,CALM,FALSE,FALSE,feral-strength-sfd.avif
-Thwonk!,SFD,2,SPELL,CALM,FALSE,FALSE,thwonk-sfd.avif
+Feral Strength,SFD,4,SPELL,CALM,FALSE,FALSE,feral-strength-sfd.avif
+Thwonk!,SFD,5,SPELL,CALM,FALSE,FALSE,thwonk-sfd.avif
 Emperor's Divide,SFD,2,SPELL,CALM,FALSE,FALSE,emperors-divide-sfd.avif
-Desert's Call,SFD,1,SPELL,CALM,FALSE,FALSE,deserts-call-sfd.avif
+Desert's Call,SFD,3,SPELL,CALM,FALSE,FALSE,deserts-call-sfd.avif
 Guardian Angel,SFD,2,GEAR,CALM,FALSE,FALSE,guardian-angel-sfd.avif
 Sterak's Gage,SFD,1,GEAR,CALM,FALSE,FALSE,steraks-gage-sfd.avif
-Doran's Shield,SFD,1,GEAR,CALM,FALSE,FALSE,dorans-shield-sfd.avif
-Blast Corps Cadet,SFD,2,UNIT,FURY,FALSE,FALSE,blast-corps-cadet-sfd.avif
-Void Drone,SFD,2,UNIT,FURY,FALSE,FALSE,void-drone-sfd.avif
-Perched Grimwyrm,SFD,1,UNIT,FURY,FALSE,FALSE,perched-grimwyrm-sfd.avif
-Void Hatchling,SFD,1,UNIT,FURY,FALSE,FALSE,void-hatchling-sfd.avif
-Armed Assailant,SFD,1,UNIT,FURY,FALSE,FALSE,armed-assailant-sfd.avif
-Minotaur Reckoner,SFD,1,UNIT,FURY,FALSE,FALSE,minotaur-reckoner-sfd.avif
+Doran's Shield,SFD,4,GEAR,CALM,FALSE,FALSE,dorans-shield-sfd.avif
+Blast Corps Cadet,SFD,3,UNIT,FURY,FALSE,FALSE,blast-corps-cadet-sfd.avif
+Void Drone,SFD,3,UNIT,FURY,FALSE,FALSE,void-drone-sfd.avif
+Perched Grimwyrm,SFD,3,UNIT,FURY,FALSE,FALSE,perched-grimwyrm-sfd.avif
+Void Hatchling,SFD,3,UNIT,FURY,FALSE,FALSE,void-hatchling-sfd.avif
+Armed Assailant,SFD,3,UNIT,FURY,FALSE,FALSE,armed-assailant-sfd.avif
+Minotaur Reckoner,SFD,3,UNIT,FURY,FALSE,FALSE,minotaur-reckoner-sfd.avif
 Battering Ram,SFD,1,UNIT,FURY,FALSE,FALSE,battering-ram-sfd.avif
 Against the Odds,SFD,3,SPELL,FURY,FALSE,FALSE,against-the-odds-sfd.avif
 Piercing Light,SFD,1,SPELL,FURY,FALSE,FALSE,piercing-light-sfd.avif
-Detonate,SFD,1,SPELL,FURY,FALSE,FALSE,detonate-sfd.avif
-Sudden Storm,SFD,1,SPELL,FURY,FALSE,FALSE,sudden-storm-sfd.avif
-Bushwhack,SFD,1,SPELL,FURY,FALSE,FALSE,bushwhack-sfd.avif
-Serrated Dirk,SFD,3,GEAR,FURY,FALSE,FALSE,serrated-dirk-sfd.avif
+Detonate,SFD,4,SPELL,FURY,FALSE,FALSE,detonate-sfd.avif
+Sudden Storm,SFD,4,SPELL,FURY,FALSE,FALSE,sudden-storm-sfd.avif
+Bushwhack,SFD,3,SPELL,FURY,FALSE,FALSE,bushwhack-sfd.avif
+Serrated Dirk,SFD,4,GEAR,FURY,FALSE,FALSE,serrated-dirk-sfd.avif
 Long Sword,SFD,1,GEAR,FURY,FALSE,FALSE,long-sword-sfd.avif
 Treasure Hunter,SFD,3,UNIT,CHAOS,FALSE,FALSE,treasure-hunter-sfd.avif
 Loyal Pup,SFD,3,UNIT,CHAOS,FALSE,FALSE,loyal-pup-sfd.avif
 Windsinger,SFD,1,UNIT,CHAOS,FALSE,FALSE,windsinger-sfd.avif
-Black Market Broker,SFD,1,UNIT,CHAOS,FALSE,FALSE,black-market-broker-sfd.avif
-Master Bingwen,SFD,2,UNIT,CHAOS,FALSE,FALSE,master-bingwen-sfd.avif
-Overzealous Fan,SFD,1,UNIT,CHAOS,FALSE,FALSE,overzealous-fan-sfd.avif
-Fae Porter,SFD,1,UNIT,CHAOS,FALSE,FALSE,fae-porter-sfd.avif
-Factory Recall,SFD,1,SPELL,CHAOS,FALSE,FALSE,factory-recall-sfd.avif
+Black Market Broker,SFD,3,UNIT,CHAOS,FALSE,FALSE,black-market-broker-sfd.avif
+Master Bingwen,SFD,3,UNIT,CHAOS,FALSE,FALSE,master-bingwen-sfd.avif
+Overzealous Fan,SFD,3,UNIT,CHAOS,FALSE,FALSE,overzealous-fan-sfd.avif
+Fae Porter,SFD,3,UNIT,CHAOS,FALSE,FALSE,fae-porter-sfd.avif
+Factory Recall,SFD,4,SPELL,CHAOS,FALSE,FALSE,factory-recall-sfd.avif
 Called Shot,SFD,2,SPELL,CHAOS,FALSE,FALSE,called-shot-sfd.avif
 Doran's Ring,SFD,1,GEAR,CHAOS,FALSE,FALSE,dorans-ring-sfd.avif
-Spirit Wheel,SFD,1,GEAR,CHAOS,FALSE,FALSE,spirit-wheel-sfd.avif
-Eminent Benefactor,SFD,2,UNIT,ORDER,FALSE,FALSE,eminent-benefactor-sfd.avif
-Trusty Ramhound,SFD,1,UNIT,ORDER,FALSE,FALSE,trusty-ramhound-sfd.avif
-Sandshifter,SFD,2,UNIT,ORDER,FALSE,FALSE,sandshifter-sfd.avif
-Trove Golem,SFD,1,UNIT,ORDER,FALSE,FALSE,trove-golem-sfd.avif
+Spirit Wheel,SFD,3,GEAR,CHAOS,FALSE,FALSE,spirit-wheel-sfd.avif
+Eminent Benefactor,SFD,3,UNIT,ORDER,FALSE,FALSE,eminent-benefactor-sfd.avif
+Trusty Ramhound,SFD,3,UNIT,ORDER,FALSE,FALSE,trusty-ramhound-sfd.avif
+Sandshifter,SFD,3,UNIT,ORDER,FALSE,FALSE,sandshifter-sfd.avif
+Trove Golem,SFD,3,UNIT,ORDER,FALSE,FALSE,trove-golem-sfd.avif
 Honest Broker,SFD,1,UNIT,ORDER,FALSE,FALSE,honest-broker-sfd.avif
-Unsung Hero,SFD,2,UNIT,ORDER,FALSE,FALSE,unsung-hero-sfd.avif
-Rek'Sai Swarm Queen,SFD,1,UNIT,ORDER,FALSE,FALSE,reksai-swarm-queen-sfd.avif
+Unsung Hero,SFD,3,UNIT,ORDER,FALSE,FALSE,unsung-hero-sfd.avif
+Rek'Sai Swarm Queen,SFD,3,UNIT,ORDER,FALSE,FALSE,reksai-swarm-queen-sfd.avif
 Fiora Worthy,SFD,1,UNIT,ORDER,FALSE,FALSE,fiora-worthy-sfd.avif
-Royal Guard,SFD,2,UNIT,ORDER,FALSE,FALSE,royal-guard-sfd.avif
-Laurent Duelist,SFD,2,UNIT,ORDER,FALSE,FALSE,laurent-duelist-sfd.avif
-Guards!,SFD,1,SPELL,ORDER,FALSE,FALSE,guards-sfd.avif
+Royal Guard,SFD,3,UNIT,ORDER,FALSE,FALSE,royal-guard-sfd.avif
+Laurent Duelist,SFD,3,UNIT,ORDER,FALSE,FALSE,laurent-duelist-sfd.avif
+Guards!,SFD,3,SPELL,ORDER,FALSE,FALSE,guards-sfd.avif
 Drag Under,SFD,1,SPELL,ORDER,FALSE,FALSE,drag-under-sfd.avif
-Blood Money,SFD,1,SPELL,ORDER,FALSE,FALSE,blood-money-sfd.avif
-Bonds of Strength,SFD,1,SPELL,ORDER,FALSE,FALSE,bonds-of-strength-sfd.avif
+Blood Money,SFD,3,SPELL,ORDER,FALSE,FALSE,blood-money-sfd.avif
+Bonds of Strength,SFD,3,SPELL,ORDER,FALSE,FALSE,bonds-of-strength-sfd.avif
 Sacred Shears,SFD,3,GEAR,ORDER,FALSE,FALSE,sacred-shears-sfd.avif
 B.F. Sword,SFD,4,GEAR,ORDER,FALSE,FALSE,bf-sword-sfd.avif
 Vanguard Armory,SFD,1,GEAR,ORDER,FALSE,FALSE,vanguard-armory-sfd.avif
-Eye of the Herald,SFD,3,GEAR,ORDER,FALSE,FALSE,eye-of-the-herald-sfd.avif
+Eye of the Herald,SFD,4,GEAR,ORDER,FALSE,FALSE,eye-of-the-herald-sfd.avif
 Frostcoat Cub,SFD,4,UNIT,MIND,FALSE,FALSE,frostcoat-cub-sfd.avif
-Prize of Progress,SFD,2,UNIT,MIND,FALSE,FALSE,prize-of-progress-sfd.avif
+Prize of Progress,SFD,3,UNIT,MIND,FALSE,FALSE,prize-of-progress-sfd.avif
 Plundering Poro,SFD,3,UNIT,MIND,FALSE,FALSE,plundering-poro-sfd.avif
-Forecaster,SFD,1,UNIT,MIND,FALSE,FALSE,forecaster-sfd.avif
-Bubble Bot,SFD,1,UNIT,MIND,FALSE,FALSE,bubble-bot-sfd.avif
+Forecaster,SFD,3,UNIT,MIND,FALSE,FALSE,forecaster-sfd.avif
+Bubble Bot,SFD,3,UNIT,MIND,FALSE,FALSE,bubble-bot-sfd.avif
 Jayce Man of Progress,SFD,1,UNIT,MIND,FALSE,FALSE,jayce-man-of-progress-sfd.avif
 Wages of Pain,SFD,2,SPELL,MIND,FALSE,FALSE,wages-of-pain-sfd.avif
-Frigid Touch,SFD,1,SPELL,MIND,FALSE,FALSE,frigid-touch-sfd.avif
-Production Surge,SFD,1,SPELL,MIND,FALSE,FALSE,production-surge-sfd.avif
+Frigid Touch,SFD,3,SPELL,MIND,FALSE,FALSE,frigid-touch-sfd.avif
+Production Surge,SFD,3,SPELL,MIND,FALSE,FALSE,production-surge-sfd.avif
 Cloth Armor,SFD,1,GEAR,MIND,FALSE,FALSE,cloth-armor-sfd.avif
 Ravenbloom Student,OGN,6,UNIT,MIND,FALSE,FALSE,ravenbloom-student-ogn.avif
 Riptide Rex,OGN,4,UNIT,MIND,FALSE,FALSE,riptide-rex-ogn.avif
@@ -275,7 +275,7 @@ Albus Ferros,OGN,3,UNIT,ORDER,FALSE,FALSE,albus-ferros-ogn.avif
 Vanguard Sergeant,OGN,4,UNIT,ORDER,FALSE,FALSE,vanguard-sergeant-ogn.avif
 Solari Chief,OGN,3,UNIT,ORDER,FALSE,FALSE,solari-chief-ogn.avif
 Peak Guardian,OGN,2,UNIT,ORDER,FALSE,FALSE,peak-guardian-ogn.avif
-Trifarian Gloryseeker,OGN,5,UNIT,ORDER,FALSE,FALSE,trifarian-gloryseeker-ogn.avif
+Trifarian Gloryseeker,OGN,8,UNIT,ORDER,FALSE,FALSE,trifarian-gloryseeker-ogn.avif
 Vanguard Captain,OGN,4,UNIT,ORDER,FALSE,FALSE,vanguard-captain-ogn.avif
 Noxian Drummer,OGN,4,UNIT,ORDER,FALSE,FALSE,noxian-drummer-ogn.avif
 Karma Channeler,OGN,3,UNIT,ORDER,FALSE,FALSE,karma-channeler-ogn.avif
@@ -299,7 +299,7 @@ Sneaky Deckhand,OGN,5,UNIT,CHAOS,FALSE,FALSE,sneaky-deckhand-ogn.avif
 Maddened Marauder,OGN,2,UNIT,CHAOS,FALSE,FALSE,maddened-marauder-ogn.avif
 Undercover Agent,OGN,9,UNIT,CHAOS,FALSE,FALSE,undercover-agent-ogn.avif
 Sai Scout,OGN,4,UNIT,CHAOS,FALSE,FALSE,sai-scout-ogn.avif
-Traveling Merchant,OGN,8,UNIT,CHAOS,FALSE,FALSE,traveling-merchant-ogn.avif
+Traveling Merchant,OGN,5,UNIT,CHAOS,FALSE,FALSE,traveling-merchant-ogn.avif
 Mystic Poro,OGN,6,UNIT,CHAOS,FALSE,FALSE,mystic-poro-ogn.avif
 Shipyard Skulker,OGN,5,UNIT,CHAOS,FALSE,FALSE,shipyard-skulker-ogn.avif
 Cemetery Attendant,OGN,9,UNIT,CHAOS,FALSE,FALSE,cemetery-attendant-ogn.avif
@@ -307,12 +307,12 @@ Ember Monk,OGN,3,UNIT,CHAOS,FALSE,FALSE,ember-monk-ogn.avif
 Rhasa the Sunderer,OGN,4,UNIT,CHAOS,FALSE,FALSE,rhasa-the-sunderer-ogn.avif
 Teemo Scout,OGN,1,UNIT,CHAOS,FALSE,FALSE,teemo-scout-ogn.avif
 Nocturne Horrifying,OGN,2,UNIT,CHAOS,FALSE,FALSE,nocturne-horrifying-ogn.avif
-Gust,OGN,10,SPELL,CHAOS,FALSE,FALSE,gust-ogn.avif
-Stacked Deck,OGN,3,SPELL,CHAOS,FALSE,FALSE,stacked-deck-ogn.avif
+Gust,OGN,7,SPELL,CHAOS,FALSE,FALSE,gust-ogn.avif
+Stacked Deck,OGN,0,SPELL,CHAOS,FALSE,FALSE,stacked-deck-ogn.avif
 Morbid Return,OGN,6,SPELL,CHAOS,FALSE,FALSE,morbid-return-ogn.avif
 Fight or Flight,OGN,14,SPELL,CHAOS,FALSE,FALSE,fight-or-flight-ogn.avif
-Flash,OGN,2,SPELL,CHAOS,FALSE,FALSE,flash-ogn.avif
-Rebuke,OGN,3,SPELL,CHAOS,FALSE,FALSE,rebuke-ogn.avif
+Flash,OGN,3,SPELL,CHAOS,FALSE,FALSE,flash-ogn.avif
+Rebuke,OGN,2,SPELL,CHAOS,FALSE,FALSE,rebuke-ogn.avif
 Scrapheap,OGN,8,GEAR,CHAOS,FALSE,FALSE,scrapheap-ogn.avif
 The Syren,OGN,2,GEAR,CHAOS,FALSE,FALSE,the-syren-ogn.avif
 Pack of Wonders,OGN,1,GEAR,CHAOS,FALSE,FALSE,pack-of-wonders-ogn.avif
@@ -399,8 +399,8 @@ Enthusiastic Promoter,UNL,1,UNIT,CALM,FALSE,FALSE,enthusiastic-promoter-unl.avif
 Nami Headstrong,UNL,1,UNIT,CALM,FALSE,FALSE,nami-headstrong-unl.avif
 Tricksy Tentacles,UNL,1,SPELL,CALM,FALSE,FALSE,tricksy-tentacles-unl.avif
 Evelynn Entrancing,UNL,1,UNIT,CHAOS,FALSE,FALSE,evelynn-entrancing-unl.avif
-Kha'Zix Mutating Horror,UNL,1,UNIT,CHAOS,FALSE,FALSE,khazix-mutating-horror-unl.avif
-Master Yi Tempered,UNL,2,UNIT,BODY,FALSE,FALSE,master-yi-tempered-unl.avif
+Kha'Zix Mutating Horror,UNL,0,UNIT,CHAOS,FALSE,FALSE,khazix-mutating-horror-unl.avif
+Master Yi Tempered,UNL,3,UNIT,BODY,FALSE,FALSE,master-yi-tempered-unl.avif
 Kinkou Initiate,UNL,2,UNIT,BODY,FALSE,FALSE,kinkou-initiate-unl.avif
 Dragonsoul Sage,UNL,3,UNIT,BODY,FALSE,FALSE,dragonsoul-sage-unl.avif
 Clash of Giants,UNL,1,SPELL,BODY,FALSE,FALSE,clash-of-giants-unl.avif
@@ -417,7 +417,7 @@ Death from Below,UNL,1,SPELL,FURY&CHAOS,FALSE,FALSE,death-from-below-unl.avif
 Shadow,UNL,1,UNIT,CALM&CHAOS,FALSE,FALSE,shadow-unl.avif
 Vex Gloomist,UNL,1,LEGEND,CALM&CHAOS,FALSE,FALSE,vex-gloomist-unl.avif
 LeBlanc Deceiver,UNL,1,LEGEND,MIND&ORDER,FALSE,FALSE,leblanc-deceiver-unl.avif
-Kha'Zix Voidreaver,UNL,2,LEGEND,BODY&CHAOS,FALSE,FALSE,khazix-voidreaver-unl.avif
+Kha'Zix Voidreaver,UNL,1,LEGEND,BODY&CHAOS,FALSE,FALSE,khazix-voidreaver-unl.avif
 Lillia Bashful Bloom,UNL,2,LEGEND,MIND&CALM,FALSE,FALSE,lillia-bashful-bloom-unl.avif
 Poppy Keeper of the Hammer,UNL,2,LEGEND,BODY&ORDER,FALSE,FALSE,poppy-keeper-of-the-hammer-unl.avif
 Vi Piltover Enforcer,UNL,2,LEGEND,FURY&ORDER,FALSE,FALSE,vi-piltover-enforcer-unl.avif
@@ -459,14 +459,14 @@ Blastcone Fae,OGN,2,UNIT,MIND,FALSE,FALSE,blastcone-fae-ogn.avif
 Gemcraft Seer,OGN,1,UNIT,MIND,FALSE,FALSE,gemcraft-seer-ogn.avif
 Malzahar Fanatic,OGN,1,UNIT,MIND,FALSE,FALSE,malzahar-fanatic-ogn.avif
 Retreat,OGN,1,SPELL,MIND,FALSE,FALSE,retreat-ogn.avif
-Energy Conduit,OGN,1,GEAR,MIND,FALSE,FALSE,energy-conduit-ogn.avif
+Energy Conduit,OGN,2,GEAR,MIND,FALSE,FALSE,energy-conduit-ogn.avif
 Faithful Manufactor,OGN,3,UNIT,ORDER,FALSE,FALSE,faithful-manufactor-ogn.avif
 Petty Officer,OGN,2,UNIT,ORDER,FALSE,FALSE,petty-officer-ogn.avif
 Karthus Eternal,OGN,1,UNIT,ORDER,FALSE,FALSE,karthus-eternal-ogn.avif
 Fiora Victorious,OGN,1,UNIT,ORDER,FALSE,FALSE,fiora-victorious-ogn.avif
 Spectral Matron,OGN,1,UNIT,ORDER,FALSE,FALSE,spectral-matron-ogn.avif
 Imperial Decree,OGN,2,SPELL,ORDER,FALSE,FALSE,imperial-decree-ogn.avif
-Symbol of the Solari,OGN,1,GEAR,ORDER,FALSE,FALSE,symbol-of-the-solari-ogn.avif
+Symbol of the Solari,OGN,2,GEAR,ORDER,FALSE,FALSE,symbol-of-the-solari-ogn.avif
 Warwick Hunter,OGN,1,UNIT,BODY,FALSE,FALSE,warwick-hunter-ogn.avif
 Crackshot Corsair,OGN,3,UNIT,BODY,FALSE,FALSE,crackshot-corsair-ogn.avif
 Kraken Hunter,OGN,1,UNIT,BODY,FALSE,FALSE,kraken-hunter-ogn.avif
@@ -484,7 +484,7 @@ Adaptatron,OGN,1,UNIT,CALM,FALSE,FALSE,adaptatron-ogn.avif
 Sona Harmonious,OGN,1,UNIT,CALM,FALSE,FALSE,sona-harmonious-ogn.avif
 Reinforce,OGN,1,SPELL,CALM,FALSE,FALSE,reinforce-ogn.avif
 Wind Wall,OGN,1,SPELL,CALM,FALSE,FALSE,wind-wall-ogn.avif
-Solari Shrine,OGN,1,GEAR,CALM,FALSE,FALSE,solari-shrine-ogn.avif
+Solari Shrine,OGN,3,GEAR,CALM,FALSE,FALSE,solari-shrine-ogn.avif
 Spirit's Refuge,OGN,1,GEAR,CALM,FALSE,FALSE,spirits-refuge-ogn.avif
 Jinx Loose Cannon,OGN,2,LEGEND,FURY&CHAOS,FALSE,FALSE,jinx-loose-cannon-ogn.avif
 Yasuo Unforgiven,OGN,1,LEGEND,CALM&CHAOS,FALSE,FALSE,yasuo-unforgiven-ogn.avif
@@ -493,9 +493,9 @@ Darius Hand of Noxus,OGN,1,LEGEND,FURY&ORDER,FALSE,FALSE,darius-hand-of-noxus-og
 Bullet Time,OGN,1,SPELL,BODY&CHAOS,FALSE,FALSE,bullet-time-ogn.avif
 Guerilla Warfare,OGN,1,SPELL,CALM&CHAOS,FALSE,FALSE,guerilla-warfare-ogn.avif
 Noxian Guillotine,OGN,1,SPELL,FURY&ORDER,FALSE,FALSE,noxian-guillotine-ogn.avif
-Zaun Warrens,OGN,3,BATTLEFIELD,NONE,FALSE,FALSE,zaun-warrens-ogn.avif
+Zaun Warrens,OGN,2,BATTLEFIELD,NONE,FALSE,FALSE,zaun-warrens-ogn.avif
 Void Gate,OGN,2,BATTLEFIELD,NONE,FALSE,FALSE,void-gate-ogn.avif
-The Arena's Greatest,OGN,1,BATTLEFIELD,NONE,FALSE,FALSE,the-arenas-greatest-ogn.avif
+The Arena's Greatest,OGN,0,BATTLEFIELD,NONE,FALSE,FALSE,the-arenas-greatest-ogn.avif
 Windswept Hillock,OGN,2,BATTLEFIELD,NONE,FALSE,FALSE,windswept-hillock-ogn.avif
 Startipped Peak,OGN,1,BATTLEFIELD,NONE,FALSE,FALSE,startipped-peak-ogn.avif
 Navori Fighting Pit,OGN,1,BATTLEFIELD,NONE,FALSE,FALSE,navori-fighting-pit-ogn.avif
@@ -513,3 +513,56 @@ Lee Sin Ascetic,OGN,1,UNIT,CALM,true,false,lee-sin-ascetic-ogn-a.avif
 Ahri Inquisitive,OGN,1,UNIT,MIND,true,false,ahri-inquisitive-ogn-a.avif
 LeBlanc Everywhere at Once,UNL,1,UNIT,MIND,true,false,leblanc-everywhere-at-once-unl-a.avif
 Volibear Imposing,OGN,1,UNIT,BODY,true,false,volibear-imposing-ogn-a.avif
+Brynhir Thundersong,OGN,2,UNIT,FURY,false,false,brynhir-thundersong-ogn.avif
+Sentinel Adept,SFD,3,UNIT,FURY,false,false,sentinel-adept-sfd.avif
+Gem Jammer,SFD,3,UNIT,FURY,false,false,gem-jammer-sfd.avif
+Eager Drakehound,SFD,3,UNIT,FURY,false,false,eager-drakehound-sfd.avif
+Assembly Rig,SFD,3,GEAR,FURY,false,false,assembly-rig-sfd.avif
+Recurve Bow,SFD,3,GEAR,FURY,false,false,recurve-bow-sfd.avif
+Angle Shot,SFD,3,SPELL,FURY,false,false,angle-shot-sfd.avif
+Blood Rush,SFD,3,SPELL,FURY,false,false,blood-rush-sfd.avif
+Needlessly Large Yordle,SFD,3,UNIT,CALM,false,false,needlessly-large-yordle-sfd.avif
+Legion Quartermaster,SFD,3,UNIT,CALM,false,false,legion-quartermaster-sfd.avif
+Lonely Poro,SFD,1,UNIT,CALM,false,false,lonely-poro-sfd.avif
+Simian Ancestor,SFD,3,UNIT,CALM,false,false,simian-ancestor-sfd.avif
+Guardian of the Passage,SFD,3,UNIT,CALM,false,false,guardian-of-the-passage-sfd.avif
+Heart of Dark Ice,SFD,2,GEAR,CALM,false,false,heart-of-dark-ice-sfd.avif
+Poro Snax,SFD,3,GEAR,CALM,false,false,poro-snax-sfd.avif
+Irresistible Faefolk,UNL,0,UNIT,BODY,false,false,irresistible-faefolk-unl.avif
+Fae Dragon,SFD,1,UNIT,BODY,false,false,fae-dragon-sfd.avif
+Kato the Arm,SFD,3,UNIT,BODY,false,false,kato-the-arm-sfd.avif
+Direwing,SFD,3,UNIT,BODY,false,false,direwing-sfd.avif
+Marching Orders,SFD,3,SPELL,BODY,false,false,marching-orders-sfd.avif
+Petricite Monument,SFD,3,GEAR,BODY,false,false,petricite-monument-sfd.avif
+Harpoon Squad,SFD,3,UNIT,CHAOS,false,false,harpoon-squad-sfd.avif
+Ancient Warmonger,SFD,3,UNIT,CHAOS,false,false,ancient-warmonger-sfd.avif
+Beast Below,SFD,3,UNIT,CHAOS,false,false,beast-below-sfd.avif
+Corrupt Enforcer,SFD,3,UNIT,CHAOS,false,false,corrupt-enforcer-sfd.avif
+Temptation,SFD,3,SPELL,CHAOS,false,false,temptation-sfd.avif
+Cull,SFD,3,GEAR,CHAOS,false,false,cull-sfd.avif
+Dropboarder,SFD,3,UNIT,MIND,false,false,dropboarder-sfd.avif
+Breakneck Mech,SFD,3,UNIT,MIND,false,false,breakneck-mech-sfd.avif
+Gearhead,SFD,3,UNIT,MIND,false,false,gearhead-sfd.avif
+Aspiring Engineer,SFD,3,UNIT,MIND,false,false,aspiring-engineer-sfd.avif
+Chemtech Cask,SFD,2,SPELL,MIND,false,false,chemtech-cask-sfd.avif
+Cloth Armor,SFD,2,SPELL,MIND,false,false,cloth-armor-sfd.avif
+Experimental Hexplate,SFD,3,SPELL,MIND,false,false,experimental-hexplate-sfd.avif
+World Atlas,SFD,3,SPELL,MIND,false,false,world-atlas-sfd.avif
+Zaun Punk,SFD,3,UNIT,ORDER,false,false,zaun-punk-sfd.avif
+Ivern Friend to All,UNL,1,UNIT,ORDER,false,false,ivern-friend-to-all-unl.avif
+Mind Rune,UNL,1,RUNE,MIND,false,true,mind-rune-unl-o.avif
+Daisy!,UNL,1,UNIT,CALM&ORDER,false,false,daisy-unl.avif
+Hall of Legends,SFD,1,BATTLEFIELD,NONE,false,false,hall-of-legends-sfd.avif
+Marai Spire,SFD,1,BATTLEFIELD,NONE,false,false,marai-spire-sfd.avif
+Ravenbloom Conservatory,SFD,1,BATTLEFIELD,NONE,false,false,ravenbloom-conservatory-sfd.avif
+Seat of Power,SFD,1,BATTLEFIELD,NONE,false,false,seat-of-power-sfd.avif
+Rockfall Path,SFD,1,BATTLEFIELD,NONE,false,false,rockfall-path-sfd.avif
+Treasure Hoard,SFD,1,BATTLEFIELD,NONE,false,false,treasure-hoard-sfd.avif
+The Papertree,SFD,1,BATTLEFIELD,NONE,false,false,the-papertree-sfd.avif
+Draven Glorious Executioner,SFD,1,LEGEND,FURY&CHAOS,false,false,draven-glorious-executioner-sfd.avif
+Lucian Purifier,SFD,1,LEGEND,FURY&BODY,false,false,lucian-purifier-sfd.avif
+Ornn Fire Below the Mountain,SFD,2,LEGEND,CALM&MIND,false,false,ornn-fire-below-the-mountain-sfd.avif
+Sivir Battle Mistress,SFD,1,LEGEND,BODY&CHAOS,false,false,sivir-battle-mistress-sfd.avif
+Rumble Mechanized Menace,SFD,1,LEGEND,FURY&MIND,false,false,rumble-mechanized-menace-sfd.avif
+Rek'Sai Void Burrower,SFD,1,LEGEND,FURY&ORDER,false,false,reksai-void-burrower-sfd.avif
+Pyke Bloodharbor Ripper,UNL,1,LEGEND,FURY&CHAOS,false,false,pyke-bloodharbor-ripper-unl.avif
