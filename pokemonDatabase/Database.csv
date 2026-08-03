@@ -34,9 +34,9 @@ Anthea & Concordia,N/A,SUPPORTER,1,LEGALI,ANC
 Arven,N/A,SUPPORTER,16,LEGALG,ARVEN
 Billy & O'Nare,N/A,SUPPORTER,3,LEGALH,BILLYONARE
 Black Belt's Training,N/A,SUPPORTER,18,LEGALH,BBTRAINING
-Boss's Orders,N/A,SUPPORTER,14,LEGALI,BOSS
+Boss's Orders,N/A,SUPPORTER,15,LEGALI,BOSS
 Briar,N/A,SUPPORTER,4,LEGALH,BRIAR
-Brock's Scouting,N/A,SUPPORTER,18,LEGALI,BROCKS
+Brock's Scouting,N/A,SUPPORTER,19,LEGALI,BROCKS
 Carmine,N/A,SUPPORTER,8,LEGALH,CARMINE
 Ciphermaniac's Codebreaking,N/A,SUPPORTER,11,LEGALH,CIPHER
 Clavell,N/A,SUPPORTER,1,LEGALG,CLAVELL
@@ -151,7 +151,7 @@ TM Machine,,ITEM,2,LEGALH,TMMACHINE
 Tool Scrapper,,ITEM,4,LEGALI,TOOLSCRAPPER
 Treasure Tracker,ACE SPEC,ITEM,2,LEGALH,TREASURETRACKER
 Ultra Ball,,ITEM,25,LEGALI,ULTRABALL
-Wondrous Patch,,ITEM,9,LEGALI,WONDROUSPATCH
+Wondrous Patch,,ITEM,10,LEGALI,WONDROUSPATCH
 Area Zero Underdepths,,STADIUM,10,LEGALH,AREAZERO
 Artazon,,STADIUM,11,LEGALG,ARTAZON
 Battle Cage,,STADIUM,1,LEGALI,BATTLECAGE
@@ -165,7 +165,7 @@ Grand Tree,ACE SPEC,STADIUM,1,LEGALH,GRANDTREE
 Granite Cave,,STADIUM,3,LEGALI,GRANITECAVE
 Gravity Mountain,,STADIUM,5,LEGALH,GRAVITYMOUNTAIN
 Jamming Tower,,STADIUM,13,LEGALH,JAMMINGTOWER
-Levincia,,STADIUM,15,LEGALI,LEVINCIA
+Levincia,,STADIUM,16,LEGALI,LEVINCIA
 Lively Stadium,,STADIUM,2,LEGALH,LIVELYSTADIUM
 Moonlit Hill,,STADIUM,1,LEGALG,MOONLITHILL
 Mystery Garden,,STADIUM,10,LEGALI,MYSTERYGARDEN
@@ -250,3 +250,11 @@ Hand Trimmer,N/A,ITEM,1,LEGALH,hand-trimmer-item
 Transformation Tome,N/A,ITEM,1,LEGALJ,transformation-tome-item
 Magnetic Energy,N/A,ENERGY,2,LEGALJ,magnetic-energy-energy
 Legacy Energy,ACE SPEC,ENERGY,1,LEGALH,legacy-energy-energy
+Fossil Quarry,N/A,STADIUM,3,LEGALJ,fossil-quarry-stadium
+Tremendous Bomb,N/A,TOOL,4,LEGALJ,tremendous-bomb-tool
+Misty's Vitality,N/A,SUPPORTER,3,LEGALJ,misty's-vitality-supporter
+Rust Syndicate Grunt,N/A,SUPPORTER,2,LEGALJ,rust-syndicate-grunt-supporter
+Gladion's Final Battle,N/A,SUPPORTER,1,LEGALJ,gladion's-final-battle-supporter
+Jett,N/A,SUPPORTER,1,LEGALJ,jett-supporter
+Shadowy Energy,N/A,ENERGY,2,LEGALJ,shadowy-energy-energy
+Backtrack Badge,N/A,TOOL,1,LEGALJ,backtrack-badge-tool

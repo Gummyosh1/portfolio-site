@@ -30,7 +30,7 @@ Angler Beast,UNL,3,UNIT,CHAOS,FALSE,FALSE,angler-beast-unl.avif
 Bewitching Spirit,UNL,4,UNIT,CHAOS,FALSE,FALSE,bewitching-spirit-unl.avif
 Walking Roost,UNL,4,UNIT,CHAOS,FALSE,FALSE,walking-roost-unl.avif
 Mister Root,UNL,2,UNIT,CHAOS,FALSE,FALSE,mister-root-unl.avif
-Pyke Returned,UNL,1,UNIT,CHAOS,FALSE,FALSE,pyke-returned-unl.avif
+Pyke Returned,UNL,3,UNIT,CHAOS,FALSE,FALSE,pyke-returned-unl.avif
 Maduli the Gatekeeper,UNL,1,UNIT,CHAOS,FALSE,FALSE,maduli-the-gatekeeper-unl.avif
 Heedless Resurrection,UNL,2,SPELL,CHAOS,FALSE,FALSE,heedless-resurrection-unl.avif
 Lunar Boon,UNL,6,SPELL,CHAOS,FALSE,FALSE,lunar-boon-unl.avif
@@ -273,7 +273,7 @@ Soaring Scout,OGN,8,UNIT,ORDER,FALSE,FALSE,soaring-scout-ogn.avif
 Daring Poro,OGN,11,UNIT,ORDER,FALSE,FALSE,daring-poro-ogn.avif
 Albus Ferros,OGN,3,UNIT,ORDER,FALSE,FALSE,albus-ferros-ogn.avif
 Vanguard Sergeant,OGN,4,UNIT,ORDER,FALSE,FALSE,vanguard-sergeant-ogn.avif
-Solari Chief,OGN,3,UNIT,ORDER,FALSE,FALSE,solari-chief-ogn.avif
+Solari Chief,OGN,6,UNIT,ORDER,FALSE,FALSE,solari-chief-ogn.avif
 Peak Guardian,OGN,2,UNIT,ORDER,FALSE,FALSE,peak-guardian-ogn.avif
 Trifarian Gloryseeker,OGN,8,UNIT,ORDER,FALSE,FALSE,trifarian-gloryseeker-ogn.avif
 Vanguard Captain,OGN,4,UNIT,ORDER,FALSE,FALSE,vanguard-captain-ogn.avif
@@ -315,7 +315,7 @@ Flash,OGN,3,SPELL,CHAOS,FALSE,FALSE,flash-ogn.avif
 Rebuke,OGN,2,SPELL,CHAOS,FALSE,FALSE,rebuke-ogn.avif
 Scrapheap,OGN,8,GEAR,CHAOS,FALSE,FALSE,scrapheap-ogn.avif
 The Syren,OGN,2,GEAR,CHAOS,FALSE,FALSE,the-syren-ogn.avif
-Pack of Wonders,OGN,1,GEAR,CHAOS,FALSE,FALSE,pack-of-wonders-ogn.avif
+Pack of Wonders,OGN,2,GEAR,CHAOS,FALSE,FALSE,pack-of-wonders-ogn.avif
 Pouty Poro,OGN,9,UNIT,FURY,FALSE,FALSE,pouty-poro-ogn.avif
 Jinx Demolitionist,OGN,5,UNIT,FURY,FALSE,FALSE,jinx-demolitionist-ogn.avif
 Dangerous Duo,OGN,3,UNIT,FURY,FALSE,FALSE,dangerous-duo-ogn.avif
@@ -398,7 +398,7 @@ Ivern Nurturer,UNL,1,UNIT,CALM,FALSE,FALSE,ivern-nurturer-unl.avif
 Enthusiastic Promoter,UNL,1,UNIT,CALM,FALSE,FALSE,enthusiastic-promoter-unl.avif
 Nami Headstrong,UNL,1,UNIT,CALM,FALSE,FALSE,nami-headstrong-unl.avif
 Tricksy Tentacles,UNL,1,SPELL,CALM,FALSE,FALSE,tricksy-tentacles-unl.avif
-Evelynn Entrancing,UNL,1,UNIT,CHAOS,FALSE,FALSE,evelynn-entrancing-unl.avif
+Evelynn Entrancing,UNL,4,UNIT,CHAOS,FALSE,FALSE,evelynn-entrancing-unl.avif
 Kha'Zix Mutating Horror,UNL,0,UNIT,CHAOS,FALSE,FALSE,khazix-mutating-horror-unl.avif
 Master Yi Tempered,UNL,3,UNIT,BODY,FALSE,FALSE,master-yi-tempered-unl.avif
 Kinkou Initiate,UNL,2,UNIT,BODY,FALSE,FALSE,kinkou-initiate-unl.avif
@@ -566,3 +566,7 @@ Sivir Battle Mistress,SFD,1,LEGEND,BODY&CHAOS,false,false,sivir-battle-mistress-
 Rumble Mechanized Menace,SFD,1,LEGEND,FURY&MIND,false,false,rumble-mechanized-menace-sfd.avif
 Rek'Sai Void Burrower,SFD,1,LEGEND,FURY&ORDER,false,false,reksai-void-burrower-sfd.avif
 Pyke Bloodharbor Ripper,UNL,1,LEGEND,FURY&CHAOS,false,false,pyke-bloodharbor-ripper-unl.avif
+Switcheroo,SFD,3,SPELL,CHAOS,false,false,switcheroo-sfd.avif
+Hard Bargain,SFD,1,SPELL,CHAOS,false,false,hard-bargain-sfd.avif
+Jax Grandmaster at Arms,SFD,1,LEGEND,CALM&BODY,false,false,jax-grandmaster-at-arms-sfd.avif
+Qiyana Victorious,OGN,3,UNIT,BODY,false,false,qiyana-victorious-ogn.avif
