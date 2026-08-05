@@ -36,7 +36,7 @@ Billy & O'Nare,N/A,SUPPORTER,3,LEGALH,BILLYONARE
 Black Belt's Training,N/A,SUPPORTER,18,LEGALH,BBTRAINING
 Boss's Orders,N/A,SUPPORTER,15,LEGALI,BOSS
 Briar,N/A,SUPPORTER,4,LEGALH,BRIAR
-Brock's Scouting,N/A,SUPPORTER,19,LEGALI,BROCKS
+Brock's Scouting,N/A,SUPPORTER,20,LEGALI,BROCKS
 Carmine,N/A,SUPPORTER,8,LEGALH,CARMINE
 Ciphermaniac's Codebreaking,N/A,SUPPORTER,11,LEGALH,CIPHER
 Clavell,N/A,SUPPORTER,1,LEGALG,CLAVELL
@@ -55,12 +55,12 @@ Firebreather,N/A,SUPPORTER,5,LEGALI,FIREBREATHER
 Friends in Paldea,N/A,SUPPORTER,2,LEGALH,FRIENDSINPALDEA
 Geeta,N/A,SUPPORTER,3,LEGALG,GEETA
 Giovanni's Charisma,N/A,SUPPORTER,1,LEGALG,GIOCHARISMA
-Grimsley's Move,N/A,SUPPORTER,2,LEGALI,GRIMSMOVE
+Grimsley's Move,N/A,SUPPORTER,3,LEGALI,GRIMSMOVE
 Hilda,N/A,SUPPORTER,2,LEGALI,HILDA
 Iono,N/A,SUPPORTER,26,LEGALG,IONO
 Iris's Fighting Spirit,N/A,SUPPORTER,8,LEGALI,IRISFIGHTINGSPIRIT
 Jacq,N/A,SUPPORTER,3,LEGALG,JACQ
-Janine's Secret Art,N/A,SUPPORTER,7,LEGALH,JANINESECRETART
+Janine's Secret Art,N/A,SUPPORTER,9,LEGALH,JANINESECRETART
 Judge,N/A,SUPPORTER,7,LEGALJ,JUDGE
 Kieran,N/A,SUPPORTER,6,LEGALH,KIERAN
 Lacey,N/A,SUPPORTER,2,LEGALH,LACEY
@@ -190,7 +190,7 @@ Antique Jaw Fossil,N/A,ITEM,9,LEGALJ,antique-jaw-fossil-item
 Tarragon,N/A,SUPPORTER,8,LEGALJ,tarragon-supporter
 Lillie's Determination,N/A,SUPPORTER,17,LEGALI,lillie's-determination-supporter
 Lumiose City,N/A,STADIUM,5,LEGALJ,lumiose-city-stadium
-Core Memory,N/A,TOOL,8,LEGALJ,core-memory-tool
+Core Memory,N/A,TOOL,9,LEGALJ,core-memory-tool
 Rocky Energy,N/A,ENERGY,7,LEGALJ,rocky-energy-energy
 Telepathic Energy,N/A,ENERGY,3,LEGALJ,telepathic-energy-energy
 Growing Energy,N/A,ENERGY,0,LEGALJ,growing-energy-energy
@@ -216,7 +216,7 @@ Vitality Band,N/A,TOOL,1,LEGALG,vitality-band-tool
 Defiance Band,N/A,TOOL,3,LEGALG,defiance-band-tool
 Electric Generator,N/A,ITEM,2,LEGALG,electric-generator-item
 Poke Ball,N/A,ITEM,4,LEGALJ,poke-ball-item
-Pokemon Catcher,N/A,ITEM,0,LEGALJ,pokemon-catcher-item
+Pokemon Catcher,N/A,ITEM,3,LEGALJ,pokemon-catcher-item
 Trekking Shoes,N/A,ITEM,1,LEGALF,trekking-shoes-item
 Technical Machine: Turbo Energize,TM,TOOL,1,LEGALG,tm-turbo-energize-tool
 Cursed Duster,N/A,TOOL,1,LEGALG,cursed-duster-tool
@@ -247,14 +247,17 @@ Unfair Stamp,ACE SPEC,ITEM,1,LEGALH,unfair-stamp-item
 Temple of Sinnoh,N/A,STADIUM,1,LEGALF,temple-of-sinnoh-stadium
 Bubbly Energy,N/A,ENERGY,2,LEGALJ,bubbly-energy-energy
 Hand Trimmer,N/A,ITEM,1,LEGALH,hand-trimmer-item
-Transformation Tome,N/A,ITEM,1,LEGALJ,transformation-tome-item
-Magnetic Energy,N/A,ENERGY,2,LEGALJ,magnetic-energy-energy
+Transformation Tome,N/A,ITEM,6,LEGALJ,transformation-tome-item
+Magnetic Energy,N/A,ENERGY,4,LEGALJ,magnetic-energy-energy
 Legacy Energy,ACE SPEC,ENERGY,1,LEGALH,legacy-energy-energy
-Fossil Quarry,N/A,STADIUM,3,LEGALJ,fossil-quarry-stadium
-Tremendous Bomb,N/A,TOOL,4,LEGALJ,tremendous-bomb-tool
+Fossil Quarry,N/A,STADIUM,4,LEGALJ,fossil-quarry-stadium
+Tremendous Bomb,N/A,TOOL,6,LEGALJ,tremendous-bomb-tool
 Misty's Vitality,N/A,SUPPORTER,3,LEGALJ,misty's-vitality-supporter
 Rust Syndicate Grunt,N/A,SUPPORTER,2,LEGALJ,rust-syndicate-grunt-supporter
 Gladion's Final Battle,N/A,SUPPORTER,1,LEGALJ,gladion's-final-battle-supporter
 Jett,N/A,SUPPORTER,1,LEGALJ,jett-supporter
 Shadowy Energy,N/A,ENERGY,2,LEGALJ,shadowy-energy-energy
-Backtrack Badge,N/A,TOOL,1,LEGALJ,backtrack-badge-tool
+Backtrack Badge,N/A,TOOL,2,LEGALJ,backtrack-badge-tool
+Canari,N/A,SUPPORTER,1,LEGALI,canari-supporter
+Antique Armor Fossil,N/A,ITEM,1,LEGALJ,antique-armor-fossil-item
+Dark Bell,N/A,ITEM,2,LEGALJ,dark-bell-item

@@ -1,5 +1,5 @@
 name,set,quantity,type,color,altArt,overnumbered,image
-Scuttle Crab,UNL,1,UNIT,CALM,FALSE,FALSE,scuttle-crab-unl.avif
+Scuttle Crab,UNL,0,UNIT,CALM,FALSE,FALSE,scuttle-crab-unl.avif
 Frisky Hunter,UNL,4,UNIT,CALM,FALSE,FALSE,frisky-hunter-unl.avif
 Wuju Apprentice,UNL,5,UNIT,CALM,FALSE,FALSE,wuju-apprentice-unl.avif
 Trevor Snoozebottom,UNL,3,UNIT,CALM,FALSE,FALSE,trevor-snoozebottom-unl.avif
@@ -135,7 +135,7 @@ Brush,UNL,4,BATTLEFIELD,NONE,FALSE,FALSE,brush-unl.avif
 Baron Pit,UNL,4,BATTLEFIELD,NONE,FALSE,FALSE,baron-pit-unl.avif
 Minefield,SFD,1,BATTLEFIELD,NONE,FALSE,FALSE,minefield-sfd.avif
 Veiled Temple,SFD,3,BATTLEFIELD,NONE,FALSE,FALSE,veiled-temple-sfd.avif
-Sunken Temple,SFD,2,BATTLEFIELD,NONE,FALSE,FALSE,sunken-temple-sfd.avif
+Sunken Temple,SFD,1,BATTLEFIELD,NONE,FALSE,FALSE,sunken-temple-sfd.avif
 Forge of the Fluft,SFD,1,BATTLEFIELD,NONE,FALSE,FALSE,forge-of-the-fluft-sfd.avif
 Forgotten Monument,SFD,1,BATTLEFIELD,NONE,FALSE,FALSE,forgotten-monument-sfd.avif
 Ornn's Forge,SFD,2,BATTLEFIELD,NONE,FALSE,FALSE,ornns-forge-sfd.avif
@@ -175,7 +175,7 @@ Punch First,SFD,2,SPELL,BODY,FALSE,FALSE,punch-first-sfd.avif
 Doran's Blade,SFD,6,GEAR,BODY,FALSE,FALSE,dorans-blade-sfd.avif
 Warmog's Armor,SFD,4,GEAR,BODY,FALSE,FALSE,warmogs-armor-sfd.avif
 Hexdrinker,SFD,3,GEAR,BODY,FALSE,FALSE,hexdrinker-sfd.avif
-Disarming Rake,SFD,3,UNIT,CALM,FALSE,FALSE,disarming-rake-sfd.avif
+Disarming Rake,SFD,0,UNIT,CALM,FALSE,FALSE,disarming-rake-sfd.avif
 Ribbon Dancer,SFD,3,UNIT,CALM,FALSE,FALSE,ribbon-dancer-sfd.avif
 Aphelios Exalted,SFD,1,UNIT,CALM,FALSE,FALSE,aphelios-exalted-sfd.avif
 Royal Entourage,SFD,3,UNIT,CALM,FALSE,FALSE,royal-entourage-sfd.avif
@@ -184,7 +184,7 @@ Navori Scout,SFD,3,UNIT,CALM,FALSE,FALSE,navori-scout-sfd.avif
 Stellacorn Herder,SFD,2,UNIT,CALM,FALSE,FALSE,stellacorn-herder-sfd.avif
 Feral Strength,SFD,4,SPELL,CALM,FALSE,FALSE,feral-strength-sfd.avif
 Thwonk!,SFD,5,SPELL,CALM,FALSE,FALSE,thwonk-sfd.avif
-Emperor's Divide,SFD,2,SPELL,CALM,FALSE,FALSE,emperors-divide-sfd.avif
+Emperor's Divide,SFD,0,SPELL,CALM,FALSE,FALSE,emperors-divide-sfd.avif
 Desert's Call,SFD,3,SPELL,CALM,FALSE,FALSE,deserts-call-sfd.avif
 Guardian Angel,SFD,2,GEAR,CALM,FALSE,FALSE,guardian-angel-sfd.avif
 Sterak's Gage,SFD,1,GEAR,CALM,FALSE,FALSE,steraks-gage-sfd.avif
@@ -261,10 +261,10 @@ Smoke Screen,OGN,7,SPELL,MIND,FALSE,FALSE,smoke-screen-ogn.avif
 Sprite Call,OGN,6,SPELL,MIND,FALSE,FALSE,sprite-call-ogn.avif
 Stupefy,OGN,7,SPELL,MIND,FALSE,FALSE,stupefy-ogn.avif
 Falling Comet,OGN,6,SPELL,MIND,FALSE,FALSE,falling-comet-ogn.avif
-Convergent Mutation,OGN,1,SPELL,MIND,FALSE,FALSE,convergent-mutation-ogn.avif
+Convergent Mutation,OGN,0,SPELL,MIND,FALSE,FALSE,convergent-mutation-ogn.avif
 Portal Rescue,OGN,2,SPELL,MIND,FALSE,FALSE,portal-rescue-ogn.avif
 Promising Future,OGN,1,SPELL,MIND,FALSE,FALSE,promising-future-ogn.avif
-Singularity,OGN,1,SPELL,MIND,FALSE,FALSE,singularity-ogn.avif
+Singularity,OGN,0,SPELL,MIND,FALSE,FALSE,singularity-ogn.avif
 Orb of Regret,OGN,10,GEAR,MIND,FALSE,FALSE,orb-of-regret-ogn.avif
 Garbage Grabber,OGN,3,GEAR,MIND,FALSE,FALSE,garbage-grabber-ogn.avif
 Mushroom Pouch,OGN,4,GEAR,MIND,FALSE,FALSE,mushroom-pouch-ogn.avif
@@ -381,11 +381,11 @@ Rune Prison,OGN,3,SPELL,CALM,FALSE,FALSE,rune-prison-ogn.avif
 En Garde,OGN,5,SPELL,CALM,FALSE,FALSE,en-garde-ogn.avif
 Defy,OGN,3,SPELL,CALM,FALSE,FALSE,defy-ogn.avif
 Meditation,OGN,6,SPELL,CALM,FALSE,FALSE,meditation-ogn.avif
-Find Your Center,OGN,5,SPELL,CALM,FALSE,FALSE,find-your-center-ogn.avif
+Find Your Center,OGN,2,SPELL,CALM,FALSE,FALSE,find-your-center-ogn.avif
 Party Favors,OGN,2,SPELL,CALM,FALSE,FALSE,party-favos-ogn.avif
 Charm,OGN,6,SPELL,CALM,FALSE,FALSE,charm-ogn.avif
 Mask of Foresight,OGN,4,GEAR,CALM,FALSE,FALSE,mask-of-foresight-ogn.avif
-Zhonya's Hourglass,OGN,3,GEAR,CALM,FALSE,FALSE,zhonyas-hourglass-ogn.avif
+Zhonya's Hourglass,OGN,0,GEAR,CALM,FALSE,FALSE,zhonyas-hourglass-ogn.avif
 Galio Indefatigable,UNL,1,UNIT,ORDER,FALSE,FALSE,galio-indefatigable-unl.avif
 Vi Peacekeeper,UNL,1,UNIT,ORDER,FALSE,FALSE,vi-peacekeeper-unl.avif
 Sacrifice,UNL,1,SPELL,ORDER,FALSE,FALSE,sacrifice-unl.avif
@@ -397,7 +397,7 @@ Smoke and Mirrors,UNL,1,SPELL,MIND,FALSE,FALSE,smoke-and-mirrors-unl.avif
 Ivern Nurturer,UNL,1,UNIT,CALM,FALSE,FALSE,ivern-nurturer-unl.avif
 Enthusiastic Promoter,UNL,1,UNIT,CALM,FALSE,FALSE,enthusiastic-promoter-unl.avif
 Nami Headstrong,UNL,1,UNIT,CALM,FALSE,FALSE,nami-headstrong-unl.avif
-Tricksy Tentacles,UNL,1,SPELL,CALM,FALSE,FALSE,tricksy-tentacles-unl.avif
+Tricksy Tentacles,UNL,0,SPELL,CALM,FALSE,FALSE,tricksy-tentacles-unl.avif
 Evelynn Entrancing,UNL,4,UNIT,CHAOS,FALSE,FALSE,evelynn-entrancing-unl.avif
 Kha'Zix Mutating Horror,UNL,0,UNIT,CHAOS,FALSE,FALSE,khazix-mutating-horror-unl.avif
 Master Yi Tempered,UNL,3,UNIT,BODY,FALSE,FALSE,master-yi-tempered-unl.avif
@@ -458,7 +458,7 @@ Ekko Recurrent,OGN,1,UNIT,MIND,FALSE,FALSE,ekko-recurrent-ogn.avif
 Blastcone Fae,OGN,2,UNIT,MIND,FALSE,FALSE,blastcone-fae-ogn.avif
 Gemcraft Seer,OGN,1,UNIT,MIND,FALSE,FALSE,gemcraft-seer-ogn.avif
 Malzahar Fanatic,OGN,1,UNIT,MIND,FALSE,FALSE,malzahar-fanatic-ogn.avif
-Retreat,OGN,1,SPELL,MIND,FALSE,FALSE,retreat-ogn.avif
+Retreat,OGN,0,SPELL,MIND,FALSE,FALSE,retreat-ogn.avif
 Energy Conduit,OGN,2,GEAR,MIND,FALSE,FALSE,energy-conduit-ogn.avif
 Faithful Manufactor,OGN,3,UNIT,ORDER,FALSE,FALSE,faithful-manufactor-ogn.avif
 Petty Officer,OGN,2,UNIT,ORDER,FALSE,FALSE,petty-officer-ogn.avif
@@ -523,7 +523,7 @@ Angle Shot,SFD,3,SPELL,FURY,false,false,angle-shot-sfd.avif
 Blood Rush,SFD,3,SPELL,FURY,false,false,blood-rush-sfd.avif
 Needlessly Large Yordle,SFD,3,UNIT,CALM,false,false,needlessly-large-yordle-sfd.avif
 Legion Quartermaster,SFD,3,UNIT,CALM,false,false,legion-quartermaster-sfd.avif
-Lonely Poro,SFD,1,UNIT,CALM,false,false,lonely-poro-sfd.avif
+Lonely Poro,SFD,0,UNIT,CALM,false,false,lonely-poro-sfd.avif
 Simian Ancestor,SFD,3,UNIT,CALM,false,false,simian-ancestor-sfd.avif
 Guardian of the Passage,SFD,3,UNIT,CALM,false,false,guardian-of-the-passage-sfd.avif
 Heart of Dark Ice,SFD,2,GEAR,CALM,false,false,heart-of-dark-ice-sfd.avif
@@ -558,7 +558,7 @@ Ravenbloom Conservatory,SFD,1,BATTLEFIELD,NONE,false,false,ravenbloom-conservato
 Seat of Power,SFD,1,BATTLEFIELD,NONE,false,false,seat-of-power-sfd.avif
 Rockfall Path,SFD,1,BATTLEFIELD,NONE,false,false,rockfall-path-sfd.avif
 Treasure Hoard,SFD,1,BATTLEFIELD,NONE,false,false,treasure-hoard-sfd.avif
-The Papertree,SFD,1,BATTLEFIELD,NONE,false,false,the-papertree-sfd.avif
+The Papertree,SFD,0,BATTLEFIELD,NONE,false,false,the-papertree-sfd.avif
 Draven Glorious Executioner,SFD,1,LEGEND,FURY&CHAOS,false,false,draven-glorious-executioner-sfd.avif
 Lucian Purifier,SFD,1,LEGEND,FURY&BODY,false,false,lucian-purifier-sfd.avif
 Ornn Fire Below the Mountain,SFD,2,LEGEND,CALM&MIND,false,false,ornn-fire-below-the-mountain-sfd.avif
@@ -638,7 +638,7 @@ Shen Leader of the Kinkou Order,VEN,1,UNIT,ORDER,false,false,shen-leader-of-the-
 Traveling Merchant,VEN,2,UNIT,CHAOS,false,false,traveling-merchant-ven.avif
 Zed From the Shadows,VEN,1,UNIT,FURY,false,false,zed-from-the-shadows-ven.avif
 Hand Hammer,VEN,8,GEAR,CALM,false,false,hand-hammer-ven.avif
-Helm of Suppression,VEN,2,GEAR,CALM,false,false,helm-of-suppression-ven.avif
+Helm of Suppression,VEN,0,GEAR,CALM,false,false,helm-of-suppression-ven.avif
 Resonating Strike,VEN,4,SPELL,CALM,false,false,resonating-strike-ven.avif
 Twilight Shroud,VEN,7,SPELL,CALM,false,false,twilight-shroud-ven.avif
 Sanction,VEN,4,SPELL,CALM,false,false,sanction-ven.avif
@@ -652,8 +652,8 @@ Affectionate Poro,VEN,6,UNIT,CALM,false,false,affectionate-poro-ven.avif
 Esteemed Hierophant,VEN,7,UNIT,CALM,false,false,esteemed-hierophant-ven.avif
 Ol' Poro,VEN,5,UNIT,CALM,false,false,ol-poro-ven.avif
 Akali Silent,VEN,3,UNIT,CALM,false,false,akali-silent-ven.avif
-Frostcoat Mother,VEN,4,UNIT,CALM,false,false,frostcoat-mother-ven.avif
-Steel Paws,VEN,3,UNIT,CALM,false,false,steel-paws-ven.avif
+Frostcoat Mother,VEN,3,UNIT,CALM,false,false,frostcoat-mother-ven.avif
+Steel Paws,VEN,2,UNIT,CALM,false,false,steel-paws-ven.avif
 Serene Ascetic,VEN,10,UNIT,CALM,false,false,serene-ascetic-ven.avif
 Pakaa Protector,VEN,6,UNIT,CALM,false,false,pakaa-protector-ven.avif
 Tomb-Raider Barbara,VEN,2,UNIT,CALM,false,false,tomb-raider-barbara-ven.avif
@@ -668,7 +668,7 @@ Shock Blast,VEN,3,SPELL,MIND,false,false,shock-blast-ven.avif
 Decree of Insight,VEN,1,SPELL,MIND,false,false,decree-of-insight-ven.avif
 Mesmerize,VEN,4,SPELL,MIND,false,false,mesmerize-ven.avif
 Clairvoyance,VEN,2,SPELL,MIND,false,false,clairvoyance-ven.avif
-Temporal Breach,VEN,1,SPELL,MIND,false,false,temporal-breach-ven.avif
+Temporal Breach,VEN,0,SPELL,MIND,false,false,temporal-breach-ven.avif
 Applied Researchers,VEN,2,UNIT,MIND,false,false,applied-researchers-ven.avif
 Otterpus,VEN,6,UNIT,MIND,false,false,otterpus-ven.avif
 Swain Visionary,VEN,4,UNIT,MIND,false,false,swain-visionary-ven.avif
@@ -733,3 +733,4 @@ Mystic Vortex,VEN,3,BATTLEFIELD,NONE,false,false,mystic-vortex-ven.avif
 Heisho Shell of the World,VEN,1,BATTLEFIELD,NONE,false,false,heisho-shell-of-the-world-ven.avif
 Piltovan Forge,VEN,1,BATTLEFIELD,NONE,false,false,piltovan-forge-ven.avif
 Dragon Roost,VEN,1,BATTLEFIELD,NONE,false,false,dragon-roost-ven.avif
+Sabotage,OGN,1,SPELL,BODY,false,false,sabotage-ogn.avif

@@ -1227,7 +1227,7 @@ Croagunk,SVI,dark,2,LEGALG,secondbox,croagunk-svi
 Applin 126,TWM,dragon,1,LEGALH,secondbox,applin-twm-126
 Groudon,PRE,fighting,1,LEGALG,secondbox,groudon-pre
 Great Tusk,PRE,fighting,3,LEGALH,secondbox,great-tusk-pre
-Goldeen,PRE,water,1,LEGALH,secondbox,goldeen-pre
+Goldeen,PRE,water,5,LEGALH,secondbox,goldeen-pre
 Applin,PRE,grass,1,LEGALH,secondbox,applin-pre
 Mega Diancie EX,PFL,psychic,2,LEGALI,secondbox,mega-diancie-ex-pfl
 Leafeon,PRE,grass,1,LEGALH,secondbox,leafeon-pre
@@ -1419,15 +1419,15 @@ Minccino,CRI,normal,2,LEGALJ,secondbox,minccino-cri
 Skuntank,CRI,dark,1,LEGALJ,secondbox,skuntank-cri
 Team Rocket's Mimikyu,DRI,psychic,1,LEGALI,secondbox,team-rocket's-mimikyu-dri
 Team Rocket's Articuno,DRI,water,1,LEGALI,secondbox,team-rocket's-articuno-dri
-Electrike,PBL,lightning,3,LEGALJ,secondbox,electrike-pbl
-Vikavolt,PBL,lightning,2,LEGALJ,secondbox,vikavolt-pbl
-Manectric,PBL,lightning,1,LEGALJ,secondbox,manectric-pbl
+Electrike,PBL,lightning,4,LEGALJ,secondbox,electrike-pbl
+Vikavolt,PBL,lightning,3,LEGALJ,secondbox,vikavolt-pbl
+Manectric,PBL,lightning,3,LEGALJ,secondbox,manectric-pbl
 Mega Zeraora EX,PBL,lightning,1,LEGALJ,secondbox,mega-zeraora-ex-pbl
 Miraidon,PBL,lightning,1,LEGALJ,secondbox,miraidon-pbl
 Fomantis,PBL,grass,1,LEGALJ,secondbox,fomantis-pbl
 Tropius,PBL,grass,2,LEGALJ,secondbox,tropius-pbl
 Sinistcha,PBL,grass,1,LEGALJ,secondbox,sinistcha-pbl
-Poltchageist,PBL,grass,2,LEGALJ,secondbox,poltchageist-pbl
+Poltchageist,PBL,grass,3,LEGALJ,secondbox,poltchageist-pbl
 Grubbin,PBL,grass,1,LEGALJ,secondbox,grubbin-pbl
 Skarmory,PBL,metal,1,LEGALJ,secondbox,skarmory-pbl
 Shieldon,PBL,metal,4,LEGALJ,secondbox,shieldon-pbl
@@ -1435,36 +1435,45 @@ Bastiodon,PBL,metal,1,LEGALJ,secondbox,bastiodon-pbl
 Inkay,PBL,dark,2,LEGALJ,secondbox,inkay-pbl
 Malamar,PBL,dark,1,LEGALJ,secondbox,malamar-pbl
 Mandibuzz,PBL,dark,3,LEGALJ,secondbox,mandibuzz-pbl
-Zarude,PBL,dark,2,LEGALJ,secondbox,zarude-pbl
-Maschiff,PBL,dark,1,LEGALJ,secondbox,maschiff-pbl
+Zarude,PBL,dark,4,LEGALJ,secondbox,zarude-pbl
+Maschiff,PBL,dark,2,LEGALJ,secondbox,maschiff-pbl
 Vullaby,PBL,dark,2,LEGALJ,secondbox,vullaby-pbl
-Thievul,PBL,dark,3,LEGALJ,secondbox,thievul-pbl
+Thievul,PBL,dark,4,LEGALJ,secondbox,thievul-pbl
 Nickit,PBL,dark,2,LEGALJ,secondbox,nickit-pbl
-Mabosstiff,PBL,dark,1,LEGALJ,secondbox,mabosstiff-pbl
+Mabosstiff,PBL,dark,2,LEGALJ,secondbox,mabosstiff-pbl
 Popplio,PBL,water,2,LEGALJ,secondbox,popplio-pbl
 Brionne,PBL,water,2,LEGALJ,secondbox,brionne-pbl
 Relicanth,PBL,water,2,LEGALJ,secondbox,relicanth-pbl
-Wailmer,PBL,water,3,LEGALJ,secondbox,wailmer-pbl
-Goldeen,PBL,water,1,LEGALJ,secondbox,goldeen-pbl
-Jynx,PBL,psychic,3,LEGALJ,secondbox,jynx-pbl
+Wailmer,PBL,water,4,LEGALJ,secondbox,wailmer-pbl
+Goldeen,PBL,water,2,LEGALJ,secondbox,goldeen-pbl
+Jynx,PBL,psychic,5,LEGALJ,secondbox,jynx-pbl
 Slowbro,PBL,psychic,2,LEGALJ,secondbox,slowbro-pbl
 Litwick,PBL,psychic,3,LEGALJ,secondbox,litwick-pbl
-Lampent,PBL,psychic,3,LEGALJ,secondbox,lampent-pbl
-Banette,PBL,psychic,4,LEGALJ,secondbox,banette-pbl
+Lampent,PBL,psychic,4,LEGALJ,secondbox,lampent-pbl
+Banette,PBL,psychic,5,LEGALJ,secondbox,banette-pbl
 Shuppet,PBL,psychic,2,LEGALJ,secondbox,shuppet-pbl
 Marshadow,PBL,psychic,2,LEGALJ,secondbox,marshadow-pbl
 Slowpoke,PBL,psychic,2,LEGALJ,secondbox,slowpoke-pbl
 Dhelmise,PBL,psychic,1,LEGALJ,secondbox,dhelmise-pbl
 Mega Chandelure EX,PBL,psychic,1,LEGALJ,secondbox,mega-chandelure-ex-pbl
 Centiskorch,PBL,fire,1,LEGALJ,secondbox,centiskorch-pbl
-Sizzlipede,PBL,fire,1,LEGALJ,secondbox,sizzlipede-pbl
+Sizzlipede,PBL,fire,2,LEGALJ,secondbox,sizzlipede-pbl
 Charcadet,PBL,fire,3,LEGALJ,secondbox,charcadet-pbl
 Heatran,PBL,fire,4,LEGALJ,secondbox,heatran-pbl
-Cranidos,PBL,fighting,3,LEGALJ,secondbox,cranidos-pbl
+Cranidos,PBL,fighting,4,LEGALJ,secondbox,cranidos-pbl
 Drilbur,PBL,fighting,2,LEGALJ,secondbox,drilbur-pbl
 Mankey,PBL,fighting,2,LEGALJ,secondbox,mankey-pbl
 Koraidon,PBL,fighting,1,LEGALJ,secondbox,koraidon-pbl
 Bombirdier,PBL,normal,4,LEGALJ,secondbox,bombirdier-pbl
-Pikipek,PBL,normal,2,LEGALJ,secondbox,pikipek-pbl
+Pikipek,PBL,normal,3,LEGALJ,secondbox,pikipek-pbl
 Silvally,PBL,normal,1,LEGALJ,secondbox,silvally-pbl
 Toucannon,PBL,normal,1,LEGALJ,secondbox,toucannon-pbl
+Charjabug,PBL,lightning,1,LEGALJ,secondbox,charjabug-pbl
+Wailord EX,PBL,water,1,LEGALJ,secondbox,wailord-ex-pbl
+Palafin,PBL,water,1,LEGALJ,secondbox,palafin-pbl
+Finizen,PBL,water,1,LEGALJ,secondbox,finizen-pbl
+Spiritomb,PBL,psychic,1,LEGALJ,secondbox,spiritomb-pbl
+Type: Null,PBL,normal,1,LEGALJ,secondbox,type:-null-pbl
+Bronzong,PBL,metal,1,LEGALJ,secondbox,bronzong-pbl
+N's Zekrom,ASC,dragon,1,LEGALI,secondbox,n's-zekrom-asc
+Psyduck,ASC,,2,LEGALI,secondbox,psyduck-asc
