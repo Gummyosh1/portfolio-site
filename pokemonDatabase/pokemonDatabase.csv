@@ -264,7 +264,7 @@ Tyrogue,MEG,fighting,5,LEGALI,originalbox,tyrogue-meg
 Slither Wing,PAR,fighting,2,LEGALG,originalbox,slither-wing-par
 Relicanth,TEF,fighting,0,LEGALH,originalbox,relicanth-tef
 Munkidori,TWM,psychic,8,LEGALH,originalbox,munkidori-twm
-Munkidori,PRE,psychic,12,LEGALH,originalbox,munkidori-pre
+Munkidori,PRE,psychic,10,LEGALH,originalbox,munkidori-pre
 Gardevoir EX,SVI,psychic,2,LEGALG,originalbox,gardevoir-ex-svi
 Jellicent EX,WHT,psychic,4,LEGALI,originalbox,jellicent-ex-wht
 Kirlia,MEG,psychic,5,LEGALI,originalbox,kirlia-meg
@@ -306,8 +306,8 @@ Gothitelle,WHT,psychic,1,LEGALI,originalbox,gothitelle-wht
 Cofagrigus,WHT,psychic,1,LEGALI,originalbox,cofagrigus-wht
 Espathra,SSP,psychic,1,LEGALH,originalbox,espathra-ssp
 Espurr,SSP,psychic,1,LEGALH,originalbox,espurr-ssp
-Dusknoir,SFA,psychic,3,LEGALH,originalbox,dusknoir-sfa
-Duskull,PRE,psychic,5,LEGALH,originalbox,duskull-pre
+Dusknoir,SFA,psychic,0,LEGALH,originalbox,dusknoir-sfa
+Duskull,PRE,psychic,2,LEGALH,originalbox,duskull-pre
 Team Rocket's Chingling,DRI,psychic,2,LEGALI,originalbox,team-rocket's-chingling-dri
 Lillie's Cutiefly,JTG,psychic,3,LEGALI,originalbox,lillie's-cutiefly-jtg
 Fidough,SCR,psychic,4,LEGALH,originalbox,fidough-scr
@@ -317,12 +317,12 @@ Team Rocket's Drowzee,DRI,psychic,2,LEGALI,originalbox,team-rocket's-drowzee-dri
 Team Rocket's Orbeetle,DRI,psychic,3,LEGALI,originalbox,team-rocket's-orbeetle-dri
 Gimmighoul,MEG,psychic,7,LEGALI,originalbox,gimmighoul-meg
 Sylveon,PRE,psychic,1,LEGALH,originalbox,sylveon-pre
-Flutter Mane,PRE,psychic,2,LEGALH,originalbox,flutter-mane-pre
+Flutter Mane,PRE,psychic,1,LEGALH,originalbox,flutter-mane-pre
 Klefki,SVI,psychic,3,LEGALG,originalbox,klefki-svi
-Dusclops,SFA,psychic,3,LEGALH,originalbox,dusclops-sfa
+Dusclops,SFA,psychic,1,LEGALH,originalbox,dusclops-sfa
 Azumarill,SSP,psychic,2,LEGALH,originalbox,azumarill-ssp
 Lillie's Ribombee,JTG,psychic,5,LEGALI,originalbox,lillie's-ribombee-jtg
-Dusknoir,PRE,psychic,3,LEGALH,originalbox,dusknoir-pre
+Dusknoir,PRE,psychic,1,LEGALH,originalbox,dusknoir-pre
 Marill,SSP,psychic,3,LEGALH,originalbox,marill-ssp
 Lillie's Comfey,JTG,psychic,5,LEGALI,originalbox,lillie's-comfey-jtg
 Meowstic,SSP,psychic,1,LEGALH,originalbox,meowstic-ssp
@@ -1247,7 +1247,7 @@ Rowlet,SFA,grass,2,LEGALH,secondbox,rowlet-sfa
 Espeon,PRE,psychic,1,LEGALG,secondbox,espeon-pre
 Fezandipiti,PRE,psychic,1,LEGALH,secondbox,fezandipiti-pre
 Scream Tail,PRE,psychic,2,LEGALG,secondbox,scream-tail-pre
-Latias EX,SSP,psychic,3,LEGALH,secondbox,latias-ex-ssp
+Latias EX,SSP,psychic,2,LEGALH,secondbox,latias-ex-ssp
 Hop's Phantump,ASC,psychic,1,LEGALI,secondbox,hop's-phantump-asc
 Cleffa,OBF,psychic,1,LEGALG,secondbox,cleffa-obf
 Hop's Trevenant,ASC,psychic,3,LEGALI,secondbox,hop's-trevenant-asc
