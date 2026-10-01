@@ -1,0 +1,4 @@
+Existing Pokémon item sprites sourced from https://github.com/PokeAPI/sprites
+https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/blue-card.png
+https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png
+https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/card-key.png

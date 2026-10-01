@@ -1,211 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Connor Lafferty — software engineering, digital media, and projects. Computer Science and Digital Media and Design at UConn.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Connor Lafferty</title>
+  <link rel="icon" type="image/png" href="assets/ConnorLogo.png">
+  <style>
+:root{color-scheme:light;--ink:#182333;--muted:#667181;--line:#dbe1e9;--accent:#265bec}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f8f9fc;color:var(--ink);font:16px/1.65 Arial,sans-serif;-webkit-font-smoothing:antialiased}main{max-width:1100px;padding:36px 48px 24px;margin:auto}a{color:inherit;text-decoration-color:#9bacd5;text-underline-offset:5px}a:hover{color:var(--accent)}a:focus-visible,summary:focus-visible{outline:3px solid #265bec;outline-offset:5px}header{display:flex;justify-content:space-between;align-items:center;padding-bottom:25px;border-bottom:1px solid var(--line)}.wordmark{font-size:18px;font-weight:750;letter-spacing:-.7px;text-decoration:none}.wordmark span{color:var(--accent)}nav{display:flex;gap:24px;font-size:14px}nav a{text-decoration:none}nav a:hover{text-decoration:underline}section{scroll-margin-top:32px;margin-bottom:52px}#about{padding:56px 0 45px;display:grid;grid-template-columns:1.05fr 1fr;gap:55px;border-bottom:1px solid var(--line)}.eyebrow,.section-number{font:12px/1.5 Arial,sans-serif;text-transform:uppercase;letter-spacing:1.5px;color:var(--accent)}h1{font-size:76px;line-height:.98;font-weight:650;letter-spacing:-5px;margin:20px 0 23px}h1 span{display:block;color:var(--accent)}.disciplines{font-size:14px;color:var(--muted);margin:0}.intro{padding-top:39px;font-size:16px;color:#526074}.intro p{margin:0 0 16px}.intro strong{font-weight:550;color:var(--ink)}.section-heading{display:flex;align-items:baseline;gap:16px;margin-bottom:18px}h2{font-size:24px;font-weight:600;letter-spacing:-.8px;margin:0}.count{margin-left:auto;font:12px Arial,sans-serif;color:var(--muted)}.cards{display:grid;gap:0;border-top:1px solid var(--line)}details{border-bottom:1px solid var(--line);transition:background .2s}details:hover{background:#eef2fb}details[open]{background:white;box-shadow:inset 3px 0 var(--accent)}summary{list-style:none;display:flex;align-items:center;gap:20px;padding:23px 20px;cursor:pointer}summary::-webkit-details-marker{display:none}.mark{width:32px;flex:0 0 32px;font:13px Arial,sans-serif;color:#8390a3}.card-text{flex:1;min-width:0}.title{display:block;font-size:18px;font-weight:550;letter-spacing:-.3px;line-height:1.4}.meta{display:flex;gap:8px;flex-wrap:wrap;font-size:13px;color:var(--muted);margin-top:5px}.org{color:#596579}.chevron{width:27px;height:27px;border:1px solid #cbd5e5;border-radius:50%;position:relative;flex-shrink:0;color:var(--accent)}.chevron:before,.chevron:after{content:"";position:absolute;top:12px;left:8px;width:9px;height:1px;background:currentColor}.chevron:after{transform:rotate(90deg);transition:transform .2s}details[open] .chevron:after{transform:rotate(0)}details[open] .chevron{background:var(--accent);border-color:var(--accent);color:white}.content{padding:0 65px 25px 72px;color:#526074;font-size:16px;max-width:860px}.content ul{padding-left:18px;margin:0}.content li{margin-bottom:10px}.tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:20px}.tags span{font:12px/1.5 Arial,sans-serif;color:#496087;padding:4px 8px;background:#f0f3fa;border-radius:3px}.project-link{display:inline-block;margin-top:18px}.contact{display:grid;grid-template-columns:1fr 1.2fr;gap:50px;background:#eaf0ff;padding:33px 36px;margin-top:65px;border-radius:4px}.contact h2{font-size:36px;line-height:1.2;letter-spacing:-1.4px;margin-top:11px}.contact p{margin:0 0 14px;color:#475a7d}.contact p:last-child{margin:0}.email{color:#214dbb;overflow-wrap:anywhere}footer{display:flex;justify-content:space-between;gap:15px;color:#788397;font-size:12px;padding:0 0 12px}footer a{text-decoration:none}.skip{position:absolute;top:-100px}.skip:focus{top:8px;left:8px;background:white;padding:6px}
+@media(max-width:720px){main{padding:24px}header{gap:16px}nav{gap:17px}#about{grid-template-columns:1fr;gap:20px;padding:38px 0 28px;margin-bottom:36px}h1{font-size:66px;letter-spacing:-4px}.intro{padding:0}.eyebrow{font-size:12px}section{margin-bottom:38px}.section-heading{gap:12px}h2{font-size:22px}summary{padding:20px 9px;gap:12px}.mark{width:24px;flex-basis:24px}.title{font-size:16px}.meta .date{flex-basis:100%}.dot{display:none}.content{padding:0 22px 24px 45px}.contact{grid-template-columns:1fr;gap:24px;padding:28px 24px;margin-top:42px}.contact h2{font-size:32px}.count{font-size:12px}footer{font-size:12px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
-  <!--FONT-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+/* Professional presentation */
+:root{--ink:#232b35;--muted:#66707c;--line:#e0e3e7;--accent:#344c67}
+body{background:#fff}main{max-width:960px;padding-top:30px}header{padding-bottom:21px}.wordmark{font-size:16px;letter-spacing:0;font-weight:600}nav{font-size:14px}
+#about{display:block;padding:45px 0 34px;margin-bottom:37px}h1{font-size:40px;line-height:1.2;letter-spacing:-1.2px;font-weight:600;margin:0 0 13px}.disciplines{font-size:15px;line-height:1.7}.intro{padding-top:23px;max-width:735px;color:#4f5863}.intro p:last-child{margin-bottom:0}
+.section-heading{margin-bottom:14px}h2{font-size:22px;letter-spacing:-.35px}.count{font-family:inherit;font-size:13px}section{margin-bottom:38px}
+summary{padding:22px 16px;gap:20px}.title{font-size:17px;font-weight:600;letter-spacing:0}.meta{font-size:14px}.content{padding:0 50px 24px 16px;max-width:800px;font-size:16px}details:hover{background:#f7f8fa}details[open]{background:#fafbfc;box-shadow:none}.chevron{border:0;border-radius:0;color:#556476;width:20px;height:20px}.chevron:before{width:7px;height:7px;top:5px;left:5px;background:none;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg)}.chevron:after{display:none}details[open] .chevron{background:none;color:#556476}details[open] .chevron:before{transform:rotate(225deg);top:8px}.tags span{font-family:inherit;font-size:12px;background:#edf0f3;color:#596575}
+.contact{display:block;border-top:1px solid var(--line);background:none;padding:28px 0 0;margin-top:40px;border-radius:0}.contact h2{font-size:22px;letter-spacing:-.35px;margin:0 0 16px}.contact p{color:#4f5863}.email{color:#344c67}footer{border-top:1px solid var(--line);padding-top:20px}
+@media(max-width:720px){main{padding:24px}header{align-items:flex-start;flex-wrap:wrap}nav{gap:18px}#about{padding:32px 0 28px}h1{font-size:34px;letter-spacing:-1px}.intro{padding-top:21px}.title{font-size:16px}summary{padding:20px 2px}.content{padding:0 15px 23px 2px}.contact{padding:25px 0 0}.contact h2{font-size:22px}footer{flex-wrap:wrap}}
 
-  <!--BOOTSTRAP-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+/* Newspaper edition: Georgia for editorial type; Arial for supporting type. */
+:root{--ink:#20201d;--muted:#686861;--line:#bcbcb2;--accent:#20201d}
+body{background:#f7f6f0;color:var(--ink);font-family:Arial,sans-serif}main{max-width:1040px;padding:27px 42px 24px}header{border-bottom:1px solid var(--ink);padding-bottom:13px;gap:20px}.wordmark{font-family:Arial,sans-serif;text-transform:uppercase;letter-spacing:1.3px;font-size:11px;font-weight:400}nav{font-family:Arial,sans-serif;font-size:12px;gap:22px}a{text-decoration-color:#89897c}a:hover{text-decoration-color:#20201d}
+#about{padding:24px 0 29px;margin-bottom:31px;border-bottom:4px double var(--ink)}h1{font-family:Georgia,serif;text-align:center;font-size:clamp(44px,7.3vw,80px);line-height:1.15;letter-spacing:-3px;font-weight:700;margin:0 0 17px}.disciplines{font-family:Arial,sans-serif;display:flex;justify-content:space-between;gap:15px;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);padding:9px 0;font-size:11px;text-transform:uppercase;letter-spacing:1px;color:#44443e;line-height:1.7}.disciplines br{display:none}.intro{max-width:none;padding-top:25px;display:grid;grid-template-columns:1fr 1fr;gap:30px;color:#353530;font-family:Georgia,serif;font-size:18px;line-height:1.65}.intro p{margin:0}.intro p+p{border-left:1px solid var(--line);padding-left:30px}.intro strong{color:inherit}
+.section-heading{margin-bottom:10px;align-items:center}h2{font-family:Georgia,serif;font-size:28px;font-weight:700;letter-spacing:-.7px}.count{font-family:Arial,sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:1px;color:#626259}.cards{border-top:2px solid var(--ink)}summary{padding:22px 0;gap:22px}.title{font-family:Georgia,serif;font-size:23px;font-weight:700;letter-spacing:-.4px;line-height:1.3}.meta{font-family:Arial,sans-serif;font-size:12px;color:#707066;margin-top:7px;gap:8px}.org{color:#42423b}.content{font-family:Georgia,serif;font-size:17px;line-height:1.7;color:#393931;padding:0 44px 25px 0;max-width:820px}.content li{margin-bottom:8px}details:hover{background:#eeede5}details[open]{background:transparent;box-shadow:none}.chevron{color:#363630}details[open] .chevron{color:#363630}.tags{margin-top:17px}.tags span{font-family:Arial,sans-serif;font-size:11px;letter-spacing:.25px;border:1px solid #c7c7ba;background:none;border-radius:0;color:#56564c}.project-link{font-family:Arial,sans-serif;font-size:13px}.contact{border-top:4px double var(--ink);padding-top:23px;margin-top:35px}.contact h2{font-family:Georgia,serif;font-size:28px;font-weight:700;letter-spacing:-.7px;margin-bottom:13px}.contact p{font-family:Georgia,serif;font-size:18px;color:#393931;max-width:690px}.email{color:#20201d}footer{font-family:Arial,sans-serif;font-size:11px;border-top:1px solid var(--ink);color:#69695f;padding-top:15px}section{margin-bottom:32px}
+@media(max-width:720px){main{padding:22px}header{gap:11px}.wordmark{font-size:10px;letter-spacing:.7px}nav{font-size:12px;gap:16px}#about{padding-top:22px}h1{font-size:clamp(38px,8.6vw,60px);letter-spacing:-1.7px}.disciplines{display:block;text-align:center;font-size:10px;letter-spacing:.65px}.disciplines br{display:block}.intro{display:block;font-size:17px;padding-top:20px}.intro p+p{padding-left:0;border:0;margin-top:14px}h2,.contact h2{font-size:26px}.title{font-size:21px}summary{padding:20px 0}.content{font-size:17px;padding:0 15px 23px 0}.meta{font-size:12px}.contact p{font-size:17px}.count{font-size:10px}}
 
-  <!--SCROLLY THING-->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+.intro{grid-template-columns:145px 1fr;gap:28px;align-items:start}.intro-copy{column-count:2;column-gap:28px;column-rule:1px solid var(--line)}.intro-copy p{break-inside:avoid}.intro-copy p+p{border:0;padding-left:0;margin-top:14px}.portrait{margin:0}.portrait-slot{aspect-ratio:4/5;border:1px solid #b4b4a7;outline:4px solid #e9e8df;outline-offset:-5px;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#eae9e0;font-family:Arial,sans-serif;color:#626258;font-size:13px}.portrait-slot small{font-size:10px;margin-top:5px}.portrait figcaption{font:11px/1.5 Arial,sans-serif;text-align:center;margin-top:8px;color:#626258}.employer-image{width:52px;height:52px;flex:0 0 52px;object-fit:contain;filter:none;padding:0;border:0;background:transparent}#experience .content,#projects .content{padding-left:74px}
+@media(max-width:720px){.intro{display:grid;grid-template-columns:105px 1fr;gap:20px}.intro-copy{column-count:1}.intro-copy p+p{margin-top:13px}.employer-image{width:44px;height:44px;flex-basis:44px}#experience summary,#projects summary{gap:16px}#experience .content,#projects .content{padding-left:0}}
+@media(max-width:400px){.intro{grid-template-columns:1fr}.portrait{width:110px}.intro-copy{column-count:1}}
+.portrait-photo{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center 30%;border:1px solid #b4b4a7;padding:3px;background:#f7f6f0}
 
-  <link href="css/style.css" rel="stylesheet">
-  <title>Connor Lafferty's Portfolio</title>
+/* Keep the complete portrait visible and give the introduction a natural reading width. */
+.intro{grid-template-columns:190px minmax(0,1fr);gap:30px;align-items:center}.intro-copy{column-count:1;max-width:620px}.portrait{width:100%}.portrait-photo{aspect-ratio:auto;height:auto;object-fit:contain;padding:4px}.intro-copy p+p{margin-top:16px}.disciplines{display:block;text-align:center;text-wrap:balance}
+@media(max-width:720px){.intro{grid-template-columns:150px minmax(0,1fr);gap:24px;align-items:start}.intro-copy{font-size:17px;line-height:1.65}.portrait{width:150px}}
+@media(max-width:540px){main{padding:20px}header{flex-direction:column;align-items:center;gap:12px}.wordmark{font-size:11px}nav{font-size:13px;gap:24px}h1{font-size:clamp(36px,9vw,48px);letter-spacing:-1.5px}.disciplines{font-size:11px;line-height:1.8;letter-spacing:.5px;padding:10px 3px}.intro{grid-template-columns:minmax(0,1fr);gap:21px;padding-top:23px}.portrait{width:180px;margin:0 auto}.intro-copy{font-size:18px;line-height:1.65;max-width:none}.intro-copy p{margin:0}.intro-copy p+p{margin-top:14px}#experience summary,#projects summary{gap:12px}.title{font-size:20px;line-height:1.35}.section-heading{gap:10px}.meta{line-height:1.6}.contact p{font-size:17px}}
+.count{white-space:nowrap;flex-shrink:0}@media(max-width:360px){.section-heading h2{font-size:23px;letter-spacing:-.6px}.section-heading{gap:8px}}
+.project-image[src="assets/afishinsea_logo_upsacled.png"]{border-radius:10px}
+
+/* Editorial profile */
+.intro{display:flow-root;padding-top:23px}.bio-heading{margin-bottom:20px;border-bottom:1px solid var(--line);padding-bottom:13px}.bio-kicker{display:block;font:11px/1.5 Arial,sans-serif;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:5px;color:#626258}.bio-heading h2{font:700 34px/1.2 Georgia,serif;letter-spacing:-.8px}.intro .portrait{float:right;width:180px;margin:0 0 20px 28px}.portrait-photo{border:0;padding:0;background:none}.intro-copy{max-width:none;column-count:1;font:18px/1.7 Georgia,serif}.intro-copy>p:first-child:first-letter{float:left;font:700 62px/.85 Georgia,serif;margin:8px 7px 0 0}.bio-skills{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:24px;border-top:1px solid var(--line);padding-top:15px;overflow:hidden}.bio-skills h3{font:700 12px/1.5 Arial,sans-serif;text-transform:uppercase;letter-spacing:.6px;margin:0 0 8px}.bio-skills p{font:16px/1.6 Georgia,serif;margin:0}.bio-skills>div+div{border-left:1px solid var(--line);padding-left:24px}
+@media(max-width:720px){.intro .portrait{width:155px;margin-left:23px}.bio-skills{clear:both;overflow:visible}.bio-heading h2{font-size:30px}}
+@media(max-width:540px){.intro .portrait{width:120px;margin:4px 0 14px 19px}.intro-copy{font-size:18px;line-height:1.65}.bio-skills{gap:18px}.bio-skills>div+div{padding-left:18px}.bio-heading{margin-bottom:18px}}
+@media(max-width:360px){.intro .portrait{width:100px;margin-left:15px}.bio-skills{grid-template-columns:1fr;gap:15px}.bio-skills>div+div{border-left:0;border-top:1px solid var(--line);padding:14px 0 0}}
+
+.mini-projects{display:grid;gap:0;border-top:1px solid var(--line)}.mini-project{display:flex;align-items:center;gap:15px;padding:14px 4px;border-bottom:1px solid var(--line);text-decoration:none;font:700 18px/1.4 Georgia,serif}.mini-project:hover{background:#eeede5}.mini-project img{object-fit:contain;image-rendering:pixelated;flex:0 0 40px}.mini-project span{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px;text-decoration-color:#aaa99c}.project-row{display:flex;align-items:center;gap:22px;padding:22px 0;border-bottom:1px solid var(--line);text-decoration:none}.project-row:hover{background:#eeede5}.project-row .meta{text-decoration:underline;text-underline-offset:4px}@media(max-width:720px){.project-row{gap:16px}}@media(max-width:540px){.project-row{gap:12px}.mini-project{font-size:17px}}
+  </style>
 </head>
 <body>
-  <!--OPENING PAGE-->
-  <div class = "d-flex align-items-center justify-content-center pt-5" >
-    <div class = "container">
-      <div class = "row align-items-center justify-content-center">
-        <div class = "col-10 col-md-8 text-center gradient-bg pt-2 p-2 p-md-5 rounded shadow">
-          <h1 class = "display-4 name-effect">Connor Lafferty</h1>
-
-            <!--MINI BUTTONS-->
-            <div class="d-flex justify-content-center">
-              <div class="container">
-                <div class="row justify-content-center g-3">
-                  
-                  <div class="col-6 col-md-2 text-center">
-                    <a href="https://github.com/Gummyosh1" class="button-grow">
-                      <img src="img/github.png" class="tiny-icon img-fluid" alt="GitHub">
-                    </a>
-                  </div>
-
-                  <div class="col-6 col-md-2 text-center">
-                    <a href="https://www.linkedin.com/in/connor-lafferty-911092298" class="button-grow">
-                      <img src="img/linkedin.png" class="tiny-icon img-fluid" alt="LinkedIn">
-                    </a>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-          <p class = "lead para-font pt-2">Connor Lafferty is a professional designer, software engineer, and content creator.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--PROJECTS PAGE-->
-  <div class="pb-5">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-lg-10">
-          <div class="card-grid">
-
-        <!--FIRST PLACE CARD-->
-        <div class="card-item text-center fish-gradient p-0 rounded-4 shadow-lg podium-card podium">
-          <a href="/a-fish-in-sea.html">
-            <div class="podium-img-wrap">
-              <img src="img/fish-in-sea-image.png" class="podium-img" alt="Fish in sea">
-            </div>
-
-            <div class="p-4">
-              <!-- bottom half stays open for whatever you want -->
-              <h5 class="mb-2">A Fish In Sea</h5>
-              <p class="mb-0">A gamified to-do list app built with C#. Play fishing minigames when you complete tasks to sail the seas and catch every fish! Available on iOS.</p>
-            </div>
-          </a>
-        </div>
-
-
-        <!--SECOND PLACE CARD-->
-        <div class="card-item text-center gummy-gradient p-0 rounded-4 shadow-lg podium-card podium">
-          <a href="https://www.youtube.com/@Gummyoshi" target="_blank">
-            <div class="podium-img-wrap">
-                <img src="img/GUMMYLOGO.png" class="podium-img" alt="Gummyoshi">
-            </div>
-
-            <div class="p-4">
-              <!-- bottom half stays open for whatever you want -->
-              <h5 class="mb-2">Gummyoshi</h5>
-              <p class="mb-0">Connor's YouTube channel with over 20,000 subscribers. Focused on gaming, industry analysis, and creative commentary.</p>
-            </div>
-          </a>
-        </div>
-
-        
-
-        <!--THIRD PLACE CARD-->
-        <div class="card-item text-center devlogs-gradient p-0 rounded-4 shadow-lg podium-card podium">
-          <a href="https://www.youtube.com/@CKCStudiosNSuch" target="_blank">
-            <div class="podium-img-wrap">
-                <img src="img/devlogs-image.png" class="podium-img" alt="Devlogs">
-            </div>
-
-            <div class="p-4">
-              <!-- bottom half stays open for whatever you want -->
-              <h5 class="mb-2">Devlogs</h5>
-              <p class="mb-0">Videos detailing Connor's development process and thoughts while creating games and apps.</p>
-            </div>
-          </a>
-        </div>
-
-
-        <!--FOURTH PLACE CARD-->
-        <div class="card-item text-center play-gradient p-0 rounded-4 shadow-lg podium-card podium">
-          <a href="/cards.html">
-            <div class="podium-img-wrap">
-                <img src="img/play-logo.png" class="podium-img" alt="Devlogs">
-            </div>
-
-            <div class="p-4">
-              <!-- bottom half stays open for whatever you want -->
-              <h5 class="mb-2">Pokemon Database</h5>
-              <p class="mb-0">Connor's bulk card inventory system showing every card that he has in storage.</p>
-            </div>
-          </a>
-        </div>
-
-
-        <!--FIFTH PLACE CARD-->
-        <div class="card-item text-center pastel-catch p-0 rounded-4 shadow-lg podium-card podium">
-          <a href="/dex.html">
-            <div class="podium-img-wrap">
-                <img src="img/dex-image.png" class="podium-img" alt="Dex">
-            </div>
-
-            <div class="p-4">
-              <!-- bottom half stays open for whatever you want -->
-              <h5 class="mb-2">Pokemon Collection Dex</h5>
-              <p class="mb-0">A database of all the rare Pokemon cards Connor and Colbi have collected out of the 1025 total.</p>
-            </div>
-          </a>
-        </div>
-
-        <!--SIXTH PLACE CARD-->
-        <div class="card-item text-center pastel-deck p-0 rounded-4 shadow-lg podium-card podium">
-          <a href="/decklists.html">
-            <div class="podium-img-wrap">
-                <img src="img/CRUSTLE-FP.png" class="podium-img" alt="Crustle">
-            </div>
-
-            <div class="p-4">
-              <!-- bottom half stays open for whatever you want -->
-              <h5 class="mb-2">Pokemon Deck Lists</h5>
-              <p class="mb-0">The top 10 most popular Pokemon decks in the past 2 weeks using LimitlessTCG's API data.</p>
-            </div>
-          </a>
-        </div>
-
-        <!--SEVENTH PLACE CARD-->
-        <div class="card-item text-center pastel-rift p-0 rounded-4 shadow-lg podium-card podium">
-          <a href="/riftbound.html">
-            <div class="podium-img-wrap">
-                <img src="img/RIFTBOUNDLOGO.png" class="podium-img" alt="Riftbound">
-            </div>
-
-            <div class="p-4">
-              <!-- bottom half stays open for whatever you want -->
-              <h5 class="mb-2">Riftbound Database</h5>
-              <p class="mb-0">A database of all my Riftbound cards in storage.</p>
-            </div>
-          </a>
-        </div>
-
-        <!--EIGHTH PLACE CARD-->
-        <div class="card-item text-center pastel-colbi p-0 rounded-4 shadow-lg podium-card podium">
-          <a href="https://colbiloranger.com" target="_blank">
-            <div class="podium-img-wrap">
-                <img src="img/COLBIPORT.png" class="podium-img" alt="Colbi">
-            </div>
-
-            <div class="p-4">
-              <!-- bottom half stays open for whatever you want -->
-              <h5 class="mb-2">Portfolio Commission</h5>
-              <p class="mb-0">A digital art portfolio that I designed and coded for Colbi Loranger.</p>
-            </div>
-          </a>
-        </div>
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- AOS JS -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-  AOS.init({
-      duration: 800, 
-      once: false,     
-      mirror: true,
-      offset: 120   
-  });
-  </script>
-
-  <script src="js/script.js"></script>
-
-
-
+<a class="skip" href="#about">skip to content</a>
+<main>
+  <header><a class="wordmark" href="#about" aria-label="Connor Lafferty home">The portfolio of Connor Lafferty</a><nav aria-label="Social links"><a href="https://github.com/gummyosh1">GitHub</a><a href="https://www.linkedin.com/in/connor-matthew-lafferty/">LinkedIn</a><a href="mailto:connorlafferty0@gmail.com">Email</a></nav></header>
+  <section id="about"><div><h1>Connor Lafferty</h1><p class="disciplines">Computer Science | Digital Media and Design | University of Connecticut · Class of 2027</p></div><div class="intro"><div class="intro-copy"><p>Hey there! I'm Connor, I go to UConn, make video games, create content, and develop the Daily Campus' website. Please take a look around and learn a bit about me!</p><div class="bio-skills"><div><h3>Soft Skills</h3><p>Hired and managed a team of 40 for two years, lead the Daily Campus through tough financial times, turned it profitable.</p></div><div><h3>Technical skills</h3><p>API design, C#, C++, CSS/HTML</p></div></div></div></div></section>
+  <section id="experience"><div class="section-heading"><h2>Work experience</h2><span class="count">3 roles</span></div><div class="cards">
+    <details><summary><img class="employer-image" src="assets/hartford.svg" alt="" width="52" height="52"><span class="card-text"><span class="title">Software Engineer Intern</span><span class="meta"><span class="org">The Hartford Insurance Group</span><span class="dot">·</span><span class="date">May – July 2026</span></span></span><span class="chevron" aria-hidden="true"></span></summary><div class="content"><ul><li>Implemented view extensions for existing REST API endpoints, enhancing claim data transfer from THAA, a claims management system, to the EFIT fraud investigation portal.</li><li>Designed and developed two new API endpoints to support data integration between enterprise applications.</li><li>Worked within an Agile Scrum team on sprint planning, code reviews, and iterative software delivery.</li><li>Partnered with engineering teams and stakeholders to gather requirements, troubleshoot integrations, and deliver reliable backend solutions.</li></ul><div class="tags"><span>REST APIs</span><span>Backend development</span><span>Agile / Scrum</span></div></div></details>
+    <details><summary><img class="employer-image" src="assets/whps.png" alt="" width="52" height="52"><span class="card-text"><span class="title">Information Technology Intern</span><span class="meta"><span class="org">West Hartford Public Schools</span><span class="dot">·</span><span class="date">June – August 2025</span></span></span><span class="chevron" aria-hidden="true"></span></summary><div class="content"><ul><li>Repaired devices across the school district, from Chromebooks to PCs.</li><li>Resolved support tickets by troubleshooting technology and helping end users.</li><li>Used Google Admin and Active Directory to catalog and manage network devices.</li></ul><div class="tags"><span>IT support</span><span>Google Admin</span><span>Active Directory</span></div></div></details>
+    <details><summary><img class="employer-image" src="assets/daily-campus.png" alt="" width="52" height="52"><span class="card-text"><span class="title">Managing Editor</span><span class="meta"><span class="org">The Daily Campus</span><span class="dot">·</span><span class="date">April 2024 – May 2026</span></span></span><span class="chevron" aria-hidden="true"></span></summary><div class="content"><ul><li>Hired and managed 42 employees each year to produce a print newspaper every weekday.</li><li>Managed payroll and kept employee timecards up to date for university audits.</li><li>Coordinated nightly with the master printer at Valley Publishing to ensure each issue went to print.</li><li>Designed print editions in InDesign, copy edited stories to AP style, and sourced and edited photographs for print.</li></ul><div class="tags"><span>Editorial leadership</span><span>InDesign</span><span>Print production</span></div></div></details>
+  </div></section>
+  <section id="projects"><div class="section-heading"><h2>Projects</h2><span class="count">5 projects</span></div><div class="cards">
+    <details><summary><img class="employer-image project-image" src="assets/afishinsea_logo_upsacled.png" alt="" width="52" height="52"><span class="card-text"><span class="title">A Fish In Sea</span><span class="meta"><span class="org">Gamified to-do list app</span><span class="dot">·</span><span class="date">December 2023 – Present</span></span></span><span class="chevron" aria-hidden="true"></span></summary><div class="content"><ul><li>Developed a gamified to-do list that rewards completed real-life tasks with fishing mini games, progression, and gems.</li><li>Used a CI/CD workflow to repeatedly test and refine the game.</li><li>Created in Unity using C#.</li></ul><div class="tags"><span>Unity</span><span>C#</span><span>CI/CD</span></div><a class="project-link" href="https://apps.apple.com/us/app/a-fish-in-sea/id6670383160">View on the App Store</a></div></details>
+    <a class="project-row" href="/riftbound.html"><img class="employer-image project-image" src="assets/RIFTBOUNDLOGO.png" alt="" width="52" height="52"><span class="card-text"><span class="title">Riftbound Database</span><span class="meta"><span class="org">View database</span></span></span></a>
+    <details class="pokemon-databases"><summary><img class="employer-image project-image" src="assets/PokemonIcon.png" alt="" width="52" height="52"><span class="card-text"><span class="title">Pokemon Projects</span><span class="meta"><span class="org">Cards, collections &amp; decklists</span></span></span><span class="chevron" aria-hidden="true"></span></summary><div class="content"><div class="mini-projects">
+      <a class="mini-project" href="/cards.html"><img src="assets/pokemon-blue-card.png" alt="" width="40" height="40"><span>Card Database</span></a>
+      <a class="mini-project" href="dex.html"><img src="assets/pokemon-poke-ball.png" alt="" width="40" height="40"><span>Collection Dex</span></a>
+      <a class="mini-project" href="/decklists.html"><img src="assets/pokemon-card-key.png" alt="" width="40" height="40"><span>Decklists</span></a>
+    </div></div></details>
+    <details><summary><img class="employer-image project-image" src="assets/GUMMYLOGO.png" alt="" width="52" height="52"><span class="card-text"><span class="title">Gummyoshi YouTube Channel</span><span class="meta"><span class="org">Gaming guides, tutorials &amp; news</span><span class="dot">·</span><span class="date">April 2020 – Present</span></span></span><span class="chevron" aria-hidden="true"></span></summary><div class="content"><ul><li>Produced video guides, tutorials, and news updates covering the gaming industry.</li><li>Storyboarded, recorded, edited, and produced more than 1,300 videos using Premiere Pro and Photoshop.</li><li>Grew the channel to over 20,000 subscribers and approximately eight million views.</li></ul><div class="tags"><span>Video production</span><span>Premiere Pro</span><span>Photoshop</span></div><a class="project-link" href="https://youtube.com/gummyoshi">View on YouTube</a></div></details>
+    <details><summary><img class="employer-image project-image" src="assets/IronToRiotv3%20%281%29.png" alt="" width="52" height="52"><span class="card-text"><span class="title">Iron to Riot</span><span class="meta"><span class="org">Riot Games application work</span></span></span><span class="chevron" aria-hidden="true"></span></summary><div class="content"><ul><li>Developed portfolio for my Riot Games application across 120 days of daily uploads.</li><li>Gained over 1,000 followers and the support of many Riftbound content creators.</li><li>Had a lot of fun and worked real hard :]</li></ul><a class="project-link" href="https://www.instagram.com/irontoriot">View on Instagram</a></div></details>
+  </div></section>
+  <section id="contact" class="contact"><div><h2>Contact</h2></div><div><p>Whether you're a recruiter, student, or someone who saw my videos, always feel free to reach out through email or LinkedIn :]</p><p><a class="email" href="mailto:connorlafferty0@gmail.com">connorlafferty0@gmail.com</a></p></div></section>
+  <footer><span>Connor Lafferty · Software &amp; digital media</span><a href="#about">Back to top</a></footer>
+</main>
 </body>
 </html>
